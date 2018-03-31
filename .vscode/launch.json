@@ -14,7 +14,7 @@
       "type": "node",
       "request": "launch",
       "name": "Mocha Tests",
-      "args": [],
+      "args": ["-g", "flattened XML"],
       "program": "${workspaceRoot}/node_modules/mocha/bin/_mocha",
       "internalConsoleOptions": "openOnSessionStart"
     }

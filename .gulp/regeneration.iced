@@ -100,7 +100,8 @@ defaultAzureMappings = {
 }
 
 xmlMappings = {
-  'Xml': 'xml-service.json'
+  'Xml': 'xml-service.json',
+  'XmlFlattening': 'xml-flattening.json'
 }
 
 compositeMappings = {
