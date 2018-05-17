@@ -59,6 +59,7 @@ class AutoRestRequiredOptionalTestService extends msRest.ServiceClient {
     }
 
     if (!options) options = {};
+    if (!options.serializer) options.serializer = new msRest.Serializer(Mappers, false);
 
     super(undefined, options);
 
@@ -75,7 +76,7 @@ class AutoRestRequiredOptionalTestService extends msRest.ServiceClient {
     }
     this.implicit = new operations.Implicit(this);
     this.explicit = new operations.Explicit(this);
-    this.serializer = new msRest.Serializer(Mappers, false);
+    this.serializer = options.serializer;
   }
 }
 

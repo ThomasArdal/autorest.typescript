@@ -44,6 +44,7 @@ class AutoRestSwaggerBATService extends msRest.ServiceClient {
   constructor(baseUri?: string, options?: msRest.ServiceClientOptions) {
 
     if (!options) options = {};
+    if (!options.serializer) options.serializer = new msRest.Serializer(Mappers, false);
 
     super(undefined, options);
 
@@ -55,7 +56,7 @@ class AutoRestSwaggerBATService extends msRest.ServiceClient {
     this.addUserAgentInfo(`${packageName}/${packageVersion}`);
     this.string = new operations.String(this);
     this.enumModel = new operations.EnumModel(this);
-    this.serializer = new msRest.Serializer(Mappers, false);
+    this.serializer = options.serializer;
   }
 }
 

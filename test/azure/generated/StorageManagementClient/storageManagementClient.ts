@@ -73,6 +73,7 @@ class StorageManagementClient extends msRestAzure.AzureServiceClient {
     }
 
     if (!options) options = {};
+    if (!options.serializer) options.serializer = new msRest.Serializer(Mappers);
 
     super(credentials, options);
 
@@ -99,7 +100,7 @@ class StorageManagementClient extends msRestAzure.AzureServiceClient {
     }
     this.storageAccounts = new operations.StorageAccounts(this);
     this.usage = new operations.UsageOperations(this);
-    this.serializer = new msRest.Serializer(Mappers);
+    this.serializer = options.serializer;
   }
 }
 

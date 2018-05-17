@@ -44,6 +44,7 @@ class CompositeBoolInt extends msRest.ServiceClient {
   constructor(baseUri?: string, options?: msRest.ServiceClientOptions) {
 
     if (!options) options = {};
+    if (!options.serializer) options.serializer = new msRest.Serializer(Mappers, false);
 
     super(undefined, options);
 
@@ -55,7 +56,7 @@ class CompositeBoolInt extends msRest.ServiceClient {
     this.addUserAgentInfo(`${packageName}/${packageVersion}`);
     this.bool = new operations.Bool(this);
     this.intModel = new operations.IntModel(this);
-    this.serializer = new msRest.Serializer(Mappers, false);
+    this.serializer = options.serializer;
   }
 }
 

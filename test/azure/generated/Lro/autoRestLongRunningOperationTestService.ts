@@ -66,6 +66,7 @@ class AutoRestLongRunningOperationTestService extends msRestAzure.AzureServiceCl
     }
 
     if (!options) options = {};
+    if (!options.serializer) options.serializer = new msRest.Serializer(Mappers);
 
     super(credentials, options);
 
@@ -92,7 +93,7 @@ class AutoRestLongRunningOperationTestService extends msRestAzure.AzureServiceCl
     this.lRORetrys = new operations.LRORetrys(this);
     this.lROSADs = new operations.LROSADs(this);
     this.lROsCustomHeader = new operations.LROsCustomHeader(this);
-    this.serializer = new msRest.Serializer(Mappers);
+    this.serializer = options.serializer;
   }
 }
 

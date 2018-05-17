@@ -63,6 +63,7 @@ class AutoRestParameterGroupingTestService extends msRestAzure.AzureServiceClien
     }
 
     if (!options) options = {};
+    if (!options.serializer) options.serializer = new msRest.Serializer(Mappers);
 
     super(credentials, options);
 
@@ -86,7 +87,7 @@ class AutoRestParameterGroupingTestService extends msRestAzure.AzureServiceClien
       this.generateClientRequestId = options.generateClientRequestId;
     }
     this.parameterGrouping = new operations.ParameterGrouping(this);
-    this.serializer = new msRest.Serializer(Mappers);
+    this.serializer = options.serializer;
   }
 }
 

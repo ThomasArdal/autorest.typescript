@@ -63,6 +63,7 @@ class AutoRestPagingTestService extends msRestAzure.AzureServiceClient {
     }
 
     if (!options) options = {};
+    if (!options.serializer) options.serializer = new msRest.Serializer(Mappers);
 
     super(credentials, options);
 
@@ -86,7 +87,7 @@ class AutoRestPagingTestService extends msRestAzure.AzureServiceClient {
       this.generateClientRequestId = options.generateClientRequestId;
     }
     this.paging = new operations.Paging(this);
-    this.serializer = new msRest.Serializer(Mappers);
+    this.serializer = options.serializer;
   }
 }
 

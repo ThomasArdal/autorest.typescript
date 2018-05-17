@@ -88,6 +88,7 @@ foreach (var methodGroup in Model.MethodGroupModels)
 }
 @EmptyLine
     if (!options) options = {};
+    if (!options.serializer) options.serializer = new msRest.Serializer(Mappers, @(Model.ShouldGenerateXmlSerialization.ToString().ToLower()));
 @EmptyLine
     super(@(requiredParameters.Any(p => p.ModelType.IsPrimaryType(KnownPrimaryType.Credentials)) ? "credentials" : "undefined"), options);
     @EmptyLine
@@ -126,7 +127,7 @@ else
   {
     @:this.@(methodGroup.NameForProperty) = new operations.@(methodGroup.TypeName)(this);
   }
-    this.serializer = new msRest.Serializer(Mappers, @(Model.ShouldGenerateXmlSerialization.ToString().ToLower()));
+    this.serializer = options.serializer;
   }
 @foreach (var method in Model.MethodTemplateModels)
 {

@@ -54,6 +54,7 @@ class AutoRestUrlTestService extends msRest.ServiceClient {
     }
 
     if (!options) options = {};
+    if (!options.serializer) options.serializer = new msRest.Serializer(Mappers, false);
 
     super(undefined, options);
 
@@ -70,7 +71,7 @@ class AutoRestUrlTestService extends msRest.ServiceClient {
     this.paths = new operations.Paths(this);
     this.queries = new operations.Queries(this);
     this.pathItems = new operations.PathItems(this);
-    this.serializer = new msRest.Serializer(Mappers, false);
+    this.serializer = options.serializer;
   }
 }
 

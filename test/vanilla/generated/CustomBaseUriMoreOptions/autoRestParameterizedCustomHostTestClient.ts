@@ -50,6 +50,7 @@ class AutoRestParameterizedCustomHostTestClient extends msRest.ServiceClient {
     }
 
     if (!options) options = {};
+    if (!options.serializer) options.serializer = new msRest.Serializer(Mappers, false);
 
     super(undefined, options);
 
@@ -62,7 +63,7 @@ class AutoRestParameterizedCustomHostTestClient extends msRest.ServiceClient {
       this.dnsSuffix = options.dnsSuffix;
     }
     this.paths = new operations.Paths(this);
-    this.serializer = new msRest.Serializer(Mappers, false);
+    this.serializer = options.serializer;
   }
 }
 

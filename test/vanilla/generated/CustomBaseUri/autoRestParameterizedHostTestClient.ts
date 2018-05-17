@@ -44,6 +44,7 @@ class AutoRestParameterizedHostTestClient extends msRest.ServiceClient {
   constructor(options?: Models.AutoRestParameterizedHostTestClientOptions) {
 
     if (!options) options = {};
+    if (!options.serializer) options.serializer = new msRest.Serializer(Mappers, false);
 
     super(undefined, options);
 
@@ -55,7 +56,7 @@ class AutoRestParameterizedHostTestClient extends msRest.ServiceClient {
       this.host = options.host;
     }
     this.paths = new operations.Paths(this);
-    this.serializer = new msRest.Serializer(Mappers, false);
+    this.serializer = options.serializer;
   }
 }
 

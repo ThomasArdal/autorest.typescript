@@ -73,6 +73,7 @@ class AzureCompositeModel extends msRestAzure.AzureServiceClient {
     }
 
     if (!options) options = {};
+    if (!options.serializer) options.serializer = new msRest.Serializer(Mappers);
 
     super(credentials, options);
 
@@ -104,7 +105,7 @@ class AzureCompositeModel extends msRestAzure.AzureServiceClient {
     this.polymorphism = new operations.Polymorphism(this);
     this.polymorphicrecursive = new operations.Polymorphicrecursive(this);
     this.readonlyproperty = new operations.Readonlyproperty(this);
-    this.serializer = new msRest.Serializer(Mappers);
+    this.serializer = options.serializer;
   }
   // methods on the client.
 

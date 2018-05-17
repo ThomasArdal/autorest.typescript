@@ -43,6 +43,7 @@ class AutoRestSwaggerBATArrayService extends msRest.ServiceClient {
   constructor(baseUri?: string, options?: msRest.ServiceClientOptions) {
 
     if (!options) options = {};
+    if (!options.serializer) options.serializer = new msRest.Serializer(Mappers, false);
 
     super(undefined, options);
 
@@ -53,7 +54,7 @@ class AutoRestSwaggerBATArrayService extends msRest.ServiceClient {
 
     this.addUserAgentInfo(`${packageName}/${packageVersion}`);
     this.arrayModel = new operations.ArrayModel(this);
-    this.serializer = new msRest.Serializer(Mappers, false);
+    this.serializer = options.serializer;
   }
 }
 

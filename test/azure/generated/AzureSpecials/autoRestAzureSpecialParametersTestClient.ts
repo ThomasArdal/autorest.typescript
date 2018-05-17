@@ -79,6 +79,7 @@ class AutoRestAzureSpecialParametersTestClient extends msRestAzure.AzureServiceC
     }
 
     if (!options) options = {};
+    if (!options.serializer) options.serializer = new msRest.Serializer(Mappers);
 
     super(credentials, options);
 
@@ -111,7 +112,7 @@ class AutoRestAzureSpecialParametersTestClient extends msRestAzure.AzureServiceC
     this.skipUrlEncoding = new operations.SkipUrlEncoding(this);
     this.odata = new operations.Odata(this);
     this.header = new operations.Header(this);
-    this.serializer = new msRest.Serializer(Mappers);
+    this.serializer = options.serializer;
   }
 }
 

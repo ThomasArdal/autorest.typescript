@@ -60,6 +60,7 @@ class AutoRestResourceFlatteningTestService extends msRestAzure.AzureServiceClie
     }
 
     if (!options) options = {};
+    if (!options.serializer) options.serializer = new msRest.Serializer(Mappers);
 
     super(credentials, options);
 
@@ -82,7 +83,7 @@ class AutoRestResourceFlatteningTestService extends msRestAzure.AzureServiceClie
     if(options.generateClientRequestId !== null && options.generateClientRequestId !== undefined) {
       this.generateClientRequestId = options.generateClientRequestId;
     }
-    this.serializer = new msRest.Serializer(Mappers);
+    this.serializer = options.serializer;
   }
   // methods on the client.
 

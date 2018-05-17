@@ -63,6 +63,7 @@ class AutoRestHeadExceptionTestService extends msRestAzure.AzureServiceClient {
     }
 
     if (!options) options = {};
+    if (!options.serializer) options.serializer = new msRest.Serializer(Mappers);
 
     super(credentials, options);
 
@@ -86,7 +87,7 @@ class AutoRestHeadExceptionTestService extends msRestAzure.AzureServiceClient {
       this.generateClientRequestId = options.generateClientRequestId;
     }
     this.headException = new operations.HeadException(this);
-    this.serializer = new msRest.Serializer(Mappers);
+    this.serializer = options.serializer;
   }
 }
 

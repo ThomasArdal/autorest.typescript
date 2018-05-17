@@ -49,6 +49,7 @@ class AutoRestHttpInfrastructureTestService extends msRest.ServiceClient {
   constructor(baseUri?: string, options?: msRest.ServiceClientOptions) {
 
     if (!options) options = {};
+    if (!options.serializer) options.serializer = new msRest.Serializer(Mappers, false);
 
     super(undefined, options);
 
@@ -65,7 +66,7 @@ class AutoRestHttpInfrastructureTestService extends msRest.ServiceClient {
     this.httpServerFailure = new operations.HttpServerFailure(this);
     this.httpRetry = new operations.HttpRetry(this);
     this.multipleResponses = new operations.MultipleResponses(this);
-    this.serializer = new msRest.Serializer(Mappers, false);
+    this.serializer = options.serializer;
   }
 }
 

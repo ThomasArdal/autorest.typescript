@@ -72,6 +72,7 @@ class MicrosoftAzureTestUrl extends msRestAzure.AzureServiceClient {
     }
 
     if (!options) options = {};
+    if (!options.serializer) options.serializer = new msRest.Serializer(Mappers);
 
     super(credentials, options);
 
@@ -97,7 +98,7 @@ class MicrosoftAzureTestUrl extends msRestAzure.AzureServiceClient {
       this.generateClientRequestId = options.generateClientRequestId;
     }
     this.group = new operations.Group(this);
-    this.serializer = new msRest.Serializer(Mappers);
+    this.serializer = options.serializer;
   }
 }
 
