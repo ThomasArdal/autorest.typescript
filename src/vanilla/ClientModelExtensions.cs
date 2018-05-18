@@ -658,7 +658,7 @@ namespace AutoRest.TypeScript
             return builder;
         }
 
-        public static string ConstructMapper(this IModelType type, string serializedName, IVariable parameter, bool isPageable, bool expandComposite, bool isXML)
+        public static string ConstructMapper(this IModelType type, string serializedName, IVariable parameter, bool isPageable, bool expandComposite, bool isXML, string xmlName = null)
         {
             var builder = new IndentedStringBuilder("  ");
             string defaultValue = null;
@@ -677,6 +677,11 @@ namespace AutoRest.TypeScript
 
             builder.AppendLine("").Indent();
 
+            if (!string.IsNullOrEmpty(xmlName) && serializedName != xmlName)
+            {
+                builder.AppendLine($"xmlName: '{xmlName}',");
+            }
+
             if (property != null)
             {
                 isReadOnly = property.IsReadOnly;
@@ -693,7 +698,7 @@ namespace AutoRest.TypeScript
                         builder.AppendLine("xmlIsWrapped: true,");
                     }
 
-                    if (!string.IsNullOrEmpty(property.XmlName))
+                    if (string.IsNullOrEmpty(xmlName) && !string.IsNullOrEmpty(property.XmlName))
                     {
                         builder.AppendLine($"xmlName: '{property.XmlName}',");
                     }

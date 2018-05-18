@@ -59,9 +59,10 @@ export class Number {
     // Send Request
     let operationRes: msRest.HttpOperationResponse;
     try {
-      operationRes = await client.sendOperationRequest(httpRequest, {
+      const operationSpec: msRest.OperationSpec = {
         httpMethod: "GET"
-      });
+      };
+      operationRes = await client.sendOperationRequest(httpRequest, operationSpec);
       let statusCode = operationRes.status;
       if (statusCode !== 200) {
         let error = new msRest.RestError(operationRes.bodyAsText as string);
@@ -93,6 +94,7 @@ export class Number {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
+              xmlName: 'Double',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -150,9 +152,10 @@ export class Number {
     // Send Request
     let operationRes: msRest.HttpOperationResponse;
     try {
-      operationRes = await client.sendOperationRequest(httpRequest, {
+      const operationSpec: msRest.OperationSpec = {
         httpMethod: "GET"
-      });
+      };
+      operationRes = await client.sendOperationRequest(httpRequest, operationSpec);
       let statusCode = operationRes.status;
       if (statusCode !== 200) {
         let error = new msRest.RestError(operationRes.bodyAsText as string);
@@ -184,6 +187,7 @@ export class Number {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
+              xmlName: 'Double',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -241,9 +245,10 @@ export class Number {
     // Send Request
     let operationRes: msRest.HttpOperationResponse;
     try {
-      operationRes = await client.sendOperationRequest(httpRequest, {
+      const operationSpec: msRest.OperationSpec = {
         httpMethod: "GET"
-      });
+      };
+      operationRes = await client.sendOperationRequest(httpRequest, operationSpec);
       let statusCode = operationRes.status;
       if (statusCode !== 200) {
         let error = new msRest.RestError(operationRes.bodyAsText as string);
@@ -275,6 +280,7 @@ export class Number {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
+              xmlName: 'Double',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -332,9 +338,10 @@ export class Number {
     // Send Request
     let operationRes: msRest.HttpOperationResponse;
     try {
-      operationRes = await client.sendOperationRequest(httpRequest, {
+      const operationSpec: msRest.OperationSpec = {
         httpMethod: "GET"
-      });
+      };
+      operationRes = await client.sendOperationRequest(httpRequest, operationSpec);
       let statusCode = operationRes.status;
       if (statusCode !== 200) {
         let error = new msRest.RestError(operationRes.bodyAsText as string);
@@ -366,6 +373,7 @@ export class Number {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
+              xmlName: 'Decimal',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -430,33 +438,23 @@ export class Number {
         }
       }
     }
-    // Serialize Request
-    let requestContent = null;
-    let requestModel = null;
-    try {
-      if (numberBody !== null && numberBody !== undefined) {
-        let requestModelMapper = {
-          required: true,
-          serializedName: 'numberBody',
-          type: {
-            name: 'Number'
-          }
-        };
-        requestModel = client.serializer.serialize(requestModelMapper, numberBody, 'numberBody');
-        requestContent = JSON.stringify(requestModel);
-      }
-    } catch (error) {
-      let serializationError = new Error(`Error "${error.message}" occurred in serializing the ` +
-          `payload - ${JSON.stringify(numberBody, null, 2)}.`);
-      return Promise.reject(serializationError);
-    }
-    httpRequest.body = requestContent;
+    httpRequest.body = numberBody;
     // Send Request
     let operationRes: msRest.HttpOperationResponse;
     try {
-      operationRes = await client.sendOperationRequest(httpRequest, {
-        httpMethod: "PUT"
-      });
+      let requestModelMapper = {
+        required: true,
+        serializedName: 'numberBody',
+        type: {
+          name: 'Number'
+        }
+      };
+      const operationSpec: msRest.OperationSpec = {
+        httpMethod: "PUT",
+        requestBodyMapper: requestModelMapper,
+        isXML: false
+      };
+      operationRes = await client.sendOperationRequest(httpRequest, operationSpec);
       let statusCode = operationRes.status;
       if (statusCode !== 200) {
         let error = new msRest.RestError(operationRes.bodyAsText as string);
@@ -524,9 +522,10 @@ export class Number {
     // Send Request
     let operationRes: msRest.HttpOperationResponse;
     try {
-      operationRes = await client.sendOperationRequest(httpRequest, {
+      const operationSpec: msRest.OperationSpec = {
         httpMethod: "GET"
-      });
+      };
+      operationRes = await client.sendOperationRequest(httpRequest, operationSpec);
       let statusCode = operationRes.status;
       if (statusCode !== 200) {
         let error = new msRest.RestError(operationRes.bodyAsText as string);
@@ -558,6 +557,7 @@ export class Number {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
+              xmlName: 'Double',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -622,33 +622,23 @@ export class Number {
         }
       }
     }
-    // Serialize Request
-    let requestContent = null;
-    let requestModel = null;
-    try {
-      if (numberBody !== null && numberBody !== undefined) {
-        let requestModelMapper = {
-          required: true,
-          serializedName: 'numberBody',
-          type: {
-            name: 'Number'
-          }
-        };
-        requestModel = client.serializer.serialize(requestModelMapper, numberBody, 'numberBody');
-        requestContent = JSON.stringify(requestModel);
-      }
-    } catch (error) {
-      let serializationError = new Error(`Error "${error.message}" occurred in serializing the ` +
-          `payload - ${JSON.stringify(numberBody, null, 2)}.`);
-      return Promise.reject(serializationError);
-    }
-    httpRequest.body = requestContent;
+    httpRequest.body = numberBody;
     // Send Request
     let operationRes: msRest.HttpOperationResponse;
     try {
-      operationRes = await client.sendOperationRequest(httpRequest, {
-        httpMethod: "PUT"
-      });
+      let requestModelMapper = {
+        required: true,
+        serializedName: 'numberBody',
+        type: {
+          name: 'Number'
+        }
+      };
+      const operationSpec: msRest.OperationSpec = {
+        httpMethod: "PUT",
+        requestBodyMapper: requestModelMapper,
+        isXML: false
+      };
+      operationRes = await client.sendOperationRequest(httpRequest, operationSpec);
       let statusCode = operationRes.status;
       if (statusCode !== 200) {
         let error = new msRest.RestError(operationRes.bodyAsText as string);
@@ -716,9 +706,10 @@ export class Number {
     // Send Request
     let operationRes: msRest.HttpOperationResponse;
     try {
-      operationRes = await client.sendOperationRequest(httpRequest, {
+      const operationSpec: msRest.OperationSpec = {
         httpMethod: "GET"
-      });
+      };
+      operationRes = await client.sendOperationRequest(httpRequest, operationSpec);
       let statusCode = operationRes.status;
       if (statusCode !== 200) {
         let error = new msRest.RestError(operationRes.bodyAsText as string);
@@ -750,6 +741,7 @@ export class Number {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
+              xmlName: 'Double',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -814,33 +806,23 @@ export class Number {
         }
       }
     }
-    // Serialize Request
-    let requestContent = null;
-    let requestModel = null;
-    try {
-      if (numberBody !== null && numberBody !== undefined) {
-        let requestModelMapper = {
-          required: true,
-          serializedName: 'numberBody',
-          type: {
-            name: 'Number'
-          }
-        };
-        requestModel = client.serializer.serialize(requestModelMapper, numberBody, 'numberBody');
-        requestContent = JSON.stringify(requestModel);
-      }
-    } catch (error) {
-      let serializationError = new Error(`Error "${error.message}" occurred in serializing the ` +
-          `payload - ${JSON.stringify(numberBody, null, 2)}.`);
-      return Promise.reject(serializationError);
-    }
-    httpRequest.body = requestContent;
+    httpRequest.body = numberBody;
     // Send Request
     let operationRes: msRest.HttpOperationResponse;
     try {
-      operationRes = await client.sendOperationRequest(httpRequest, {
-        httpMethod: "PUT"
-      });
+      let requestModelMapper = {
+        required: true,
+        serializedName: 'numberBody',
+        type: {
+          name: 'Number'
+        }
+      };
+      const operationSpec: msRest.OperationSpec = {
+        httpMethod: "PUT",
+        requestBodyMapper: requestModelMapper,
+        isXML: false
+      };
+      operationRes = await client.sendOperationRequest(httpRequest, operationSpec);
       let statusCode = operationRes.status;
       if (statusCode !== 200) {
         let error = new msRest.RestError(operationRes.bodyAsText as string);
@@ -908,9 +890,10 @@ export class Number {
     // Send Request
     let operationRes: msRest.HttpOperationResponse;
     try {
-      operationRes = await client.sendOperationRequest(httpRequest, {
+      const operationSpec: msRest.OperationSpec = {
         httpMethod: "GET"
-      });
+      };
+      operationRes = await client.sendOperationRequest(httpRequest, operationSpec);
       let statusCode = operationRes.status;
       if (statusCode !== 200) {
         let error = new msRest.RestError(operationRes.bodyAsText as string);
@@ -942,6 +925,7 @@ export class Number {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
+              xmlName: 'Double',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -1006,33 +990,23 @@ export class Number {
         }
       }
     }
-    // Serialize Request
-    let requestContent = null;
-    let requestModel = null;
-    try {
-      if (numberBody !== null && numberBody !== undefined) {
-        let requestModelMapper = {
-          required: true,
-          serializedName: 'numberBody',
-          type: {
-            name: 'Number'
-          }
-        };
-        requestModel = client.serializer.serialize(requestModelMapper, numberBody, 'numberBody');
-        requestContent = JSON.stringify(requestModel);
-      }
-    } catch (error) {
-      let serializationError = new Error(`Error "${error.message}" occurred in serializing the ` +
-          `payload - ${JSON.stringify(numberBody, null, 2)}.`);
-      return Promise.reject(serializationError);
-    }
-    httpRequest.body = requestContent;
+    httpRequest.body = numberBody;
     // Send Request
     let operationRes: msRest.HttpOperationResponse;
     try {
-      operationRes = await client.sendOperationRequest(httpRequest, {
-        httpMethod: "PUT"
-      });
+      let requestModelMapper = {
+        required: true,
+        serializedName: 'numberBody',
+        type: {
+          name: 'Number'
+        }
+      };
+      const operationSpec: msRest.OperationSpec = {
+        httpMethod: "PUT",
+        requestBodyMapper: requestModelMapper,
+        isXML: false
+      };
+      operationRes = await client.sendOperationRequest(httpRequest, operationSpec);
       let statusCode = operationRes.status;
       if (statusCode !== 200) {
         let error = new msRest.RestError(operationRes.bodyAsText as string);
@@ -1100,9 +1074,10 @@ export class Number {
     // Send Request
     let operationRes: msRest.HttpOperationResponse;
     try {
-      operationRes = await client.sendOperationRequest(httpRequest, {
+      const operationSpec: msRest.OperationSpec = {
         httpMethod: "GET"
-      });
+      };
+      operationRes = await client.sendOperationRequest(httpRequest, operationSpec);
       let statusCode = operationRes.status;
       if (statusCode !== 200) {
         let error = new msRest.RestError(operationRes.bodyAsText as string);
@@ -1134,6 +1109,7 @@ export class Number {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
+              xmlName: 'Double',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -1198,33 +1174,23 @@ export class Number {
         }
       }
     }
-    // Serialize Request
-    let requestContent = null;
-    let requestModel = null;
-    try {
-      if (numberBody !== null && numberBody !== undefined) {
-        let requestModelMapper = {
-          required: true,
-          serializedName: 'numberBody',
-          type: {
-            name: 'Number'
-          }
-        };
-        requestModel = client.serializer.serialize(requestModelMapper, numberBody, 'numberBody');
-        requestContent = JSON.stringify(requestModel);
-      }
-    } catch (error) {
-      let serializationError = new Error(`Error "${error.message}" occurred in serializing the ` +
-          `payload - ${JSON.stringify(numberBody, null, 2)}.`);
-      return Promise.reject(serializationError);
-    }
-    httpRequest.body = requestContent;
+    httpRequest.body = numberBody;
     // Send Request
     let operationRes: msRest.HttpOperationResponse;
     try {
-      operationRes = await client.sendOperationRequest(httpRequest, {
-        httpMethod: "PUT"
-      });
+      let requestModelMapper = {
+        required: true,
+        serializedName: 'numberBody',
+        type: {
+          name: 'Number'
+        }
+      };
+      const operationSpec: msRest.OperationSpec = {
+        httpMethod: "PUT",
+        requestBodyMapper: requestModelMapper,
+        isXML: false
+      };
+      operationRes = await client.sendOperationRequest(httpRequest, operationSpec);
       let statusCode = operationRes.status;
       if (statusCode !== 200) {
         let error = new msRest.RestError(operationRes.bodyAsText as string);
@@ -1292,9 +1258,10 @@ export class Number {
     // Send Request
     let operationRes: msRest.HttpOperationResponse;
     try {
-      operationRes = await client.sendOperationRequest(httpRequest, {
+      const operationSpec: msRest.OperationSpec = {
         httpMethod: "GET"
-      });
+      };
+      operationRes = await client.sendOperationRequest(httpRequest, operationSpec);
       let statusCode = operationRes.status;
       if (statusCode !== 200) {
         let error = new msRest.RestError(operationRes.bodyAsText as string);
@@ -1326,6 +1293,7 @@ export class Number {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
+              xmlName: 'Decimal',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -1390,33 +1358,23 @@ export class Number {
         }
       }
     }
-    // Serialize Request
-    let requestContent = null;
-    let requestModel = null;
-    try {
-      if (numberBody !== null && numberBody !== undefined) {
-        let requestModelMapper = {
-          required: true,
-          serializedName: 'numberBody',
-          type: {
-            name: 'Number'
-          }
-        };
-        requestModel = client.serializer.serialize(requestModelMapper, numberBody, 'numberBody');
-        requestContent = JSON.stringify(requestModel);
-      }
-    } catch (error) {
-      let serializationError = new Error(`Error "${error.message}" occurred in serializing the ` +
-          `payload - ${JSON.stringify(numberBody, null, 2)}.`);
-      return Promise.reject(serializationError);
-    }
-    httpRequest.body = requestContent;
+    httpRequest.body = numberBody;
     // Send Request
     let operationRes: msRest.HttpOperationResponse;
     try {
-      operationRes = await client.sendOperationRequest(httpRequest, {
-        httpMethod: "PUT"
-      });
+      let requestModelMapper = {
+        required: true,
+        serializedName: 'numberBody',
+        type: {
+          name: 'Number'
+        }
+      };
+      const operationSpec: msRest.OperationSpec = {
+        httpMethod: "PUT",
+        requestBodyMapper: requestModelMapper,
+        isXML: false
+      };
+      operationRes = await client.sendOperationRequest(httpRequest, operationSpec);
       let statusCode = operationRes.status;
       if (statusCode !== 200) {
         let error = new msRest.RestError(operationRes.bodyAsText as string);
@@ -1484,9 +1442,10 @@ export class Number {
     // Send Request
     let operationRes: msRest.HttpOperationResponse;
     try {
-      operationRes = await client.sendOperationRequest(httpRequest, {
+      const operationSpec: msRest.OperationSpec = {
         httpMethod: "GET"
-      });
+      };
+      operationRes = await client.sendOperationRequest(httpRequest, operationSpec);
       let statusCode = operationRes.status;
       if (statusCode !== 200) {
         let error = new msRest.RestError(operationRes.bodyAsText as string);
@@ -1518,6 +1477,7 @@ export class Number {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
+              xmlName: 'Decimal',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -1582,33 +1542,23 @@ export class Number {
         }
       }
     }
-    // Serialize Request
-    let requestContent = null;
-    let requestModel = null;
-    try {
-      if (numberBody !== null && numberBody !== undefined) {
-        let requestModelMapper = {
-          required: true,
-          serializedName: 'numberBody',
-          type: {
-            name: 'Number'
-          }
-        };
-        requestModel = client.serializer.serialize(requestModelMapper, numberBody, 'numberBody');
-        requestContent = JSON.stringify(requestModel);
-      }
-    } catch (error) {
-      let serializationError = new Error(`Error "${error.message}" occurred in serializing the ` +
-          `payload - ${JSON.stringify(numberBody, null, 2)}.`);
-      return Promise.reject(serializationError);
-    }
-    httpRequest.body = requestContent;
+    httpRequest.body = numberBody;
     // Send Request
     let operationRes: msRest.HttpOperationResponse;
     try {
-      operationRes = await client.sendOperationRequest(httpRequest, {
-        httpMethod: "PUT"
-      });
+      let requestModelMapper = {
+        required: true,
+        serializedName: 'numberBody',
+        type: {
+          name: 'Number'
+        }
+      };
+      const operationSpec: msRest.OperationSpec = {
+        httpMethod: "PUT",
+        requestBodyMapper: requestModelMapper,
+        isXML: false
+      };
+      operationRes = await client.sendOperationRequest(httpRequest, operationSpec);
       let statusCode = operationRes.status;
       if (statusCode !== 200) {
         let error = new msRest.RestError(operationRes.bodyAsText as string);
@@ -1676,9 +1626,10 @@ export class Number {
     // Send Request
     let operationRes: msRest.HttpOperationResponse;
     try {
-      operationRes = await client.sendOperationRequest(httpRequest, {
+      const operationSpec: msRest.OperationSpec = {
         httpMethod: "GET"
-      });
+      };
+      operationRes = await client.sendOperationRequest(httpRequest, operationSpec);
       let statusCode = operationRes.status;
       if (statusCode !== 200) {
         let error = new msRest.RestError(operationRes.bodyAsText as string);
@@ -1710,6 +1661,7 @@ export class Number {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
+              xmlName: 'Decimal',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -1774,33 +1726,23 @@ export class Number {
         }
       }
     }
-    // Serialize Request
-    let requestContent = null;
-    let requestModel = null;
-    try {
-      if (numberBody !== null && numberBody !== undefined) {
-        let requestModelMapper = {
-          required: true,
-          serializedName: 'numberBody',
-          type: {
-            name: 'Number'
-          }
-        };
-        requestModel = client.serializer.serialize(requestModelMapper, numberBody, 'numberBody');
-        requestContent = JSON.stringify(requestModel);
-      }
-    } catch (error) {
-      let serializationError = new Error(`Error "${error.message}" occurred in serializing the ` +
-          `payload - ${JSON.stringify(numberBody, null, 2)}.`);
-      return Promise.reject(serializationError);
-    }
-    httpRequest.body = requestContent;
+    httpRequest.body = numberBody;
     // Send Request
     let operationRes: msRest.HttpOperationResponse;
     try {
-      operationRes = await client.sendOperationRequest(httpRequest, {
-        httpMethod: "PUT"
-      });
+      let requestModelMapper = {
+        required: true,
+        serializedName: 'numberBody',
+        type: {
+          name: 'Number'
+        }
+      };
+      const operationSpec: msRest.OperationSpec = {
+        httpMethod: "PUT",
+        requestBodyMapper: requestModelMapper,
+        isXML: false
+      };
+      operationRes = await client.sendOperationRequest(httpRequest, operationSpec);
       let statusCode = operationRes.status;
       if (statusCode !== 200) {
         let error = new msRest.RestError(operationRes.bodyAsText as string);
@@ -1868,9 +1810,10 @@ export class Number {
     // Send Request
     let operationRes: msRest.HttpOperationResponse;
     try {
-      operationRes = await client.sendOperationRequest(httpRequest, {
+      const operationSpec: msRest.OperationSpec = {
         httpMethod: "GET"
-      });
+      };
+      operationRes = await client.sendOperationRequest(httpRequest, operationSpec);
       let statusCode = operationRes.status;
       if (statusCode !== 200) {
         let error = new msRest.RestError(operationRes.bodyAsText as string);
@@ -1902,6 +1845,7 @@ export class Number {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
+              xmlName: 'Double',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -1966,33 +1910,23 @@ export class Number {
         }
       }
     }
-    // Serialize Request
-    let requestContent = null;
-    let requestModel = null;
-    try {
-      if (numberBody !== null && numberBody !== undefined) {
-        let requestModelMapper = {
-          required: true,
-          serializedName: 'numberBody',
-          type: {
-            name: 'Number'
-          }
-        };
-        requestModel = client.serializer.serialize(requestModelMapper, numberBody, 'numberBody');
-        requestContent = JSON.stringify(requestModel);
-      }
-    } catch (error) {
-      let serializationError = new Error(`Error "${error.message}" occurred in serializing the ` +
-          `payload - ${JSON.stringify(numberBody, null, 2)}.`);
-      return Promise.reject(serializationError);
-    }
-    httpRequest.body = requestContent;
+    httpRequest.body = numberBody;
     // Send Request
     let operationRes: msRest.HttpOperationResponse;
     try {
-      operationRes = await client.sendOperationRequest(httpRequest, {
-        httpMethod: "PUT"
-      });
+      let requestModelMapper = {
+        required: true,
+        serializedName: 'numberBody',
+        type: {
+          name: 'Number'
+        }
+      };
+      const operationSpec: msRest.OperationSpec = {
+        httpMethod: "PUT",
+        requestBodyMapper: requestModelMapper,
+        isXML: false
+      };
+      operationRes = await client.sendOperationRequest(httpRequest, operationSpec);
       let statusCode = operationRes.status;
       if (statusCode !== 200) {
         let error = new msRest.RestError(operationRes.bodyAsText as string);
@@ -2060,9 +1994,10 @@ export class Number {
     // Send Request
     let operationRes: msRest.HttpOperationResponse;
     try {
-      operationRes = await client.sendOperationRequest(httpRequest, {
+      const operationSpec: msRest.OperationSpec = {
         httpMethod: "GET"
-      });
+      };
+      operationRes = await client.sendOperationRequest(httpRequest, operationSpec);
       let statusCode = operationRes.status;
       if (statusCode !== 200) {
         let error = new msRest.RestError(operationRes.bodyAsText as string);
@@ -2094,6 +2029,7 @@ export class Number {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
+              xmlName: 'Double',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -2158,33 +2094,23 @@ export class Number {
         }
       }
     }
-    // Serialize Request
-    let requestContent = null;
-    let requestModel = null;
-    try {
-      if (numberBody !== null && numberBody !== undefined) {
-        let requestModelMapper = {
-          required: true,
-          serializedName: 'numberBody',
-          type: {
-            name: 'Number'
-          }
-        };
-        requestModel = client.serializer.serialize(requestModelMapper, numberBody, 'numberBody');
-        requestContent = JSON.stringify(requestModel);
-      }
-    } catch (error) {
-      let serializationError = new Error(`Error "${error.message}" occurred in serializing the ` +
-          `payload - ${JSON.stringify(numberBody, null, 2)}.`);
-      return Promise.reject(serializationError);
-    }
-    httpRequest.body = requestContent;
+    httpRequest.body = numberBody;
     // Send Request
     let operationRes: msRest.HttpOperationResponse;
     try {
-      operationRes = await client.sendOperationRequest(httpRequest, {
-        httpMethod: "PUT"
-      });
+      let requestModelMapper = {
+        required: true,
+        serializedName: 'numberBody',
+        type: {
+          name: 'Number'
+        }
+      };
+      const operationSpec: msRest.OperationSpec = {
+        httpMethod: "PUT",
+        requestBodyMapper: requestModelMapper,
+        isXML: false
+      };
+      operationRes = await client.sendOperationRequest(httpRequest, operationSpec);
       let statusCode = operationRes.status;
       if (statusCode !== 200) {
         let error = new msRest.RestError(operationRes.bodyAsText as string);
@@ -2252,9 +2178,10 @@ export class Number {
     // Send Request
     let operationRes: msRest.HttpOperationResponse;
     try {
-      operationRes = await client.sendOperationRequest(httpRequest, {
+      const operationSpec: msRest.OperationSpec = {
         httpMethod: "GET"
-      });
+      };
+      operationRes = await client.sendOperationRequest(httpRequest, operationSpec);
       let statusCode = operationRes.status;
       if (statusCode !== 200) {
         let error = new msRest.RestError(operationRes.bodyAsText as string);
@@ -2286,6 +2213,7 @@ export class Number {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
+              xmlName: 'Decimal',
               required: false,
               serializedName: 'parsedResponse',
               type: {

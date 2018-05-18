@@ -41,11 +41,10 @@ class AutoRestSwaggerBATdictionaryService extends msRest.ServiceClient {
    *
    */
   constructor(baseUri?: string, options?: msRest.ServiceClientOptions) {
+    const serviceClientOptions: msRest.ServiceClientOptions = !options ? {} : { ...options };
+    if (!serviceClientOptions.serializer) serviceClientOptions.serializer = new msRest.Serializer(Mappers, false);
 
-    if (!options) options = {};
-    if (!options.serializer) options.serializer = new msRest.Serializer(Mappers, false);
-
-    super(undefined, options);
+    super(undefined, serviceClientOptions);
 
     this.baseUri = baseUri as string;
     if (!this.baseUri) {
@@ -54,7 +53,7 @@ class AutoRestSwaggerBATdictionaryService extends msRest.ServiceClient {
 
     this.addUserAgentInfo(`${packageName}/${packageVersion}`);
     this.dictionary = new operations.Dictionary(this);
-    this.serializer = options.serializer;
+    this.serializer = serviceClientOptions.serializer;
   }
 }
 

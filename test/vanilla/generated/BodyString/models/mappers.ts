@@ -62,6 +62,7 @@ export const RefColorConstant = {
 };
 
 export const StringPutNullOptionalParams = {
+  xmlName: 'StringPutNullOptionalParams',
   required: false,
   serializedName: 'PutNullOptions',
   type: {
@@ -80,6 +81,7 @@ export const StringPutNullOptionalParams = {
 };
 
 export const EnumModelPutReferencedConstantOptionalParams = {
+  xmlName: 'EnumModelPutReferencedConstantOptionalParams',
   required: false,
   serializedName: 'PutReferencedConstantOptions',
   type: {

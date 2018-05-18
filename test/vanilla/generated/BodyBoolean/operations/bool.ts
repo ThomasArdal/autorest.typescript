@@ -59,9 +59,10 @@ export class Bool {
     // Send Request
     let operationRes: msRest.HttpOperationResponse;
     try {
-      operationRes = await client.sendOperationRequest(httpRequest, {
+      const operationSpec: msRest.OperationSpec = {
         httpMethod: "GET"
-      });
+      };
+      operationRes = await client.sendOperationRequest(httpRequest, operationSpec);
       let statusCode = operationRes.status;
       if (statusCode !== 200) {
         let error = new msRest.RestError(operationRes.bodyAsText as string);
@@ -93,6 +94,7 @@ export class Bool {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
+              xmlName: 'Boolean',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -157,33 +159,23 @@ export class Bool {
         }
       }
     }
-    // Serialize Request
-    let requestContent = null;
-    let requestModel = null;
-    try {
-      if (boolBody !== null && boolBody !== undefined) {
-        let requestModelMapper = {
-          required: true,
-          serializedName: 'boolBody',
-          type: {
-            name: 'Boolean'
-          }
-        };
-        requestModel = client.serializer.serialize(requestModelMapper, boolBody, 'boolBody');
-        requestContent = JSON.stringify(requestModel);
-      }
-    } catch (error) {
-      let serializationError = new Error(`Error "${error.message}" occurred in serializing the ` +
-          `payload - ${JSON.stringify(boolBody, null, 2)}.`);
-      return Promise.reject(serializationError);
-    }
-    httpRequest.body = requestContent;
+    httpRequest.body = boolBody;
     // Send Request
     let operationRes: msRest.HttpOperationResponse;
     try {
-      operationRes = await client.sendOperationRequest(httpRequest, {
-        httpMethod: "PUT"
-      });
+      let requestModelMapper = {
+        required: true,
+        serializedName: 'boolBody',
+        type: {
+          name: 'Boolean'
+        }
+      };
+      const operationSpec: msRest.OperationSpec = {
+        httpMethod: "PUT",
+        requestBodyMapper: requestModelMapper,
+        isXML: false
+      };
+      operationRes = await client.sendOperationRequest(httpRequest, operationSpec);
       let statusCode = operationRes.status;
       if (statusCode !== 200) {
         let error = new msRest.RestError(operationRes.bodyAsText as string);
@@ -251,9 +243,10 @@ export class Bool {
     // Send Request
     let operationRes: msRest.HttpOperationResponse;
     try {
-      operationRes = await client.sendOperationRequest(httpRequest, {
+      const operationSpec: msRest.OperationSpec = {
         httpMethod: "GET"
-      });
+      };
+      operationRes = await client.sendOperationRequest(httpRequest, operationSpec);
       let statusCode = operationRes.status;
       if (statusCode !== 200) {
         let error = new msRest.RestError(operationRes.bodyAsText as string);
@@ -285,6 +278,7 @@ export class Bool {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
+              xmlName: 'Boolean',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -349,33 +343,23 @@ export class Bool {
         }
       }
     }
-    // Serialize Request
-    let requestContent = null;
-    let requestModel = null;
-    try {
-      if (boolBody !== null && boolBody !== undefined) {
-        let requestModelMapper = {
-          required: true,
-          serializedName: 'boolBody',
-          type: {
-            name: 'Boolean'
-          }
-        };
-        requestModel = client.serializer.serialize(requestModelMapper, boolBody, 'boolBody');
-        requestContent = JSON.stringify(requestModel);
-      }
-    } catch (error) {
-      let serializationError = new Error(`Error "${error.message}" occurred in serializing the ` +
-          `payload - ${JSON.stringify(boolBody, null, 2)}.`);
-      return Promise.reject(serializationError);
-    }
-    httpRequest.body = requestContent;
+    httpRequest.body = boolBody;
     // Send Request
     let operationRes: msRest.HttpOperationResponse;
     try {
-      operationRes = await client.sendOperationRequest(httpRequest, {
-        httpMethod: "PUT"
-      });
+      let requestModelMapper = {
+        required: true,
+        serializedName: 'boolBody',
+        type: {
+          name: 'Boolean'
+        }
+      };
+      const operationSpec: msRest.OperationSpec = {
+        httpMethod: "PUT",
+        requestBodyMapper: requestModelMapper,
+        isXML: false
+      };
+      operationRes = await client.sendOperationRequest(httpRequest, operationSpec);
       let statusCode = operationRes.status;
       if (statusCode !== 200) {
         let error = new msRest.RestError(operationRes.bodyAsText as string);
@@ -443,9 +427,10 @@ export class Bool {
     // Send Request
     let operationRes: msRest.HttpOperationResponse;
     try {
-      operationRes = await client.sendOperationRequest(httpRequest, {
+      const operationSpec: msRest.OperationSpec = {
         httpMethod: "GET"
-      });
+      };
+      operationRes = await client.sendOperationRequest(httpRequest, operationSpec);
       let statusCode = operationRes.status;
       if (statusCode !== 200) {
         let error = new msRest.RestError(operationRes.bodyAsText as string);
@@ -477,6 +462,7 @@ export class Bool {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
+              xmlName: 'Boolean',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -534,9 +520,10 @@ export class Bool {
     // Send Request
     let operationRes: msRest.HttpOperationResponse;
     try {
-      operationRes = await client.sendOperationRequest(httpRequest, {
+      const operationSpec: msRest.OperationSpec = {
         httpMethod: "GET"
-      });
+      };
+      operationRes = await client.sendOperationRequest(httpRequest, operationSpec);
       let statusCode = operationRes.status;
       if (statusCode !== 200) {
         let error = new msRest.RestError(operationRes.bodyAsText as string);
@@ -568,6 +555,7 @@ export class Bool {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
+              xmlName: 'Boolean',
               required: false,
               serializedName: 'parsedResponse',
               type: {

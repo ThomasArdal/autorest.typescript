@@ -221,6 +221,7 @@ export const ResourceCollection = {
 };
 
 export const AutoRestResourceFlatteningTestServicePutArrayOptionalParams = {
+  xmlName: 'AutoRestResourceFlatteningTestServicePutArrayOptionalParams',
   required: false,
   serializedName: 'PutArrayOptions',
   type: {
@@ -247,6 +248,7 @@ export const AutoRestResourceFlatteningTestServicePutArrayOptionalParams = {
 };
 
 export const AutoRestResourceFlatteningTestServicePutDictionaryOptionalParams = {
+  xmlName: 'AutoRestResourceFlatteningTestServicePutDictionaryOptionalParams',
   required: false,
   serializedName: 'PutDictionaryOptions',
   type: {
@@ -273,6 +275,7 @@ export const AutoRestResourceFlatteningTestServicePutDictionaryOptionalParams = 
 };
 
 export const AutoRestResourceFlatteningTestServicePutResourceCollectionOptionalParams = {
+  xmlName: 'AutoRestResourceFlatteningTestServicePutResourceCollectionOptionalParams',
   required: false,
   serializedName: 'PutResourceCollectionOptions',
   type: {

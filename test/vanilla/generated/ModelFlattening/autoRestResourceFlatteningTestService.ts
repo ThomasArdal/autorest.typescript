@@ -87,41 +87,31 @@ class AutoRestResourceFlatteningTestService extends msRest.ServiceClient {
         }
       }
     }
-    // Serialize Request
-    let requestContent = null;
-    let requestModel = null;
-    try {
-      if (resourceArray !== null && resourceArray !== undefined) {
-        let requestModelMapper = {
-          required: false,
-          serializedName: 'ResourceArray',
-          type: {
-            name: 'Sequence',
-            element: {
-                required: false,
-                serializedName: 'ResourceElementType',
-                type: {
-                  name: 'Composite',
-                  className: 'Resource'
-                }
-            }
-          }
-        };
-        requestModel = client.serializer.serialize(requestModelMapper, resourceArray, 'resourceArray');
-        requestContent = JSON.stringify(requestModel);
-      }
-    } catch (error) {
-      let serializationError = new Error(`Error "${error.message}" occurred in serializing the ` +
-          `payload - ${JSON.stringify(resourceArray, null, 2)}.`);
-      return Promise.reject(serializationError);
-    }
-    httpRequest.body = requestContent;
+    httpRequest.body = resourceArray;
     // Send Request
     let operationRes: msRest.HttpOperationResponse;
     try {
-      operationRes = await client.sendOperationRequest(httpRequest, {
-        httpMethod: "PUT"
-      });
+      let requestModelMapper = {
+        required: false,
+        serializedName: 'ResourceArray',
+        type: {
+          name: 'Sequence',
+          element: {
+              required: false,
+              serializedName: 'ResourceElementType',
+              type: {
+                name: 'Composite',
+                className: 'Resource'
+              }
+          }
+        }
+      };
+      const operationSpec: msRest.OperationSpec = {
+        httpMethod: "PUT",
+        requestBodyMapper: requestModelMapper,
+        isXML: false
+      };
+      operationRes = await client.sendOperationRequest(httpRequest, operationSpec);
       let statusCode = operationRes.status;
       if (statusCode !== 200) {
         let error = new msRest.RestError(operationRes.bodyAsText as string);
@@ -190,9 +180,10 @@ class AutoRestResourceFlatteningTestService extends msRest.ServiceClient {
     // Send Request
     let operationRes: msRest.HttpOperationResponse;
     try {
-      operationRes = await client.sendOperationRequest(httpRequest, {
+      const operationSpec: msRest.OperationSpec = {
         httpMethod: "GET"
-      });
+      };
+      operationRes = await client.sendOperationRequest(httpRequest, operationSpec);
       let statusCode = operationRes.status;
       if (statusCode !== 200) {
         let error = new msRest.RestError(operationRes.bodyAsText as string);
@@ -224,6 +215,7 @@ class AutoRestResourceFlatteningTestService extends msRest.ServiceClient {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
+              xmlName: 'FlattenedProduct',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -290,41 +282,31 @@ class AutoRestResourceFlatteningTestService extends msRest.ServiceClient {
         }
       }
     }
-    // Serialize Request
-    let requestContent = null;
-    let requestModel = null;
-    try {
-      if (resourceArray !== null && resourceArray !== undefined) {
-        let requestModelMapper = {
-          required: false,
-          serializedName: 'ResourceArray',
-          type: {
-            name: 'Sequence',
-            element: {
-                required: false,
-                serializedName: 'WrappedProductElementType',
-                type: {
-                  name: 'Composite',
-                  className: 'WrappedProduct'
-                }
-            }
-          }
-        };
-        requestModel = client.serializer.serialize(requestModelMapper, resourceArray, 'resourceArray');
-        requestContent = JSON.stringify(requestModel);
-      }
-    } catch (error) {
-      let serializationError = new Error(`Error "${error.message}" occurred in serializing the ` +
-          `payload - ${JSON.stringify(resourceArray, null, 2)}.`);
-      return Promise.reject(serializationError);
-    }
-    httpRequest.body = requestContent;
+    httpRequest.body = resourceArray;
     // Send Request
     let operationRes: msRest.HttpOperationResponse;
     try {
-      operationRes = await client.sendOperationRequest(httpRequest, {
-        httpMethod: "PUT"
-      });
+      let requestModelMapper = {
+        required: false,
+        serializedName: 'ResourceArray',
+        type: {
+          name: 'Sequence',
+          element: {
+              required: false,
+              serializedName: 'WrappedProductElementType',
+              type: {
+                name: 'Composite',
+                className: 'WrappedProduct'
+              }
+          }
+        }
+      };
+      const operationSpec: msRest.OperationSpec = {
+        httpMethod: "PUT",
+        requestBodyMapper: requestModelMapper,
+        isXML: false
+      };
+      operationRes = await client.sendOperationRequest(httpRequest, operationSpec);
       let statusCode = operationRes.status;
       if (statusCode !== 200) {
         let error = new msRest.RestError(operationRes.bodyAsText as string);
@@ -394,9 +376,10 @@ class AutoRestResourceFlatteningTestService extends msRest.ServiceClient {
     // Send Request
     let operationRes: msRest.HttpOperationResponse;
     try {
-      operationRes = await client.sendOperationRequest(httpRequest, {
+      const operationSpec: msRest.OperationSpec = {
         httpMethod: "GET"
-      });
+      };
+      operationRes = await client.sendOperationRequest(httpRequest, operationSpec);
       let statusCode = operationRes.status;
       if (statusCode !== 200) {
         let error = new msRest.RestError(operationRes.bodyAsText as string);
@@ -428,6 +411,7 @@ class AutoRestResourceFlatteningTestService extends msRest.ServiceClient {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
+              xmlName: 'ProductWrapper',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -493,41 +477,31 @@ class AutoRestResourceFlatteningTestService extends msRest.ServiceClient {
         }
       }
     }
-    // Serialize Request
-    let requestContent = null;
-    let requestModel = null;
-    try {
-      if (resourceDictionary !== null && resourceDictionary !== undefined) {
-        let requestModelMapper = {
-          required: false,
-          serializedName: 'ResourceDictionary',
-          type: {
-            name: 'Dictionary',
-            value: {
-                required: false,
-                serializedName: 'FlattenedProductElementType',
-                type: {
-                  name: 'Composite',
-                  className: 'FlattenedProduct'
-                }
-            }
-          }
-        };
-        requestModel = client.serializer.serialize(requestModelMapper, resourceDictionary, 'resourceDictionary');
-        requestContent = JSON.stringify(requestModel);
-      }
-    } catch (error) {
-      let serializationError = new Error(`Error "${error.message}" occurred in serializing the ` +
-          `payload - ${JSON.stringify(resourceDictionary, null, 2)}.`);
-      return Promise.reject(serializationError);
-    }
-    httpRequest.body = requestContent;
+    httpRequest.body = resourceDictionary;
     // Send Request
     let operationRes: msRest.HttpOperationResponse;
     try {
-      operationRes = await client.sendOperationRequest(httpRequest, {
-        httpMethod: "PUT"
-      });
+      let requestModelMapper = {
+        required: false,
+        serializedName: 'ResourceDictionary',
+        type: {
+          name: 'Dictionary',
+          value: {
+              required: false,
+              serializedName: 'FlattenedProductElementType',
+              type: {
+                name: 'Composite',
+                className: 'FlattenedProduct'
+              }
+          }
+        }
+      };
+      const operationSpec: msRest.OperationSpec = {
+        httpMethod: "PUT",
+        requestBodyMapper: requestModelMapper,
+        isXML: false
+      };
+      operationRes = await client.sendOperationRequest(httpRequest, operationSpec);
       let statusCode = operationRes.status;
       if (statusCode !== 200) {
         let error = new msRest.RestError(operationRes.bodyAsText as string);
@@ -596,9 +570,10 @@ class AutoRestResourceFlatteningTestService extends msRest.ServiceClient {
     // Send Request
     let operationRes: msRest.HttpOperationResponse;
     try {
-      operationRes = await client.sendOperationRequest(httpRequest, {
+      const operationSpec: msRest.OperationSpec = {
         httpMethod: "GET"
-      });
+      };
+      operationRes = await client.sendOperationRequest(httpRequest, operationSpec);
       let statusCode = operationRes.status;
       if (statusCode !== 200) {
         let error = new msRest.RestError(operationRes.bodyAsText as string);
@@ -696,27 +671,17 @@ class AutoRestResourceFlatteningTestService extends msRest.ServiceClient {
         }
       }
     }
-    // Serialize Request
-    let requestContent = null;
-    let requestModel = null;
-    try {
-      if (resourceComplexObject !== null && resourceComplexObject !== undefined) {
-        let requestModelMapper = Mappers.ResourceCollection;
-        requestModel = client.serializer.serialize(requestModelMapper, resourceComplexObject, 'resourceComplexObject');
-        requestContent = JSON.stringify(requestModel);
-      }
-    } catch (error) {
-      let serializationError = new Error(`Error "${error.message}" occurred in serializing the ` +
-          `payload - ${JSON.stringify(resourceComplexObject, null, 2)}.`);
-      return Promise.reject(serializationError);
-    }
-    httpRequest.body = requestContent;
+    httpRequest.body = resourceComplexObject;
     // Send Request
     let operationRes: msRest.HttpOperationResponse;
     try {
-      operationRes = await client.sendOperationRequest(httpRequest, {
-        httpMethod: "PUT"
-      });
+      let requestModelMapper = Mappers.ResourceCollection;
+      const operationSpec: msRest.OperationSpec = {
+        httpMethod: "PUT",
+        requestBodyMapper: requestModelMapper,
+        isXML: false
+      };
+      operationRes = await client.sendOperationRequest(httpRequest, operationSpec);
       let statusCode = operationRes.status;
       if (statusCode !== 200) {
         let error = new msRest.RestError(operationRes.bodyAsText as string);
@@ -785,9 +750,10 @@ class AutoRestResourceFlatteningTestService extends msRest.ServiceClient {
     // Send Request
     let operationRes: msRest.HttpOperationResponse;
     try {
-      operationRes = await client.sendOperationRequest(httpRequest, {
+      const operationSpec: msRest.OperationSpec = {
         httpMethod: "GET"
-      });
+      };
+      operationRes = await client.sendOperationRequest(httpRequest, operationSpec);
       let statusCode = operationRes.status;
       if (statusCode !== 200) {
         let error = new msRest.RestError(operationRes.bodyAsText as string);
@@ -870,27 +836,17 @@ class AutoRestResourceFlatteningTestService extends msRest.ServiceClient {
         }
       }
     }
-    // Serialize Request
-    let requestContent = null;
-    let requestModel = null;
-    try {
-      if (simpleBodyProduct !== null && simpleBodyProduct !== undefined) {
-        let requestModelMapper = Mappers.SimpleProduct;
-        requestModel = client.serializer.serialize(requestModelMapper, simpleBodyProduct, 'simpleBodyProduct');
-        requestContent = JSON.stringify(requestModel);
-      }
-    } catch (error) {
-      let serializationError = new Error(`Error "${error.message}" occurred in serializing the ` +
-          `payload - ${JSON.stringify(simpleBodyProduct, null, 2)}.`);
-      return Promise.reject(serializationError);
-    }
-    httpRequest.body = requestContent;
+    httpRequest.body = simpleBodyProduct;
     // Send Request
     let operationRes: msRest.HttpOperationResponse;
     try {
-      operationRes = await client.sendOperationRequest(httpRequest, {
-        httpMethod: "PUT"
-      });
+      let requestModelMapper = Mappers.SimpleProduct;
+      const operationSpec: msRest.OperationSpec = {
+        httpMethod: "PUT",
+        requestBodyMapper: requestModelMapper,
+        isXML: false
+      };
+      operationRes = await client.sendOperationRequest(httpRequest, operationSpec);
       let statusCode = operationRes.status;
       if (statusCode !== 200) {
         let error = new msRest.RestError(operationRes.bodyAsText as string);
@@ -1016,27 +972,17 @@ class AutoRestResourceFlatteningTestService extends msRest.ServiceClient {
         }
       }
     }
-    // Serialize Request
-    let requestContent = null;
-    let requestModel = null;
-    try {
-      if (simpleBodyProduct !== null && simpleBodyProduct !== undefined) {
-        let requestModelMapper = Mappers.SimpleProduct;
-        requestModel = client.serializer.serialize(requestModelMapper, simpleBodyProduct, 'simpleBodyProduct');
-        requestContent = JSON.stringify(requestModel);
-      }
-    } catch (error) {
-      let serializationError = new Error(`Error "${error.message}" occurred in serializing the ` +
-          `payload - ${JSON.stringify(simpleBodyProduct, null, 2)}.`);
-      return Promise.reject(serializationError);
-    }
-    httpRequest.body = requestContent;
+    httpRequest.body = simpleBodyProduct;
     // Send Request
     let operationRes: msRest.HttpOperationResponse;
     try {
-      operationRes = await client.sendOperationRequest(httpRequest, {
-        httpMethod: "POST"
-      });
+      let requestModelMapper = Mappers.SimpleProduct;
+      const operationSpec: msRest.OperationSpec = {
+        httpMethod: "POST",
+        requestBodyMapper: requestModelMapper,
+        isXML: false
+      };
+      operationRes = await client.sendOperationRequest(httpRequest, operationSpec);
       let statusCode = operationRes.status;
       if (statusCode !== 200) {
         let error = new msRest.RestError(operationRes.bodyAsText as string);
@@ -1191,27 +1137,17 @@ class AutoRestResourceFlatteningTestService extends msRest.ServiceClient {
         }
       }
     }
-    // Serialize Request
-    let requestContent = null;
-    let requestModel = null;
-    try {
-      if (simpleBodyProduct !== null && simpleBodyProduct !== undefined) {
-        let requestModelMapper = Mappers.SimpleProduct;
-        requestModel = client.serializer.serialize(requestModelMapper, simpleBodyProduct, 'simpleBodyProduct');
-        requestContent = JSON.stringify(requestModel);
-      }
-    } catch (error) {
-      let serializationError = new Error(`Error "${error.message}" occurred in serializing the ` +
-          `payload - ${JSON.stringify(simpleBodyProduct, null, 2)}.`);
-      return Promise.reject(serializationError);
-    }
-    httpRequest.body = requestContent;
+    httpRequest.body = simpleBodyProduct;
     // Send Request
     let operationRes: msRest.HttpOperationResponse;
     try {
-      operationRes = await client.sendOperationRequest(httpRequest, {
-        httpMethod: "PUT"
-      });
+      let requestModelMapper = Mappers.SimpleProduct;
+      const operationSpec: msRest.OperationSpec = {
+        httpMethod: "PUT",
+        requestBodyMapper: requestModelMapper,
+        isXML: false
+      };
+      operationRes = await client.sendOperationRequest(httpRequest, operationSpec);
       let statusCode = operationRes.status;
       if (statusCode !== 200) {
         let error = new msRest.RestError(operationRes.bodyAsText as string);

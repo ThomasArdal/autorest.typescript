@@ -87,27 +87,17 @@ export class StorageAccounts {
         }
       }
     }
-    // Serialize Request
-    let requestContent = null;
-    let requestModel = null;
-    try {
-      if (accountName !== null && accountName !== undefined) {
-        let requestModelMapper = Mappers.StorageAccountCheckNameAvailabilityParameters;
-        requestModel = client.serializer.serialize(requestModelMapper, accountName, 'accountName');
-        requestContent = JSON.stringify(requestModel);
-      }
-    } catch (error) {
-      let serializationError = new Error(`Error "${error.message}" occurred in serializing the ` +
-          `payload - ${JSON.stringify(accountName, null, 2)}.`);
-      return Promise.reject(serializationError);
-    }
-    httpRequest.body = requestContent;
+    httpRequest.body = accountName;
     // Send Request
     let operationRes: msRest.HttpOperationResponse;
     try {
-      operationRes = await client.sendOperationRequest(httpRequest, {
-        httpMethod: "POST"
-      });
+      let requestModelMapper = Mappers.StorageAccountCheckNameAvailabilityParameters;
+      const operationSpec: msRest.OperationSpec = {
+        httpMethod: "POST",
+        requestBodyMapper: requestModelMapper,
+        isXML: false
+      };
+      operationRes = await client.sendOperationRequest(httpRequest, operationSpec);
       let statusCode = operationRes.status;
       if (statusCode !== 200) {
         let error = new msRest.RestError(operationRes.bodyAsText as string);
@@ -285,9 +275,10 @@ export class StorageAccounts {
     // Send Request
     let operationRes: msRest.HttpOperationResponse;
     try {
-      operationRes = await client.sendOperationRequest(httpRequest, {
+      const operationSpec: msRest.OperationSpec = {
         httpMethod: "DELETE"
-      });
+      };
+      operationRes = await client.sendOperationRequest(httpRequest, operationSpec);
       let statusCode = operationRes.status;
       if (statusCode !== 200 && statusCode !== 204) {
         let error = new msRest.RestError(operationRes.bodyAsText as string);
@@ -393,9 +384,10 @@ export class StorageAccounts {
     // Send Request
     let operationRes: msRest.HttpOperationResponse;
     try {
-      operationRes = await client.sendOperationRequest(httpRequest, {
+      const operationSpec: msRest.OperationSpec = {
         httpMethod: "GET"
-      });
+      };
+      operationRes = await client.sendOperationRequest(httpRequest, operationSpec);
       let statusCode = operationRes.status;
       if (statusCode !== 200) {
         let error = new msRest.RestError(operationRes.bodyAsText as string);
@@ -526,27 +518,17 @@ export class StorageAccounts {
         }
       }
     }
-    // Serialize Request
-    let requestContent = null;
-    let requestModel = null;
-    try {
-      if (parameters !== null && parameters !== undefined) {
-        let requestModelMapper = Mappers.StorageAccountUpdateParameters;
-        requestModel = client.serializer.serialize(requestModelMapper, parameters, 'parameters');
-        requestContent = JSON.stringify(requestModel);
-      }
-    } catch (error) {
-      let serializationError = new Error(`Error "${error.message}" occurred in serializing the ` +
-          `payload - ${JSON.stringify(parameters, null, 2)}.`);
-      return Promise.reject(serializationError);
-    }
-    httpRequest.body = requestContent;
+    httpRequest.body = parameters;
     // Send Request
     let operationRes: msRest.HttpOperationResponse;
     try {
-      operationRes = await client.sendOperationRequest(httpRequest, {
-        httpMethod: "PATCH"
-      });
+      let requestModelMapper = Mappers.StorageAccountUpdateParameters;
+      const operationSpec: msRest.OperationSpec = {
+        httpMethod: "PATCH",
+        requestBodyMapper: requestModelMapper,
+        isXML: false
+      };
+      operationRes = await client.sendOperationRequest(httpRequest, operationSpec);
       let statusCode = operationRes.status;
       if (statusCode !== 200) {
         let error = new msRest.RestError(operationRes.bodyAsText as string);
@@ -663,9 +645,10 @@ export class StorageAccounts {
     // Send Request
     let operationRes: msRest.HttpOperationResponse;
     try {
-      operationRes = await client.sendOperationRequest(httpRequest, {
+      const operationSpec: msRest.OperationSpec = {
         httpMethod: "POST"
-      });
+      };
+      operationRes = await client.sendOperationRequest(httpRequest, operationSpec);
       let statusCode = operationRes.status;
       if (statusCode !== 200) {
         let error = new msRest.RestError(operationRes.bodyAsText as string);
@@ -770,9 +753,10 @@ export class StorageAccounts {
     // Send Request
     let operationRes: msRest.HttpOperationResponse;
     try {
-      operationRes = await client.sendOperationRequest(httpRequest, {
+      const operationSpec: msRest.OperationSpec = {
         httpMethod: "GET"
-      });
+      };
+      operationRes = await client.sendOperationRequest(httpRequest, operationSpec);
       let statusCode = operationRes.status;
       if (statusCode !== 200) {
         let error = new msRest.RestError(operationRes.bodyAsText as string);
@@ -885,9 +869,10 @@ export class StorageAccounts {
     // Send Request
     let operationRes: msRest.HttpOperationResponse;
     try {
-      operationRes = await client.sendOperationRequest(httpRequest, {
+      const operationSpec: msRest.OperationSpec = {
         httpMethod: "GET"
-      });
+      };
+      operationRes = await client.sendOperationRequest(httpRequest, operationSpec);
       let statusCode = operationRes.status;
       if (statusCode !== 200) {
         let error = new msRest.RestError(operationRes.bodyAsText as string);
@@ -1016,27 +1001,17 @@ export class StorageAccounts {
         }
       }
     }
-    // Serialize Request
-    let requestContent = null;
-    let requestModel = null;
-    try {
-      if (regenerateKeyParameter !== null && regenerateKeyParameter !== undefined) {
-        let requestModelMapper = Mappers.StorageAccountRegenerateKeyParameters;
-        requestModel = client.serializer.serialize(requestModelMapper, regenerateKeyParameter, 'regenerateKeyParameter');
-        requestContent = JSON.stringify(requestModel);
-      }
-    } catch (error) {
-      let serializationError = new Error(`Error "${error.message}" occurred in serializing the ` +
-          `payload - ${JSON.stringify(regenerateKeyParameter, null, 2)}.`);
-      return Promise.reject(serializationError);
-    }
-    httpRequest.body = requestContent;
+    httpRequest.body = regenerateKeyParameter;
     // Send Request
     let operationRes: msRest.HttpOperationResponse;
     try {
-      operationRes = await client.sendOperationRequest(httpRequest, {
-        httpMethod: "POST"
-      });
+      let requestModelMapper = Mappers.StorageAccountRegenerateKeyParameters;
+      const operationSpec: msRest.OperationSpec = {
+        httpMethod: "POST",
+        requestBodyMapper: requestModelMapper,
+        isXML: false
+      };
+      operationRes = await client.sendOperationRequest(httpRequest, operationSpec);
       let statusCode = operationRes.status;
       if (statusCode !== 200) {
         let error = new msRest.RestError(operationRes.bodyAsText as string);
@@ -1162,27 +1137,17 @@ export class StorageAccounts {
         }
       }
     }
-    // Serialize Request
-    let requestContent = null;
-    let requestModel = null;
-    try {
-      if (parameters !== null && parameters !== undefined) {
-        let requestModelMapper = Mappers.StorageAccountCreateParameters;
-        requestModel = client.serializer.serialize(requestModelMapper, parameters, 'parameters');
-        requestContent = JSON.stringify(requestModel);
-      }
-    } catch (error) {
-      let serializationError = new Error(`Error "${error.message}" occurred in serializing the ` +
-          `payload - ${JSON.stringify(parameters, null, 2)}.`);
-      return Promise.reject(serializationError);
-    }
-    httpRequest.body = requestContent;
+    httpRequest.body = parameters;
     // Send Request
     let operationRes: msRest.HttpOperationResponse;
     try {
-      operationRes = await client.sendOperationRequest(httpRequest, {
-        httpMethod: "PUT"
-      });
+      let requestModelMapper = Mappers.StorageAccountCreateParameters;
+      const operationSpec: msRest.OperationSpec = {
+        httpMethod: "PUT",
+        requestBodyMapper: requestModelMapper,
+        isXML: false
+      };
+      operationRes = await client.sendOperationRequest(httpRequest, operationSpec);
       let statusCode = operationRes.status;
       if (statusCode !== 200 && statusCode !== 202) {
         let error = new msRest.RestError(operationRes.bodyAsText as string);

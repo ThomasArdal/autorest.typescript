@@ -35,6 +35,7 @@ export const ErrorModel = {
 };
 
 export const AutoRestParameterizedHostTestClientOptions = {
+  xmlName: 'AutoRestParameterizedHostTestClientOptions',
   required: false,
   type: {
     name: 'Composite',

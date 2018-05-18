@@ -390,7 +390,7 @@ namespace AutoRest.TypeScript.Model
             }
             else
             {
-                builder.AppendLine("let resultMapper = {{{0}}};", type.ConstructMapper(responseVariable, null, isPageable: false, expandComposite: false, isXML: CodeModel?.ShouldGenerateXmlSerialization == true));
+                builder.AppendLine("let resultMapper = {{{0}}};", type.ConstructMapper(responseVariable, null, isPageable: false, expandComposite: false, isXML: CodeModel?.ShouldGenerateXmlSerialization == true, xmlName: type.XmlName));
             }
 
             if (CodeModel.ShouldGenerateXmlSerialization && type is SequenceType st)

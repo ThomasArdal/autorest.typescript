@@ -232,7 +232,7 @@ namespace AutoRest.TypeScript.Model
 
         public virtual string ConstructModelMapper()
         {
-            var modelMapper = this.ConstructMapper(SerializedName, null, isPageable: false, expandComposite: true, isXML: CodeModel?.ShouldGenerateXmlSerialization == true);
+            var modelMapper = this.ConstructMapper(SerializedName, null, isPageable: false, expandComposite: true, isXML: CodeModel?.ShouldGenerateXmlSerialization == true, xmlName: XmlName);
             var builder = new IndentedStringBuilder("  ");
             builder.AppendLine("export const {0} = {{{1}}};", Name, modelMapper);
             return builder.ToString();

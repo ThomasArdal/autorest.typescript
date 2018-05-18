@@ -39,6 +39,7 @@ export const ErrorModel = {
 };
 
 export const ParameterGroupingPostRequiredParameters = {
+  xmlName: 'ParameterGroupingPostRequiredParameters',
   required: false,
   type: {
     name: 'Composite',
@@ -74,6 +75,7 @@ export const ParameterGroupingPostRequiredParameters = {
 };
 
 export const ParameterGroupingPostOptionalParameters = {
+  xmlName: 'ParameterGroupingPostOptionalParameters',
   required: false,
   type: {
     name: 'Composite',
@@ -97,6 +99,7 @@ export const ParameterGroupingPostOptionalParameters = {
 };
 
 export const FirstParameterGroup = {
+  xmlName: 'first-parameter-group',
   required: false,
   type: {
     name: 'Composite',
@@ -120,6 +123,7 @@ export const FirstParameterGroup = {
 };
 
 export const ParameterGroupingPostMultiParamGroupsSecondParamGroup = {
+  xmlName: 'ParameterGroupingPostMultiParamGroupsSecond-param-group',
   required: false,
   type: {
     name: 'Composite',
@@ -143,6 +147,7 @@ export const ParameterGroupingPostMultiParamGroupsSecondParamGroup = {
 };
 
 export const ParameterGroupingPostOptionalOptionalParams = {
+  xmlName: 'ParameterGroupingPostOptionalOptionalParams',
   required: false,
   serializedName: 'PostOptionalOptions',
   type: {
@@ -162,6 +167,7 @@ export const ParameterGroupingPostOptionalOptionalParams = {
 };
 
 export const ParameterGroupingPostMultiParamGroupsOptionalParams = {
+  xmlName: 'ParameterGroupingPostMultiParamGroupsOptionalParams',
   required: false,
   serializedName: 'PostMultiParamGroupsOptions',
   type: {
@@ -189,6 +195,7 @@ export const ParameterGroupingPostMultiParamGroupsOptionalParams = {
 };
 
 export const ParameterGroupingPostSharedParameterGroupObjectOptionalParams = {
+  xmlName: 'ParameterGroupingPostSharedParameterGroupObjectOptionalParams',
   required: false,
   serializedName: 'PostSharedParameterGroupObjectOptions',
   type: {

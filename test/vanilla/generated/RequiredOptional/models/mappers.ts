@@ -220,6 +220,7 @@ export const ClassOptionalWrapper = {
 };
 
 export const AutoRestRequiredOptionalTestServiceOptions = {
+  xmlName: 'AutoRestRequiredOptionalTestServiceOptions',
   required: false,
   type: {
     name: 'Composite',
@@ -237,6 +238,7 @@ export const AutoRestRequiredOptionalTestServiceOptions = {
 };
 
 export const ImplicitPutOptionalQueryOptionalParams = {
+  xmlName: 'ImplicitPutOptionalQueryOptionalParams',
   required: false,
   serializedName: 'PutOptionalQueryOptions',
   type: {
@@ -255,6 +257,7 @@ export const ImplicitPutOptionalQueryOptionalParams = {
 };
 
 export const ImplicitPutOptionalHeaderOptionalParams = {
+  xmlName: 'ImplicitPutOptionalHeaderOptionalParams',
   required: false,
   serializedName: 'PutOptionalHeaderOptions',
   type: {
@@ -273,6 +276,7 @@ export const ImplicitPutOptionalHeaderOptionalParams = {
 };
 
 export const ImplicitPutOptionalBodyOptionalParams = {
+  xmlName: 'ImplicitPutOptionalBodyOptionalParams',
   required: false,
   serializedName: 'PutOptionalBodyOptions',
   type: {
@@ -291,6 +295,7 @@ export const ImplicitPutOptionalBodyOptionalParams = {
 };
 
 export const ExplicitPostOptionalIntegerParameterOptionalParams = {
+  xmlName: 'ExplicitPostOptionalIntegerParameterOptionalParams',
   required: false,
   serializedName: 'PostOptionalIntegerParameterOptions',
   type: {
@@ -309,6 +314,7 @@ export const ExplicitPostOptionalIntegerParameterOptionalParams = {
 };
 
 export const ExplicitPostOptionalIntegerPropertyOptionalParams = {
+  xmlName: 'ExplicitPostOptionalIntegerPropertyOptionalParams',
   required: false,
   serializedName: 'PostOptionalIntegerPropertyOptions',
   type: {
@@ -327,6 +333,7 @@ export const ExplicitPostOptionalIntegerPropertyOptionalParams = {
 };
 
 export const ExplicitPostOptionalIntegerHeaderOptionalParams = {
+  xmlName: 'ExplicitPostOptionalIntegerHeaderOptionalParams',
   required: false,
   serializedName: 'PostOptionalIntegerHeaderOptions',
   type: {
@@ -345,6 +352,7 @@ export const ExplicitPostOptionalIntegerHeaderOptionalParams = {
 };
 
 export const ExplicitPostOptionalStringParameterOptionalParams = {
+  xmlName: 'ExplicitPostOptionalStringParameterOptionalParams',
   required: false,
   serializedName: 'PostOptionalStringParameterOptions',
   type: {
@@ -363,6 +371,7 @@ export const ExplicitPostOptionalStringParameterOptionalParams = {
 };
 
 export const ExplicitPostOptionalStringPropertyOptionalParams = {
+  xmlName: 'ExplicitPostOptionalStringPropertyOptionalParams',
   required: false,
   serializedName: 'PostOptionalStringPropertyOptions',
   type: {
@@ -381,6 +390,7 @@ export const ExplicitPostOptionalStringPropertyOptionalParams = {
 };
 
 export const ExplicitPostOptionalStringHeaderOptionalParams = {
+  xmlName: 'ExplicitPostOptionalStringHeaderOptionalParams',
   required: false,
   serializedName: 'PostOptionalStringHeaderOptions',
   type: {
@@ -399,6 +409,7 @@ export const ExplicitPostOptionalStringHeaderOptionalParams = {
 };
 
 export const ExplicitPostOptionalClassParameterOptionalParams = {
+  xmlName: 'ExplicitPostOptionalClassParameterOptionalParams',
   required: false,
   serializedName: 'PostOptionalClassParameterOptions',
   type: {
@@ -418,6 +429,7 @@ export const ExplicitPostOptionalClassParameterOptionalParams = {
 };
 
 export const ExplicitPostOptionalClassPropertyOptionalParams = {
+  xmlName: 'ExplicitPostOptionalClassPropertyOptionalParams',
   required: false,
   serializedName: 'PostOptionalClassPropertyOptions',
   type: {
@@ -437,6 +449,7 @@ export const ExplicitPostOptionalClassPropertyOptionalParams = {
 };
 
 export const ExplicitPostOptionalArrayParameterOptionalParams = {
+  xmlName: 'ExplicitPostOptionalArrayParameterOptionalParams',
   required: false,
   serializedName: 'PostOptionalArrayParameterOptions',
   type: {
@@ -462,6 +475,7 @@ export const ExplicitPostOptionalArrayParameterOptionalParams = {
 };
 
 export const ExplicitPostOptionalArrayPropertyOptionalParams = {
+  xmlName: 'ExplicitPostOptionalArrayPropertyOptionalParams',
   required: false,
   serializedName: 'PostOptionalArrayPropertyOptions',
   type: {
@@ -487,6 +501,7 @@ export const ExplicitPostOptionalArrayPropertyOptionalParams = {
 };
 
 export const ExplicitPostOptionalArrayHeaderOptionalParams = {
+  xmlName: 'ExplicitPostOptionalArrayHeaderOptionalParams',
   required: false,
   serializedName: 'PostOptionalArrayHeaderOptions',
   type: {

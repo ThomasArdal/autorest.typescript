@@ -14,12 +14,12 @@ var dummySubscriptionId = 'a878ae02-6106-429z-9397-58091ee45g98';
 var dummyToken = 'dummy12321343423';
 var credentials = new msRest.TokenCredentials(dummyToken);
 
-var clientOptions: msRestAzure.AzureServiceClientOptions = {};
 var baseUri = 'http://localhost:3000';
 
 describe('typescript', function () {
 
   describe('Swagger LRO Happy BAT', function () {
+    const clientOptions: msRestAzure.AzureServiceClientOptions = {};
     clientOptions.requestOptions = { jar: true } as any;
     clientOptions.requestPolicyCreators = [msRest.exponentialRetryPolicy(3, 0, 0, 0)];
     clientOptions.noRetryPolicy = true;
@@ -391,6 +391,7 @@ describe('typescript', function () {
   });
 
   describe('Swagger LRO Sad BAT', function () {
+    const clientOptions: msRestAzure.AzureServiceClientOptions = {};
     clientOptions.requestOptions = { jar: true } as any;
     clientOptions.requestPolicyCreators = [msRest.exponentialRetryPolicy(3, 0, 0, 0)];
     clientOptions.noRetryPolicy = true;

@@ -35,6 +35,7 @@ export const ErrorModel = {
 };
 
 export const QueriesArrayStringMultiNullOptionalParams = {
+  xmlName: 'QueriesArrayStringMultiNullOptionalParams',
   required: false,
   serializedName: 'ArrayStringMultiNullOptions',
   type: {
@@ -60,6 +61,7 @@ export const QueriesArrayStringMultiNullOptionalParams = {
 };
 
 export const QueriesArrayStringMultiEmptyOptionalParams = {
+  xmlName: 'QueriesArrayStringMultiEmptyOptionalParams',
   required: false,
   serializedName: 'ArrayStringMultiEmptyOptions',
   type: {
@@ -85,6 +87,7 @@ export const QueriesArrayStringMultiEmptyOptionalParams = {
 };
 
 export const QueriesArrayStringMultiValidOptionalParams = {
+  xmlName: 'QueriesArrayStringMultiValidOptionalParams',
   required: false,
   serializedName: 'ArrayStringMultiValidOptions',
   type: {
