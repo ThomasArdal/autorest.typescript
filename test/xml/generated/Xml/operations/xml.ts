@@ -161,6 +161,7 @@ export class Xml {
       const operationSpec: msRest.OperationSpec = {
         httpMethod: "PUT",
         requestBodyMapper: requestModelMapper,
+        requestBodyName: "slideshow",
         isXML: true
       };
       operationRes = await client.sendOperationRequest(httpRequest, operationSpec);
@@ -328,6 +329,7 @@ export class Xml {
       const operationSpec: msRest.OperationSpec = {
         httpMethod: "PUT",
         requestBodyMapper: requestModelMapper,
+        requestBodyName: "wrappedLists",
         isXML: true
       };
       operationRes = await client.sendOperationRequest(httpRequest, operationSpec);
@@ -562,6 +564,7 @@ export class Xml {
       const operationSpec: msRest.OperationSpec = {
         httpMethod: "PUT",
         requestBodyMapper: requestModelMapper,
+        requestBodyName: "slideshow",
         isXML: true
       };
       operationRes = await client.sendOperationRequest(httpRequest, operationSpec);
@@ -725,6 +728,7 @@ export class Xml {
       const operationSpec: msRest.OperationSpec = {
         httpMethod: "PUT",
         requestBodyMapper: requestModelMapper,
+        requestBodyName: "appleBarrel",
         isXML: true
       };
       operationRes = await client.sendOperationRequest(httpRequest, operationSpec);
@@ -911,6 +915,7 @@ export class Xml {
       const operationSpec: msRest.OperationSpec = {
         httpMethod: "PUT",
         requestBodyMapper: requestModelMapper,
+        requestBodyName: "bananas",
         isXML: true
       };
       operationRes = await client.sendOperationRequest(httpRequest, operationSpec);
@@ -1097,6 +1102,7 @@ export class Xml {
       const operationSpec: msRest.OperationSpec = {
         httpMethod: "PUT",
         requestBodyMapper: requestModelMapper,
+        requestBodyName: "bananas",
         isXML: true
       };
       operationRes = await client.sendOperationRequest(httpRequest, operationSpec);
@@ -1283,6 +1289,7 @@ export class Xml {
       const operationSpec: msRest.OperationSpec = {
         httpMethod: "PUT",
         requestBodyMapper: requestModelMapper,
+        requestBodyName: "bananas",
         isXML: true
       };
       operationRes = await client.sendOperationRequest(httpRequest, operationSpec);
@@ -1446,6 +1453,7 @@ export class Xml {
       const operationSpec: msRest.OperationSpec = {
         httpMethod: "PUT",
         requestBodyMapper: requestModelMapper,
+        requestBodyName: "banana",
         isXML: true
       };
       operationRes = await client.sendOperationRequest(httpRequest, operationSpec);
@@ -1701,6 +1709,7 @@ export class Xml {
       const operationSpec: msRest.OperationSpec = {
         httpMethod: "PUT",
         requestBodyMapper: requestModelMapper,
+        requestBodyName: "properties",
         isXML: true
       };
       operationRes = await client.sendOperationRequest(httpRequest, operationSpec);
@@ -1895,6 +1904,7 @@ export class Xml {
       const operationSpec: msRest.OperationSpec = {
         httpMethod: "PUT",
         requestBodyMapper: requestModelMapper,
+        requestBodyName: "properties",
         isXML: true
       };
       operationRes = await client.sendOperationRequest(httpRequest, operationSpec);

@@ -299,6 +299,7 @@ class AzureCompositeModel extends msRestAzure.AzureServiceClient {
       const operationSpec: msRest.OperationSpec = {
         httpMethod: "POST",
         requestBodyMapper: requestModelMapper,
+        requestBodyName: "bodyParameter",
         isXML: false
       };
       operationRes = await client.sendOperationRequest(httpRequest, operationSpec);
@@ -427,6 +428,7 @@ class AzureCompositeModel extends msRestAzure.AzureServiceClient {
       const operationSpec: msRest.OperationSpec = {
         httpMethod: "PUT",
         requestBodyMapper: requestModelMapper,
+        requestBodyName: "bodyParameter",
         isXML: false
       };
       operationRes = await client.sendOperationRequest(httpRequest, operationSpec);

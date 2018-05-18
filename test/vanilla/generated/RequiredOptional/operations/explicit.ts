@@ -82,6 +82,7 @@ export class Explicit {
       const operationSpec: msRest.OperationSpec = {
         httpMethod: "POST",
         requestBodyMapper: requestModelMapper,
+        requestBodyName: "bodyParameter",
         isXML: false
       };
       operationRes = await client.sendOperationRequest(httpRequest, operationSpec);
@@ -185,6 +186,7 @@ export class Explicit {
       const operationSpec: msRest.OperationSpec = {
         httpMethod: "POST",
         requestBodyMapper: requestModelMapper,
+        requestBodyName: "bodyParameter",
         isXML: false
       };
       operationRes = await client.sendOperationRequest(httpRequest, operationSpec);
@@ -277,6 +279,7 @@ export class Explicit {
       const operationSpec: msRest.OperationSpec = {
         httpMethod: "POST",
         requestBodyMapper: requestModelMapper,
+        requestBodyName: "bodyParameter",
         isXML: false
       };
       operationRes = await client.sendOperationRequest(httpRequest, operationSpec);
@@ -380,6 +383,7 @@ export class Explicit {
       const operationSpec: msRest.OperationSpec = {
         httpMethod: "POST",
         requestBodyMapper: requestModelMapper,
+        requestBodyName: "bodyParameter",
         isXML: false
       };
       operationRes = await client.sendOperationRequest(httpRequest, operationSpec);
@@ -654,6 +658,7 @@ export class Explicit {
       const operationSpec: msRest.OperationSpec = {
         httpMethod: "POST",
         requestBodyMapper: requestModelMapper,
+        requestBodyName: "bodyParameter",
         isXML: false
       };
       operationRes = await client.sendOperationRequest(httpRequest, operationSpec);
@@ -757,6 +762,7 @@ export class Explicit {
       const operationSpec: msRest.OperationSpec = {
         httpMethod: "POST",
         requestBodyMapper: requestModelMapper,
+        requestBodyName: "bodyParameter",
         isXML: false
       };
       operationRes = await client.sendOperationRequest(httpRequest, operationSpec);
@@ -849,6 +855,7 @@ export class Explicit {
       const operationSpec: msRest.OperationSpec = {
         httpMethod: "POST",
         requestBodyMapper: requestModelMapper,
+        requestBodyName: "bodyParameter",
         isXML: false
       };
       operationRes = await client.sendOperationRequest(httpRequest, operationSpec);
@@ -952,6 +959,7 @@ export class Explicit {
       const operationSpec: msRest.OperationSpec = {
         httpMethod: "POST",
         requestBodyMapper: requestModelMapper,
+        requestBodyName: "bodyParameter",
         isXML: false
       };
       operationRes = await client.sendOperationRequest(httpRequest, operationSpec);
@@ -1220,6 +1228,7 @@ export class Explicit {
       const operationSpec: msRest.OperationSpec = {
         httpMethod: "POST",
         requestBodyMapper: requestModelMapper,
+        requestBodyName: "bodyParameter",
         isXML: false
       };
       operationRes = await client.sendOperationRequest(httpRequest, operationSpec);
@@ -1309,6 +1318,7 @@ export class Explicit {
       const operationSpec: msRest.OperationSpec = {
         httpMethod: "POST",
         requestBodyMapper: requestModelMapper,
+        requestBodyName: "bodyParameter",
         isXML: false
       };
       operationRes = await client.sendOperationRequest(httpRequest, operationSpec);
@@ -1401,6 +1411,7 @@ export class Explicit {
       const operationSpec: msRest.OperationSpec = {
         httpMethod: "POST",
         requestBodyMapper: requestModelMapper,
+        requestBodyName: "bodyParameter",
         isXML: false
       };
       operationRes = await client.sendOperationRequest(httpRequest, operationSpec);
@@ -1496,6 +1507,7 @@ export class Explicit {
       const operationSpec: msRest.OperationSpec = {
         httpMethod: "POST",
         requestBodyMapper: requestModelMapper,
+        requestBodyName: "bodyParameter",
         isXML: false
       };
       operationRes = await client.sendOperationRequest(httpRequest, operationSpec);
@@ -1600,6 +1612,7 @@ export class Explicit {
       const operationSpec: msRest.OperationSpec = {
         httpMethod: "POST",
         requestBodyMapper: requestModelMapper,
+        requestBodyName: "bodyParameter",
         isXML: false
       };
       operationRes = await client.sendOperationRequest(httpRequest, operationSpec);
@@ -1714,6 +1727,7 @@ export class Explicit {
       const operationSpec: msRest.OperationSpec = {
         httpMethod: "POST",
         requestBodyMapper: requestModelMapper,
+        requestBodyName: "bodyParameter",
         isXML: false
       };
       operationRes = await client.sendOperationRequest(httpRequest, operationSpec);
@@ -1811,6 +1825,7 @@ export class Explicit {
       const operationSpec: msRest.OperationSpec = {
         httpMethod: "POST",
         requestBodyMapper: requestModelMapper,
+        requestBodyName: "bodyParameter",
         isXML: false
       };
       operationRes = await client.sendOperationRequest(httpRequest, operationSpec);
@@ -1918,6 +1933,7 @@ export class Explicit {
       const operationSpec: msRest.OperationSpec = {
         httpMethod: "POST",
         requestBodyMapper: requestModelMapper,
+        requestBodyName: "bodyParameter",
         isXML: false
       };
       operationRes = await client.sendOperationRequest(httpRequest, operationSpec);

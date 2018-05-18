@@ -449,6 +449,7 @@ export class DateModel {
       const operationSpec: msRest.OperationSpec = {
         httpMethod: "PUT",
         requestBodyMapper: requestModelMapper,
+        requestBodyName: "dateBody",
         isXML: false
       };
       operationRes = await client.sendOperationRequest(httpRequest, operationSpec);
@@ -633,6 +634,7 @@ export class DateModel {
       const operationSpec: msRest.OperationSpec = {
         httpMethod: "PUT",
         requestBodyMapper: requestModelMapper,
+        requestBodyName: "dateBody",
         isXML: false
       };
       operationRes = await client.sendOperationRequest(httpRequest, operationSpec);

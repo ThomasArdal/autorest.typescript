@@ -193,6 +193,7 @@ export class Readonlyproperty {
       const operationSpec: msRest.OperationSpec = {
         httpMethod: "PUT",
         requestBodyMapper: requestModelMapper,
+        requestBodyName: "complexBody",
         isXML: false
       };
       operationRes = await client.sendOperationRequest(httpRequest, operationSpec);

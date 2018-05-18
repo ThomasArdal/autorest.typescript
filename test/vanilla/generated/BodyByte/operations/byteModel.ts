@@ -357,6 +357,7 @@ export class ByteModel {
       const operationSpec: msRest.OperationSpec = {
         httpMethod: "PUT",
         requestBodyMapper: requestModelMapper,
+        requestBodyName: "byteBody",
         isXML: false
       };
       operationRes = await client.sendOperationRequest(httpRequest, operationSpec);

@@ -172,6 +172,7 @@ export class String {
       const operationSpec: msRest.OperationSpec = {
         httpMethod: "PUT",
         requestBodyMapper: requestModelMapper,
+        requestBodyName: "stringBody",
         isXML: false
       };
       operationRes = await client.sendOperationRequest(httpRequest, operationSpec);
@@ -355,6 +356,7 @@ export class String {
       const operationSpec: msRest.OperationSpec = {
         httpMethod: "PUT",
         requestBodyMapper: requestModelMapper,
+        requestBodyName: "stringBody",
         isXML: false
       };
       operationRes = await client.sendOperationRequest(httpRequest, operationSpec);
@@ -541,6 +543,7 @@ export class String {
       const operationSpec: msRest.OperationSpec = {
         httpMethod: "PUT",
         requestBodyMapper: requestModelMapper,
+        requestBodyName: "stringBody",
         isXML: false
       };
       operationRes = await client.sendOperationRequest(httpRequest, operationSpec);
@@ -729,6 +732,7 @@ export class String {
       const operationSpec: msRest.OperationSpec = {
         httpMethod: "PUT",
         requestBodyMapper: requestModelMapper,
+        requestBodyName: "stringBody",
         isXML: false
       };
       operationRes = await client.sendOperationRequest(httpRequest, operationSpec);
@@ -1096,6 +1100,7 @@ export class String {
       const operationSpec: msRest.OperationSpec = {
         httpMethod: "PUT",
         requestBodyMapper: requestModelMapper,
+        requestBodyName: "stringBody",
         isXML: false
       };
       operationRes = await client.sendOperationRequest(httpRequest, operationSpec);

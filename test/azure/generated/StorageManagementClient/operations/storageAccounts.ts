@@ -95,6 +95,7 @@ export class StorageAccounts {
       const operationSpec: msRest.OperationSpec = {
         httpMethod: "POST",
         requestBodyMapper: requestModelMapper,
+        requestBodyName: "accountName",
         isXML: false
       };
       operationRes = await client.sendOperationRequest(httpRequest, operationSpec);
@@ -526,6 +527,7 @@ export class StorageAccounts {
       const operationSpec: msRest.OperationSpec = {
         httpMethod: "PATCH",
         requestBodyMapper: requestModelMapper,
+        requestBodyName: "parameters",
         isXML: false
       };
       operationRes = await client.sendOperationRequest(httpRequest, operationSpec);
@@ -1009,6 +1011,7 @@ export class StorageAccounts {
       const operationSpec: msRest.OperationSpec = {
         httpMethod: "POST",
         requestBodyMapper: requestModelMapper,
+        requestBodyName: "regenerateKeyParameter",
         isXML: false
       };
       operationRes = await client.sendOperationRequest(httpRequest, operationSpec);
@@ -1145,6 +1148,7 @@ export class StorageAccounts {
       const operationSpec: msRest.OperationSpec = {
         httpMethod: "PUT",
         requestBodyMapper: requestModelMapper,
+        requestBodyName: "parameters",
         isXML: false
       };
       operationRes = await client.sendOperationRequest(httpRequest, operationSpec);

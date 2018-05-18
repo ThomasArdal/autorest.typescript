@@ -258,6 +258,7 @@ export class LROsCustomHeader {
       const operationSpec: msRest.OperationSpec = {
         httpMethod: "PUT",
         requestBodyMapper: requestModelMapper,
+        requestBodyName: "product",
         isXML: false
       };
       operationRes = await client.sendOperationRequest(httpRequest, operationSpec);
@@ -367,6 +368,7 @@ export class LROsCustomHeader {
       const operationSpec: msRest.OperationSpec = {
         httpMethod: "PUT",
         requestBodyMapper: requestModelMapper,
+        requestBodyName: "product",
         isXML: false
       };
       operationRes = await client.sendOperationRequest(httpRequest, operationSpec);
@@ -490,6 +492,7 @@ export class LROsCustomHeader {
       const operationSpec: msRest.OperationSpec = {
         httpMethod: "POST",
         requestBodyMapper: requestModelMapper,
+        requestBodyName: "product",
         isXML: false
       };
       operationRes = await client.sendOperationRequest(httpRequest, operationSpec);
@@ -584,6 +587,7 @@ export class LROsCustomHeader {
       const operationSpec: msRest.OperationSpec = {
         httpMethod: "POST",
         requestBodyMapper: requestModelMapper,
+        requestBodyName: "product",
         isXML: false
       };
       operationRes = await client.sendOperationRequest(httpRequest, operationSpec);

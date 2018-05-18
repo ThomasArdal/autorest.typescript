@@ -103,6 +103,7 @@ export class AvailabilitySets {
       const operationSpec: msRest.OperationSpec = {
         httpMethod: "PATCH",
         requestBodyMapper: requestModelMapper,
+        requestBodyName: "tags1",
         isXML: false
       };
       operationRes = await client.sendOperationRequest(httpRequest, operationSpec);

@@ -151,6 +151,7 @@ export class HttpRetry {
       const operationSpec: msRest.OperationSpec = {
         httpMethod: "PUT",
         requestBodyMapper: requestModelMapper,
+        requestBodyName: "booleanValue",
         isXML: false
       };
       operationRes = await client.sendOperationRequest(httpRequest, operationSpec);
@@ -241,6 +242,7 @@ export class HttpRetry {
       const operationSpec: msRest.OperationSpec = {
         httpMethod: "PATCH",
         requestBodyMapper: requestModelMapper,
+        requestBodyName: "booleanValue",
         isXML: false
       };
       operationRes = await client.sendOperationRequest(httpRequest, operationSpec);
@@ -402,6 +404,7 @@ export class HttpRetry {
       const operationSpec: msRest.OperationSpec = {
         httpMethod: "POST",
         requestBodyMapper: requestModelMapper,
+        requestBodyName: "booleanValue",
         isXML: false
       };
       operationRes = await client.sendOperationRequest(httpRequest, operationSpec);
@@ -492,6 +495,7 @@ export class HttpRetry {
       const operationSpec: msRest.OperationSpec = {
         httpMethod: "DELETE",
         requestBodyMapper: requestModelMapper,
+        requestBodyName: "booleanValue",
         isXML: false
       };
       operationRes = await client.sendOperationRequest(httpRequest, operationSpec);
@@ -582,6 +586,7 @@ export class HttpRetry {
       const operationSpec: msRest.OperationSpec = {
         httpMethod: "PUT",
         requestBodyMapper: requestModelMapper,
+        requestBodyName: "booleanValue",
         isXML: false
       };
       operationRes = await client.sendOperationRequest(httpRequest, operationSpec);
@@ -672,6 +677,7 @@ export class HttpRetry {
       const operationSpec: msRest.OperationSpec = {
         httpMethod: "PATCH",
         requestBodyMapper: requestModelMapper,
+        requestBodyName: "booleanValue",
         isXML: false
       };
       operationRes = await client.sendOperationRequest(httpRequest, operationSpec);

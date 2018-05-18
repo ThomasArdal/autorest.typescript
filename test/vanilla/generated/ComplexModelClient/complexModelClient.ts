@@ -228,6 +228,7 @@ class ComplexModelClient extends msRest.ServiceClient {
       const operationSpec: msRest.OperationSpec = {
         httpMethod: "POST",
         requestBodyMapper: requestModelMapper,
+        requestBodyName: "bodyParameter",
         isXML: false
       };
       operationRes = await client.sendOperationRequest(httpRequest, operationSpec);
@@ -346,6 +347,7 @@ class ComplexModelClient extends msRest.ServiceClient {
       const operationSpec: msRest.OperationSpec = {
         httpMethod: "PUT",
         requestBodyMapper: requestModelMapper,
+        requestBodyName: "bodyParameter",
         isXML: false
       };
       operationRes = await client.sendOperationRequest(httpRequest, operationSpec);

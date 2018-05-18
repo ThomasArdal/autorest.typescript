@@ -109,6 +109,7 @@ class AutoRestResourceFlatteningTestService extends msRest.ServiceClient {
       const operationSpec: msRest.OperationSpec = {
         httpMethod: "PUT",
         requestBodyMapper: requestModelMapper,
+        requestBodyName: "resourceArray",
         isXML: false
       };
       operationRes = await client.sendOperationRequest(httpRequest, operationSpec);
@@ -303,6 +304,7 @@ class AutoRestResourceFlatteningTestService extends msRest.ServiceClient {
       const operationSpec: msRest.OperationSpec = {
         httpMethod: "PUT",
         requestBodyMapper: requestModelMapper,
+        requestBodyName: "resourceArray",
         isXML: false
       };
       operationRes = await client.sendOperationRequest(httpRequest, operationSpec);
@@ -497,6 +499,7 @@ class AutoRestResourceFlatteningTestService extends msRest.ServiceClient {
       const operationSpec: msRest.OperationSpec = {
         httpMethod: "PUT",
         requestBodyMapper: requestModelMapper,
+        requestBodyName: "resourceDictionary",
         isXML: false
       };
       operationRes = await client.sendOperationRequest(httpRequest, operationSpec);
@@ -677,6 +680,7 @@ class AutoRestResourceFlatteningTestService extends msRest.ServiceClient {
       const operationSpec: msRest.OperationSpec = {
         httpMethod: "PUT",
         requestBodyMapper: requestModelMapper,
+        requestBodyName: "resourceComplexObject",
         isXML: false
       };
       operationRes = await client.sendOperationRequest(httpRequest, operationSpec);
@@ -842,6 +846,7 @@ class AutoRestResourceFlatteningTestService extends msRest.ServiceClient {
       const operationSpec: msRest.OperationSpec = {
         httpMethod: "PUT",
         requestBodyMapper: requestModelMapper,
+        requestBodyName: "simpleBodyProduct",
         isXML: false
       };
       operationRes = await client.sendOperationRequest(httpRequest, operationSpec);
@@ -978,6 +983,7 @@ class AutoRestResourceFlatteningTestService extends msRest.ServiceClient {
       const operationSpec: msRest.OperationSpec = {
         httpMethod: "POST",
         requestBodyMapper: requestModelMapper,
+        requestBodyName: "simpleBodyProduct",
         isXML: false
       };
       operationRes = await client.sendOperationRequest(httpRequest, operationSpec);
@@ -1143,6 +1149,7 @@ class AutoRestResourceFlatteningTestService extends msRest.ServiceClient {
       const operationSpec: msRest.OperationSpec = {
         httpMethod: "PUT",
         requestBodyMapper: requestModelMapper,
+        requestBodyName: "simpleBodyProduct",
         isXML: false
       };
       operationRes = await client.sendOperationRequest(httpRequest, operationSpec);

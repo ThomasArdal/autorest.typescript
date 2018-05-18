@@ -135,6 +135,7 @@ export class ParameterGrouping {
       const operationSpec: msRest.OperationSpec = {
         httpMethod: "POST",
         requestBodyMapper: requestModelMapper,
+        requestBodyName: "body",
         isXML: false
       };
       operationRes = await client.sendOperationRequest(httpRequest, operationSpec);

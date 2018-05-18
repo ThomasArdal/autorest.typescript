@@ -16,6 +16,7 @@ try {
 <text>
     httpMethod: "@(Model.HttpMethod.ToString().ToUpper())",
     requestBodyMapper: requestModelMapper,
+    requestBodyName: "@(Model.RequestBody.Name)",
     isXML: @(Model.CodeModel.ShouldGenerateXmlSerialization.ToString().ToLower())
 </text>
 }

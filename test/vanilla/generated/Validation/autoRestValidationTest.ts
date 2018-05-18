@@ -316,6 +316,7 @@ class AutoRestValidationTest extends msRest.ServiceClient {
       const operationSpec: msRest.OperationSpec = {
         httpMethod: "PUT",
         requestBodyMapper: requestModelMapper,
+        requestBodyName: "body",
         isXML: false
       };
       operationRes = await client.sendOperationRequest(httpRequest, operationSpec);
@@ -477,6 +478,7 @@ class AutoRestValidationTest extends msRest.ServiceClient {
       const operationSpec: msRest.OperationSpec = {
         httpMethod: "POST",
         requestBodyMapper: requestModelMapper,
+        requestBodyName: "body",
         isXML: false
       };
       operationRes = await client.sendOperationRequest(httpRequest, operationSpec);
