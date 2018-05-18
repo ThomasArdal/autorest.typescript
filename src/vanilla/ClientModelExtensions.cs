@@ -677,7 +677,8 @@ namespace AutoRest.TypeScript
 
             builder.AppendLine("").Indent();
 
-            if (!string.IsNullOrEmpty(xmlName) && serializedName != xmlName)
+            bool wroteXmlName = isXML && !string.IsNullOrEmpty(xmlName) && xmlName != serializedName;
+            if (wroteXmlName)
             {
                 builder.AppendLine($"xmlName: '{xmlName}',");
             }
@@ -698,7 +699,7 @@ namespace AutoRest.TypeScript
                         builder.AppendLine("xmlIsWrapped: true,");
                     }
 
-                    if (string.IsNullOrEmpty(xmlName) && !string.IsNullOrEmpty(property.XmlName))
+                    if (!wroteXmlName && !string.IsNullOrEmpty(property.XmlName))
                     {
                         builder.AppendLine($"xmlName: '{property.XmlName}',");
                     }

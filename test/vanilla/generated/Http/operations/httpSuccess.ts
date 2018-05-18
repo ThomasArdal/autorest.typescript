@@ -166,7 +166,6 @@ export class HttpSuccess {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'Boolean',
               required: false,
               serializedName: 'parsedResponse',
               type: {

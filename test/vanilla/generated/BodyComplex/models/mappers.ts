@@ -573,7 +573,6 @@ export const Sawshark = {
 };
 
 export const Goblinshark = {
-  xmlName: 'goblinshark',
   required: false,
   serializedName: 'goblin',
   type: {
@@ -1065,7 +1064,6 @@ export const ReadonlyObj = {
 };
 
 export const PrimitivePutDurationOptionalParams = {
-  xmlName: 'PrimitivePutDurationOptionalParams',
   required: false,
   serializedName: 'PutDurationOptions',
   type: {
@@ -1084,7 +1082,6 @@ export const PrimitivePutDurationOptionalParams = {
 };
 
 export const PrimitivePutByteOptionalParams = {
-  xmlName: 'PrimitivePutByteOptionalParams',
   required: false,
   serializedName: 'PutByteOptions',
   type: {
@@ -1103,7 +1100,6 @@ export const PrimitivePutByteOptionalParams = {
 };
 
 export const ArrayModelPutValidOptionalParams = {
-  xmlName: 'ArrayModelPutValidOptionalParams',
   required: false,
   serializedName: 'PutValidOptions',
   type: {
@@ -1129,7 +1125,6 @@ export const ArrayModelPutValidOptionalParams = {
 };
 
 export const ArrayModelPutEmptyOptionalParams = {
-  xmlName: 'ArrayModelPutEmptyOptionalParams',
   required: false,
   serializedName: 'PutEmptyOptions',
   type: {
@@ -1155,7 +1150,6 @@ export const ArrayModelPutEmptyOptionalParams = {
 };
 
 export const DictionaryPutValidOptionalParams = {
-  xmlName: 'DictionaryPutValidOptionalParams',
   required: false,
   serializedName: 'PutValidOptions',
   type: {
@@ -1181,7 +1175,6 @@ export const DictionaryPutValidOptionalParams = {
 };
 
 export const DictionaryPutEmptyOptionalParams = {
-  xmlName: 'DictionaryPutEmptyOptionalParams',
   required: false,
   serializedName: 'PutEmptyOptions',
   type: {
@@ -1207,7 +1200,6 @@ export const DictionaryPutEmptyOptionalParams = {
 };
 
 export const ReadonlypropertyPutValidOptionalParams = {
-  xmlName: 'ReadonlypropertyPutValidOptionalParams',
   required: false,
   serializedName: 'PutValidOptions',
   type: {

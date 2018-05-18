@@ -276,7 +276,6 @@ class AutoRestResourceFlatteningTestService extends msRestAzure.AzureServiceClie
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'FlattenedProduct',
               required: false,
               serializedName: 'parsedResponse',
               type: {

@@ -94,7 +94,6 @@ export class ByteModel {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'ByteArray',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -187,7 +186,6 @@ export class ByteModel {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'ByteArray',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -280,7 +278,6 @@ export class ByteModel {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'ByteArray',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -465,7 +462,6 @@ export class ByteModel {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'ByteArray',
               required: false,
               serializedName: 'parsedResponse',
               type: {

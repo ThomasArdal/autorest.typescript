@@ -94,7 +94,6 @@ export class HttpFailure {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'Boolean',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -183,7 +182,6 @@ export class HttpFailure {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'Boolean',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -272,7 +270,6 @@ export class HttpFailure {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'Boolean',
               required: false,
               serializedName: 'parsedResponse',
               type: {

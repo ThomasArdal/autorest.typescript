@@ -270,7 +270,6 @@ export const OperationResult = {
 };
 
 export const LROsPut200SucceededOptionalParams = {
-  xmlName: 'LROsPut200SucceededOptionalParams',
   required: false,
   serializedName: 'Put200SucceededOptions',
   type: {
@@ -290,7 +289,6 @@ export const LROsPut200SucceededOptionalParams = {
 };
 
 export const LROsPut200SucceededNoStateOptionalParams = {
-  xmlName: 'LROsPut200SucceededNoStateOptionalParams',
   required: false,
   serializedName: 'Put200SucceededNoStateOptions',
   type: {
@@ -310,7 +308,6 @@ export const LROsPut200SucceededNoStateOptionalParams = {
 };
 
 export const LROsPut202Retry200OptionalParams = {
-  xmlName: 'LROsPut202Retry200OptionalParams',
   required: false,
   serializedName: 'Put202Retry200Options',
   type: {
@@ -330,7 +327,6 @@ export const LROsPut202Retry200OptionalParams = {
 };
 
 export const LROsPut201CreatingSucceeded200OptionalParams = {
-  xmlName: 'LROsPut201CreatingSucceeded200OptionalParams',
   required: false,
   serializedName: 'Put201CreatingSucceeded200Options',
   type: {
@@ -350,7 +346,6 @@ export const LROsPut201CreatingSucceeded200OptionalParams = {
 };
 
 export const LROsPut200UpdatingSucceeded204OptionalParams = {
-  xmlName: 'LROsPut200UpdatingSucceeded204OptionalParams',
   required: false,
   serializedName: 'Put200UpdatingSucceeded204Options',
   type: {
@@ -370,7 +365,6 @@ export const LROsPut200UpdatingSucceeded204OptionalParams = {
 };
 
 export const LROsPut201CreatingFailed200OptionalParams = {
-  xmlName: 'LROsPut201CreatingFailed200OptionalParams',
   required: false,
   serializedName: 'Put201CreatingFailed200Options',
   type: {
@@ -390,7 +384,6 @@ export const LROsPut201CreatingFailed200OptionalParams = {
 };
 
 export const LROsPut200Acceptedcanceled200OptionalParams = {
-  xmlName: 'LROsPut200Acceptedcanceled200OptionalParams',
   required: false,
   serializedName: 'Put200Acceptedcanceled200Options',
   type: {
@@ -410,7 +403,6 @@ export const LROsPut200Acceptedcanceled200OptionalParams = {
 };
 
 export const LROsPutNoHeaderInRetryOptionalParams = {
-  xmlName: 'LROsPutNoHeaderInRetryOptionalParams',
   required: false,
   serializedName: 'PutNoHeaderInRetryOptions',
   type: {
@@ -430,7 +422,6 @@ export const LROsPutNoHeaderInRetryOptionalParams = {
 };
 
 export const LROsPutAsyncRetrySucceededOptionalParams = {
-  xmlName: 'LROsPutAsyncRetrySucceededOptionalParams',
   required: false,
   serializedName: 'PutAsyncRetrySucceededOptions',
   type: {
@@ -450,7 +441,6 @@ export const LROsPutAsyncRetrySucceededOptionalParams = {
 };
 
 export const LROsPutAsyncNoRetrySucceededOptionalParams = {
-  xmlName: 'LROsPutAsyncNoRetrySucceededOptionalParams',
   required: false,
   serializedName: 'PutAsyncNoRetrySucceededOptions',
   type: {
@@ -470,7 +460,6 @@ export const LROsPutAsyncNoRetrySucceededOptionalParams = {
 };
 
 export const LROsPutAsyncRetryFailedOptionalParams = {
-  xmlName: 'LROsPutAsyncRetryFailedOptionalParams',
   required: false,
   serializedName: 'PutAsyncRetryFailedOptions',
   type: {
@@ -490,7 +479,6 @@ export const LROsPutAsyncRetryFailedOptionalParams = {
 };
 
 export const LROsPutAsyncNoRetrycanceledOptionalParams = {
-  xmlName: 'LROsPutAsyncNoRetrycanceledOptionalParams',
   required: false,
   serializedName: 'PutAsyncNoRetrycanceledOptions',
   type: {
@@ -510,7 +498,6 @@ export const LROsPutAsyncNoRetrycanceledOptionalParams = {
 };
 
 export const LROsPutAsyncNoHeaderInRetryOptionalParams = {
-  xmlName: 'LROsPutAsyncNoHeaderInRetryOptionalParams',
   required: false,
   serializedName: 'PutAsyncNoHeaderInRetryOptions',
   type: {
@@ -530,7 +517,6 @@ export const LROsPutAsyncNoHeaderInRetryOptionalParams = {
 };
 
 export const LROsPutNonResourceOptionalParams = {
-  xmlName: 'LROsPutNonResourceOptionalParams',
   required: false,
   serializedName: 'PutNonResourceOptions',
   type: {
@@ -550,7 +536,6 @@ export const LROsPutNonResourceOptionalParams = {
 };
 
 export const LROsPutAsyncNonResourceOptionalParams = {
-  xmlName: 'LROsPutAsyncNonResourceOptionalParams',
   required: false,
   serializedName: 'PutAsyncNonResourceOptions',
   type: {
@@ -570,7 +555,6 @@ export const LROsPutAsyncNonResourceOptionalParams = {
 };
 
 export const LROsPutSubResourceOptionalParams = {
-  xmlName: 'LROsPutSubResourceOptionalParams',
   required: false,
   serializedName: 'PutSubResourceOptions',
   type: {
@@ -589,7 +573,6 @@ export const LROsPutSubResourceOptionalParams = {
 };
 
 export const LROsPutAsyncSubResourceOptionalParams = {
-  xmlName: 'LROsPutAsyncSubResourceOptionalParams',
   required: false,
   serializedName: 'PutAsyncSubResourceOptions',
   type: {
@@ -608,7 +591,6 @@ export const LROsPutAsyncSubResourceOptionalParams = {
 };
 
 export const LROsPost202Retry200OptionalParams = {
-  xmlName: 'LROsPost202Retry200OptionalParams',
   required: false,
   serializedName: 'Post202Retry200Options',
   type: {
@@ -628,7 +610,6 @@ export const LROsPost202Retry200OptionalParams = {
 };
 
 export const LROsPost202NoRetry204OptionalParams = {
-  xmlName: 'LROsPost202NoRetry204OptionalParams',
   required: false,
   serializedName: 'Post202NoRetry204Options',
   type: {
@@ -648,7 +629,6 @@ export const LROsPost202NoRetry204OptionalParams = {
 };
 
 export const LROsPostAsyncRetrySucceededOptionalParams = {
-  xmlName: 'LROsPostAsyncRetrySucceededOptionalParams',
   required: false,
   serializedName: 'PostAsyncRetrySucceededOptions',
   type: {
@@ -668,7 +648,6 @@ export const LROsPostAsyncRetrySucceededOptionalParams = {
 };
 
 export const LROsPostAsyncNoRetrySucceededOptionalParams = {
-  xmlName: 'LROsPostAsyncNoRetrySucceededOptionalParams',
   required: false,
   serializedName: 'PostAsyncNoRetrySucceededOptions',
   type: {
@@ -688,7 +667,6 @@ export const LROsPostAsyncNoRetrySucceededOptionalParams = {
 };
 
 export const LROsPostAsyncRetryFailedOptionalParams = {
-  xmlName: 'LROsPostAsyncRetryFailedOptionalParams',
   required: false,
   serializedName: 'PostAsyncRetryFailedOptions',
   type: {
@@ -708,7 +686,6 @@ export const LROsPostAsyncRetryFailedOptionalParams = {
 };
 
 export const LROsPostAsyncRetrycanceledOptionalParams = {
-  xmlName: 'LROsPostAsyncRetrycanceledOptionalParams',
   required: false,
   serializedName: 'PostAsyncRetrycanceledOptions',
   type: {
@@ -728,7 +705,6 @@ export const LROsPostAsyncRetrycanceledOptionalParams = {
 };
 
 export const LROsBeginPut200SucceededOptionalParams = {
-  xmlName: 'LROsBeginPut200SucceededOptionalParams',
   required: false,
   serializedName: 'BeginPut200SucceededOptions',
   type: {
@@ -748,7 +724,6 @@ export const LROsBeginPut200SucceededOptionalParams = {
 };
 
 export const LROsBeginPut200SucceededNoStateOptionalParams = {
-  xmlName: 'LROsBeginPut200SucceededNoStateOptionalParams',
   required: false,
   serializedName: 'BeginPut200SucceededNoStateOptions',
   type: {
@@ -768,7 +743,6 @@ export const LROsBeginPut200SucceededNoStateOptionalParams = {
 };
 
 export const LROsBeginPut202Retry200OptionalParams = {
-  xmlName: 'LROsBeginPut202Retry200OptionalParams',
   required: false,
   serializedName: 'BeginPut202Retry200Options',
   type: {
@@ -788,7 +762,6 @@ export const LROsBeginPut202Retry200OptionalParams = {
 };
 
 export const LROsBeginPut201CreatingSucceeded200OptionalParams = {
-  xmlName: 'LROsBeginPut201CreatingSucceeded200OptionalParams',
   required: false,
   serializedName: 'BeginPut201CreatingSucceeded200Options',
   type: {
@@ -808,7 +781,6 @@ export const LROsBeginPut201CreatingSucceeded200OptionalParams = {
 };
 
 export const LROsBeginPut200UpdatingSucceeded204OptionalParams = {
-  xmlName: 'LROsBeginPut200UpdatingSucceeded204OptionalParams',
   required: false,
   serializedName: 'BeginPut200UpdatingSucceeded204Options',
   type: {
@@ -828,7 +800,6 @@ export const LROsBeginPut200UpdatingSucceeded204OptionalParams = {
 };
 
 export const LROsBeginPut201CreatingFailed200OptionalParams = {
-  xmlName: 'LROsBeginPut201CreatingFailed200OptionalParams',
   required: false,
   serializedName: 'BeginPut201CreatingFailed200Options',
   type: {
@@ -848,7 +819,6 @@ export const LROsBeginPut201CreatingFailed200OptionalParams = {
 };
 
 export const LROsBeginPut200Acceptedcanceled200OptionalParams = {
-  xmlName: 'LROsBeginPut200Acceptedcanceled200OptionalParams',
   required: false,
   serializedName: 'BeginPut200Acceptedcanceled200Options',
   type: {
@@ -868,7 +838,6 @@ export const LROsBeginPut200Acceptedcanceled200OptionalParams = {
 };
 
 export const LROsBeginPutNoHeaderInRetryOptionalParams = {
-  xmlName: 'LROsBeginPutNoHeaderInRetryOptionalParams',
   required: false,
   serializedName: 'BeginPutNoHeaderInRetryOptions',
   type: {
@@ -888,7 +857,6 @@ export const LROsBeginPutNoHeaderInRetryOptionalParams = {
 };
 
 export const LROsBeginPutAsyncRetrySucceededOptionalParams = {
-  xmlName: 'LROsBeginPutAsyncRetrySucceededOptionalParams',
   required: false,
   serializedName: 'BeginPutAsyncRetrySucceededOptions',
   type: {
@@ -908,7 +876,6 @@ export const LROsBeginPutAsyncRetrySucceededOptionalParams = {
 };
 
 export const LROsBeginPutAsyncNoRetrySucceededOptionalParams = {
-  xmlName: 'LROsBeginPutAsyncNoRetrySucceededOptionalParams',
   required: false,
   serializedName: 'BeginPutAsyncNoRetrySucceededOptions',
   type: {
@@ -928,7 +895,6 @@ export const LROsBeginPutAsyncNoRetrySucceededOptionalParams = {
 };
 
 export const LROsBeginPutAsyncRetryFailedOptionalParams = {
-  xmlName: 'LROsBeginPutAsyncRetryFailedOptionalParams',
   required: false,
   serializedName: 'BeginPutAsyncRetryFailedOptions',
   type: {
@@ -948,7 +914,6 @@ export const LROsBeginPutAsyncRetryFailedOptionalParams = {
 };
 
 export const LROsBeginPutAsyncNoRetrycanceledOptionalParams = {
-  xmlName: 'LROsBeginPutAsyncNoRetrycanceledOptionalParams',
   required: false,
   serializedName: 'BeginPutAsyncNoRetrycanceledOptions',
   type: {
@@ -968,7 +933,6 @@ export const LROsBeginPutAsyncNoRetrycanceledOptionalParams = {
 };
 
 export const LROsBeginPutAsyncNoHeaderInRetryOptionalParams = {
-  xmlName: 'LROsBeginPutAsyncNoHeaderInRetryOptionalParams',
   required: false,
   serializedName: 'BeginPutAsyncNoHeaderInRetryOptions',
   type: {
@@ -988,7 +952,6 @@ export const LROsBeginPutAsyncNoHeaderInRetryOptionalParams = {
 };
 
 export const LROsBeginPutNonResourceOptionalParams = {
-  xmlName: 'LROsBeginPutNonResourceOptionalParams',
   required: false,
   serializedName: 'BeginPutNonResourceOptions',
   type: {
@@ -1008,7 +971,6 @@ export const LROsBeginPutNonResourceOptionalParams = {
 };
 
 export const LROsBeginPutAsyncNonResourceOptionalParams = {
-  xmlName: 'LROsBeginPutAsyncNonResourceOptionalParams',
   required: false,
   serializedName: 'BeginPutAsyncNonResourceOptions',
   type: {
@@ -1028,7 +990,6 @@ export const LROsBeginPutAsyncNonResourceOptionalParams = {
 };
 
 export const LROsBeginPutSubResourceOptionalParams = {
-  xmlName: 'LROsBeginPutSubResourceOptionalParams',
   required: false,
   serializedName: 'BeginPutSubResourceOptions',
   type: {
@@ -1047,7 +1008,6 @@ export const LROsBeginPutSubResourceOptionalParams = {
 };
 
 export const LROsBeginPutAsyncSubResourceOptionalParams = {
-  xmlName: 'LROsBeginPutAsyncSubResourceOptionalParams',
   required: false,
   serializedName: 'BeginPutAsyncSubResourceOptions',
   type: {
@@ -1066,7 +1026,6 @@ export const LROsBeginPutAsyncSubResourceOptionalParams = {
 };
 
 export const LROsBeginPost202Retry200OptionalParams = {
-  xmlName: 'LROsBeginPost202Retry200OptionalParams',
   required: false,
   serializedName: 'BeginPost202Retry200Options',
   type: {
@@ -1086,7 +1045,6 @@ export const LROsBeginPost202Retry200OptionalParams = {
 };
 
 export const LROsBeginPost202NoRetry204OptionalParams = {
-  xmlName: 'LROsBeginPost202NoRetry204OptionalParams',
   required: false,
   serializedName: 'BeginPost202NoRetry204Options',
   type: {
@@ -1106,7 +1064,6 @@ export const LROsBeginPost202NoRetry204OptionalParams = {
 };
 
 export const LROsBeginPostAsyncRetrySucceededOptionalParams = {
-  xmlName: 'LROsBeginPostAsyncRetrySucceededOptionalParams',
   required: false,
   serializedName: 'BeginPostAsyncRetrySucceededOptions',
   type: {
@@ -1126,7 +1083,6 @@ export const LROsBeginPostAsyncRetrySucceededOptionalParams = {
 };
 
 export const LROsBeginPostAsyncNoRetrySucceededOptionalParams = {
-  xmlName: 'LROsBeginPostAsyncNoRetrySucceededOptionalParams',
   required: false,
   serializedName: 'BeginPostAsyncNoRetrySucceededOptions',
   type: {
@@ -1146,7 +1102,6 @@ export const LROsBeginPostAsyncNoRetrySucceededOptionalParams = {
 };
 
 export const LROsBeginPostAsyncRetryFailedOptionalParams = {
-  xmlName: 'LROsBeginPostAsyncRetryFailedOptionalParams',
   required: false,
   serializedName: 'BeginPostAsyncRetryFailedOptions',
   type: {
@@ -1166,7 +1121,6 @@ export const LROsBeginPostAsyncRetryFailedOptionalParams = {
 };
 
 export const LROsBeginPostAsyncRetrycanceledOptionalParams = {
-  xmlName: 'LROsBeginPostAsyncRetrycanceledOptionalParams',
   required: false,
   serializedName: 'BeginPostAsyncRetrycanceledOptions',
   type: {
@@ -1186,7 +1140,6 @@ export const LROsBeginPostAsyncRetrycanceledOptionalParams = {
 };
 
 export const LRORetrysPut201CreatingSucceeded200OptionalParams = {
-  xmlName: 'LRORetrysPut201CreatingSucceeded200OptionalParams',
   required: false,
   serializedName: 'Put201CreatingSucceeded200Options',
   type: {
@@ -1206,7 +1159,6 @@ export const LRORetrysPut201CreatingSucceeded200OptionalParams = {
 };
 
 export const LRORetrysPutAsyncRelativeRetrySucceededOptionalParams = {
-  xmlName: 'LRORetrysPutAsyncRelativeRetrySucceededOptionalParams',
   required: false,
   serializedName: 'PutAsyncRelativeRetrySucceededOptions',
   type: {
@@ -1226,7 +1178,6 @@ export const LRORetrysPutAsyncRelativeRetrySucceededOptionalParams = {
 };
 
 export const LRORetrysPost202Retry200OptionalParams = {
-  xmlName: 'LRORetrysPost202Retry200OptionalParams',
   required: false,
   serializedName: 'Post202Retry200Options',
   type: {
@@ -1246,7 +1197,6 @@ export const LRORetrysPost202Retry200OptionalParams = {
 };
 
 export const LRORetrysPostAsyncRelativeRetrySucceededOptionalParams = {
-  xmlName: 'LRORetrysPostAsyncRelativeRetrySucceededOptionalParams',
   required: false,
   serializedName: 'PostAsyncRelativeRetrySucceededOptions',
   type: {
@@ -1266,7 +1216,6 @@ export const LRORetrysPostAsyncRelativeRetrySucceededOptionalParams = {
 };
 
 export const LRORetrysBeginPut201CreatingSucceeded200OptionalParams = {
-  xmlName: 'LRORetrysBeginPut201CreatingSucceeded200OptionalParams',
   required: false,
   serializedName: 'BeginPut201CreatingSucceeded200Options',
   type: {
@@ -1286,7 +1235,6 @@ export const LRORetrysBeginPut201CreatingSucceeded200OptionalParams = {
 };
 
 export const LRORetrysBeginPutAsyncRelativeRetrySucceededOptionalParams = {
-  xmlName: 'LRORetrysBeginPutAsyncRelativeRetrySucceededOptionalParams',
   required: false,
   serializedName: 'BeginPutAsyncRelativeRetrySucceededOptions',
   type: {
@@ -1306,7 +1254,6 @@ export const LRORetrysBeginPutAsyncRelativeRetrySucceededOptionalParams = {
 };
 
 export const LRORetrysBeginPost202Retry200OptionalParams = {
-  xmlName: 'LRORetrysBeginPost202Retry200OptionalParams',
   required: false,
   serializedName: 'BeginPost202Retry200Options',
   type: {
@@ -1326,7 +1273,6 @@ export const LRORetrysBeginPost202Retry200OptionalParams = {
 };
 
 export const LRORetrysBeginPostAsyncRelativeRetrySucceededOptionalParams = {
-  xmlName: 'LRORetrysBeginPostAsyncRelativeRetrySucceededOptionalParams',
   required: false,
   serializedName: 'BeginPostAsyncRelativeRetrySucceededOptions',
   type: {
@@ -1346,7 +1292,6 @@ export const LRORetrysBeginPostAsyncRelativeRetrySucceededOptionalParams = {
 };
 
 export const LROSADsPutNonRetry400OptionalParams = {
-  xmlName: 'LROSADsPutNonRetry400OptionalParams',
   required: false,
   serializedName: 'PutNonRetry400Options',
   type: {
@@ -1366,7 +1311,6 @@ export const LROSADsPutNonRetry400OptionalParams = {
 };
 
 export const LROSADsPutNonRetry201Creating400OptionalParams = {
-  xmlName: 'LROSADsPutNonRetry201Creating400OptionalParams',
   required: false,
   serializedName: 'PutNonRetry201Creating400Options',
   type: {
@@ -1386,7 +1330,6 @@ export const LROSADsPutNonRetry201Creating400OptionalParams = {
 };
 
 export const LROSADsPutNonRetry201Creating400InvalidJsonOptionalParams = {
-  xmlName: 'LROSADsPutNonRetry201Creating400InvalidJsonOptionalParams',
   required: false,
   serializedName: 'PutNonRetry201Creating400InvalidJsonOptions',
   type: {
@@ -1406,7 +1349,6 @@ export const LROSADsPutNonRetry201Creating400InvalidJsonOptionalParams = {
 };
 
 export const LROSADsPutAsyncRelativeRetry400OptionalParams = {
-  xmlName: 'LROSADsPutAsyncRelativeRetry400OptionalParams',
   required: false,
   serializedName: 'PutAsyncRelativeRetry400Options',
   type: {
@@ -1426,7 +1368,6 @@ export const LROSADsPutAsyncRelativeRetry400OptionalParams = {
 };
 
 export const LROSADsPostNonRetry400OptionalParams = {
-  xmlName: 'LROSADsPostNonRetry400OptionalParams',
   required: false,
   serializedName: 'PostNonRetry400Options',
   type: {
@@ -1446,7 +1387,6 @@ export const LROSADsPostNonRetry400OptionalParams = {
 };
 
 export const LROSADsPost202NonRetry400OptionalParams = {
-  xmlName: 'LROSADsPost202NonRetry400OptionalParams',
   required: false,
   serializedName: 'Post202NonRetry400Options',
   type: {
@@ -1466,7 +1406,6 @@ export const LROSADsPost202NonRetry400OptionalParams = {
 };
 
 export const LROSADsPostAsyncRelativeRetry400OptionalParams = {
-  xmlName: 'LROSADsPostAsyncRelativeRetry400OptionalParams',
   required: false,
   serializedName: 'PostAsyncRelativeRetry400Options',
   type: {
@@ -1486,7 +1425,6 @@ export const LROSADsPostAsyncRelativeRetry400OptionalParams = {
 };
 
 export const LROSADsPutError201NoProvisioningStatePayloadOptionalParams = {
-  xmlName: 'LROSADsPutError201NoProvisioningStatePayloadOptionalParams',
   required: false,
   serializedName: 'PutError201NoProvisioningStatePayloadOptions',
   type: {
@@ -1506,7 +1444,6 @@ export const LROSADsPutError201NoProvisioningStatePayloadOptionalParams = {
 };
 
 export const LROSADsPutAsyncRelativeRetryNoStatusOptionalParams = {
-  xmlName: 'LROSADsPutAsyncRelativeRetryNoStatusOptionalParams',
   required: false,
   serializedName: 'PutAsyncRelativeRetryNoStatusOptions',
   type: {
@@ -1526,7 +1463,6 @@ export const LROSADsPutAsyncRelativeRetryNoStatusOptionalParams = {
 };
 
 export const LROSADsPutAsyncRelativeRetryNoStatusPayloadOptionalParams = {
-  xmlName: 'LROSADsPutAsyncRelativeRetryNoStatusPayloadOptionalParams',
   required: false,
   serializedName: 'PutAsyncRelativeRetryNoStatusPayloadOptions',
   type: {
@@ -1546,7 +1482,6 @@ export const LROSADsPutAsyncRelativeRetryNoStatusPayloadOptionalParams = {
 };
 
 export const LROSADsPost202NoLocationOptionalParams = {
-  xmlName: 'LROSADsPost202NoLocationOptionalParams',
   required: false,
   serializedName: 'Post202NoLocationOptions',
   type: {
@@ -1566,7 +1501,6 @@ export const LROSADsPost202NoLocationOptionalParams = {
 };
 
 export const LROSADsPostAsyncRelativeRetryNoPayloadOptionalParams = {
-  xmlName: 'LROSADsPostAsyncRelativeRetryNoPayloadOptionalParams',
   required: false,
   serializedName: 'PostAsyncRelativeRetryNoPayloadOptions',
   type: {
@@ -1586,7 +1520,6 @@ export const LROSADsPostAsyncRelativeRetryNoPayloadOptionalParams = {
 };
 
 export const LROSADsPut200InvalidJsonOptionalParams = {
-  xmlName: 'LROSADsPut200InvalidJsonOptionalParams',
   required: false,
   serializedName: 'Put200InvalidJsonOptions',
   type: {
@@ -1606,7 +1539,6 @@ export const LROSADsPut200InvalidJsonOptionalParams = {
 };
 
 export const LROSADsPutAsyncRelativeRetryInvalidHeaderOptionalParams = {
-  xmlName: 'LROSADsPutAsyncRelativeRetryInvalidHeaderOptionalParams',
   required: false,
   serializedName: 'PutAsyncRelativeRetryInvalidHeaderOptions',
   type: {
@@ -1626,7 +1558,6 @@ export const LROSADsPutAsyncRelativeRetryInvalidHeaderOptionalParams = {
 };
 
 export const LROSADsPutAsyncRelativeRetryInvalidJsonPollingOptionalParams = {
-  xmlName: 'LROSADsPutAsyncRelativeRetryInvalidJsonPollingOptionalParams',
   required: false,
   serializedName: 'PutAsyncRelativeRetryInvalidJsonPollingOptions',
   type: {
@@ -1646,7 +1577,6 @@ export const LROSADsPutAsyncRelativeRetryInvalidJsonPollingOptionalParams = {
 };
 
 export const LROSADsPost202RetryInvalidHeaderOptionalParams = {
-  xmlName: 'LROSADsPost202RetryInvalidHeaderOptionalParams',
   required: false,
   serializedName: 'Post202RetryInvalidHeaderOptions',
   type: {
@@ -1666,7 +1596,6 @@ export const LROSADsPost202RetryInvalidHeaderOptionalParams = {
 };
 
 export const LROSADsPostAsyncRelativeRetryInvalidHeaderOptionalParams = {
-  xmlName: 'LROSADsPostAsyncRelativeRetryInvalidHeaderOptionalParams',
   required: false,
   serializedName: 'PostAsyncRelativeRetryInvalidHeaderOptions',
   type: {
@@ -1686,7 +1615,6 @@ export const LROSADsPostAsyncRelativeRetryInvalidHeaderOptionalParams = {
 };
 
 export const LROSADsPostAsyncRelativeRetryInvalidJsonPollingOptionalParams = {
-  xmlName: 'LROSADsPostAsyncRelativeRetryInvalidJsonPollingOptionalParams',
   required: false,
   serializedName: 'PostAsyncRelativeRetryInvalidJsonPollingOptions',
   type: {
@@ -1706,7 +1634,6 @@ export const LROSADsPostAsyncRelativeRetryInvalidJsonPollingOptionalParams = {
 };
 
 export const LROSADsBeginPutNonRetry400OptionalParams = {
-  xmlName: 'LROSADsBeginPutNonRetry400OptionalParams',
   required: false,
   serializedName: 'BeginPutNonRetry400Options',
   type: {
@@ -1726,7 +1653,6 @@ export const LROSADsBeginPutNonRetry400OptionalParams = {
 };
 
 export const LROSADsBeginPutNonRetry201Creating400OptionalParams = {
-  xmlName: 'LROSADsBeginPutNonRetry201Creating400OptionalParams',
   required: false,
   serializedName: 'BeginPutNonRetry201Creating400Options',
   type: {
@@ -1746,7 +1672,6 @@ export const LROSADsBeginPutNonRetry201Creating400OptionalParams = {
 };
 
 export const LROSADsBeginPutNonRetry201Creating400InvalidJsonOptionalParams = {
-  xmlName: 'LROSADsBeginPutNonRetry201Creating400InvalidJsonOptionalParams',
   required: false,
   serializedName: 'BeginPutNonRetry201Creating400InvalidJsonOptions',
   type: {
@@ -1766,7 +1691,6 @@ export const LROSADsBeginPutNonRetry201Creating400InvalidJsonOptionalParams = {
 };
 
 export const LROSADsBeginPutAsyncRelativeRetry400OptionalParams = {
-  xmlName: 'LROSADsBeginPutAsyncRelativeRetry400OptionalParams',
   required: false,
   serializedName: 'BeginPutAsyncRelativeRetry400Options',
   type: {
@@ -1786,7 +1710,6 @@ export const LROSADsBeginPutAsyncRelativeRetry400OptionalParams = {
 };
 
 export const LROSADsBeginPostNonRetry400OptionalParams = {
-  xmlName: 'LROSADsBeginPostNonRetry400OptionalParams',
   required: false,
   serializedName: 'BeginPostNonRetry400Options',
   type: {
@@ -1806,7 +1729,6 @@ export const LROSADsBeginPostNonRetry400OptionalParams = {
 };
 
 export const LROSADsBeginPost202NonRetry400OptionalParams = {
-  xmlName: 'LROSADsBeginPost202NonRetry400OptionalParams',
   required: false,
   serializedName: 'BeginPost202NonRetry400Options',
   type: {
@@ -1826,7 +1748,6 @@ export const LROSADsBeginPost202NonRetry400OptionalParams = {
 };
 
 export const LROSADsBeginPostAsyncRelativeRetry400OptionalParams = {
-  xmlName: 'LROSADsBeginPostAsyncRelativeRetry400OptionalParams',
   required: false,
   serializedName: 'BeginPostAsyncRelativeRetry400Options',
   type: {
@@ -1846,7 +1767,6 @@ export const LROSADsBeginPostAsyncRelativeRetry400OptionalParams = {
 };
 
 export const LROSADsBeginPutError201NoProvisioningStatePayloadOptionalParams = {
-  xmlName: 'LROSADsBeginPutError201NoProvisioningStatePayloadOptionalParams',
   required: false,
   serializedName: 'BeginPutError201NoProvisioningStatePayloadOptions',
   type: {
@@ -1866,7 +1786,6 @@ export const LROSADsBeginPutError201NoProvisioningStatePayloadOptionalParams = {
 };
 
 export const LROSADsBeginPutAsyncRelativeRetryNoStatusOptionalParams = {
-  xmlName: 'LROSADsBeginPutAsyncRelativeRetryNoStatusOptionalParams',
   required: false,
   serializedName: 'BeginPutAsyncRelativeRetryNoStatusOptions',
   type: {
@@ -1886,7 +1805,6 @@ export const LROSADsBeginPutAsyncRelativeRetryNoStatusOptionalParams = {
 };
 
 export const LROSADsBeginPutAsyncRelativeRetryNoStatusPayloadOptionalParams = {
-  xmlName: 'LROSADsBeginPutAsyncRelativeRetryNoStatusPayloadOptionalParams',
   required: false,
   serializedName: 'BeginPutAsyncRelativeRetryNoStatusPayloadOptions',
   type: {
@@ -1906,7 +1824,6 @@ export const LROSADsBeginPutAsyncRelativeRetryNoStatusPayloadOptionalParams = {
 };
 
 export const LROSADsBeginPost202NoLocationOptionalParams = {
-  xmlName: 'LROSADsBeginPost202NoLocationOptionalParams',
   required: false,
   serializedName: 'BeginPost202NoLocationOptions',
   type: {
@@ -1926,7 +1843,6 @@ export const LROSADsBeginPost202NoLocationOptionalParams = {
 };
 
 export const LROSADsBeginPostAsyncRelativeRetryNoPayloadOptionalParams = {
-  xmlName: 'LROSADsBeginPostAsyncRelativeRetryNoPayloadOptionalParams',
   required: false,
   serializedName: 'BeginPostAsyncRelativeRetryNoPayloadOptions',
   type: {
@@ -1946,7 +1862,6 @@ export const LROSADsBeginPostAsyncRelativeRetryNoPayloadOptionalParams = {
 };
 
 export const LROSADsBeginPut200InvalidJsonOptionalParams = {
-  xmlName: 'LROSADsBeginPut200InvalidJsonOptionalParams',
   required: false,
   serializedName: 'BeginPut200InvalidJsonOptions',
   type: {
@@ -1966,7 +1881,6 @@ export const LROSADsBeginPut200InvalidJsonOptionalParams = {
 };
 
 export const LROSADsBeginPutAsyncRelativeRetryInvalidHeaderOptionalParams = {
-  xmlName: 'LROSADsBeginPutAsyncRelativeRetryInvalidHeaderOptionalParams',
   required: false,
   serializedName: 'BeginPutAsyncRelativeRetryInvalidHeaderOptions',
   type: {
@@ -1986,7 +1900,6 @@ export const LROSADsBeginPutAsyncRelativeRetryInvalidHeaderOptionalParams = {
 };
 
 export const LROSADsBeginPutAsyncRelativeRetryInvalidJsonPollingOptionalParams = {
-  xmlName: 'LROSADsBeginPutAsyncRelativeRetryInvalidJsonPollingOptionalParams',
   required: false,
   serializedName: 'BeginPutAsyncRelativeRetryInvalidJsonPollingOptions',
   type: {
@@ -2006,7 +1919,6 @@ export const LROSADsBeginPutAsyncRelativeRetryInvalidJsonPollingOptionalParams =
 };
 
 export const LROSADsBeginPost202RetryInvalidHeaderOptionalParams = {
-  xmlName: 'LROSADsBeginPost202RetryInvalidHeaderOptionalParams',
   required: false,
   serializedName: 'BeginPost202RetryInvalidHeaderOptions',
   type: {
@@ -2026,7 +1938,6 @@ export const LROSADsBeginPost202RetryInvalidHeaderOptionalParams = {
 };
 
 export const LROSADsBeginPostAsyncRelativeRetryInvalidHeaderOptionalParams = {
-  xmlName: 'LROSADsBeginPostAsyncRelativeRetryInvalidHeaderOptionalParams',
   required: false,
   serializedName: 'BeginPostAsyncRelativeRetryInvalidHeaderOptions',
   type: {
@@ -2046,7 +1957,6 @@ export const LROSADsBeginPostAsyncRelativeRetryInvalidHeaderOptionalParams = {
 };
 
 export const LROSADsBeginPostAsyncRelativeRetryInvalidJsonPollingOptionalParams = {
-  xmlName: 'LROSADsBeginPostAsyncRelativeRetryInvalidJsonPollingOptionalParams',
   required: false,
   serializedName: 'BeginPostAsyncRelativeRetryInvalidJsonPollingOptions',
   type: {
@@ -2066,7 +1976,6 @@ export const LROSADsBeginPostAsyncRelativeRetryInvalidJsonPollingOptionalParams 
 };
 
 export const LROsCustomHeaderPutAsyncRetrySucceededOptionalParams = {
-  xmlName: 'LROsCustomHeaderPutAsyncRetrySucceededOptionalParams',
   required: false,
   serializedName: 'PutAsyncRetrySucceededOptions',
   type: {
@@ -2086,7 +1995,6 @@ export const LROsCustomHeaderPutAsyncRetrySucceededOptionalParams = {
 };
 
 export const LROsCustomHeaderPut201CreatingSucceeded200OptionalParams = {
-  xmlName: 'LROsCustomHeaderPut201CreatingSucceeded200OptionalParams',
   required: false,
   serializedName: 'Put201CreatingSucceeded200Options',
   type: {
@@ -2106,7 +2014,6 @@ export const LROsCustomHeaderPut201CreatingSucceeded200OptionalParams = {
 };
 
 export const LROsCustomHeaderPost202Retry200OptionalParams = {
-  xmlName: 'LROsCustomHeaderPost202Retry200OptionalParams',
   required: false,
   serializedName: 'Post202Retry200Options',
   type: {
@@ -2126,7 +2033,6 @@ export const LROsCustomHeaderPost202Retry200OptionalParams = {
 };
 
 export const LROsCustomHeaderPostAsyncRetrySucceededOptionalParams = {
-  xmlName: 'LROsCustomHeaderPostAsyncRetrySucceededOptionalParams',
   required: false,
   serializedName: 'PostAsyncRetrySucceededOptions',
   type: {
@@ -2146,7 +2052,6 @@ export const LROsCustomHeaderPostAsyncRetrySucceededOptionalParams = {
 };
 
 export const LROsCustomHeaderBeginPutAsyncRetrySucceededOptionalParams = {
-  xmlName: 'LROsCustomHeaderBeginPutAsyncRetrySucceededOptionalParams',
   required: false,
   serializedName: 'BeginPutAsyncRetrySucceededOptions',
   type: {
@@ -2166,7 +2071,6 @@ export const LROsCustomHeaderBeginPutAsyncRetrySucceededOptionalParams = {
 };
 
 export const LROsCustomHeaderBeginPut201CreatingSucceeded200OptionalParams = {
-  xmlName: 'LROsCustomHeaderBeginPut201CreatingSucceeded200OptionalParams',
   required: false,
   serializedName: 'BeginPut201CreatingSucceeded200Options',
   type: {
@@ -2186,7 +2090,6 @@ export const LROsCustomHeaderBeginPut201CreatingSucceeded200OptionalParams = {
 };
 
 export const LROsCustomHeaderBeginPost202Retry200OptionalParams = {
-  xmlName: 'LROsCustomHeaderBeginPost202Retry200OptionalParams',
   required: false,
   serializedName: 'BeginPost202Retry200Options',
   type: {
@@ -2206,7 +2109,6 @@ export const LROsCustomHeaderBeginPost202Retry200OptionalParams = {
 };
 
 export const LROsCustomHeaderBeginPostAsyncRetrySucceededOptionalParams = {
-  xmlName: 'LROsCustomHeaderBeginPostAsyncRetrySucceededOptionalParams',
   required: false,
   serializedName: 'BeginPostAsyncRetrySucceededOptions',
   type: {

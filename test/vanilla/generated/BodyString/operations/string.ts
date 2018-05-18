@@ -95,7 +95,6 @@ export class String {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'GetNullOKResponse',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -278,7 +277,6 @@ export class String {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'GetEmptyOKResponse',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -463,7 +461,6 @@ export class String {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'GetMbcsOKResponse',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -651,7 +648,6 @@ export class String {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'GetWhitespaceOKResponse',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -838,7 +834,6 @@ export class String {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'String',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -931,7 +926,6 @@ export class String {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'Base64Url',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -1024,7 +1018,6 @@ export class String {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'Base64Url',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -1208,7 +1201,6 @@ export class String {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'Base64Url',
               required: false,
               serializedName: 'parsedResponse',
               type: {

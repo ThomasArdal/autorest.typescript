@@ -367,7 +367,6 @@ export const ProductWrapper = {
 };
 
 export const FlattenParameterGroup = {
-  xmlName: 'flatten-parameter-group',
   required: false,
   type: {
     name: 'Composite',
@@ -414,7 +413,6 @@ export const FlattenParameterGroup = {
 };
 
 export const AutoRestResourceFlatteningTestServicePutArrayOptionalParams = {
-  xmlName: 'AutoRestResourceFlatteningTestServicePutArrayOptionalParams',
   required: false,
   serializedName: 'PutArrayOptions',
   type: {
@@ -441,7 +439,6 @@ export const AutoRestResourceFlatteningTestServicePutArrayOptionalParams = {
 };
 
 export const AutoRestResourceFlatteningTestServicePutWrappedArrayOptionalParams = {
-  xmlName: 'AutoRestResourceFlatteningTestServicePutWrappedArrayOptionalParams',
   required: false,
   serializedName: 'PutWrappedArrayOptions',
   type: {
@@ -468,7 +465,6 @@ export const AutoRestResourceFlatteningTestServicePutWrappedArrayOptionalParams 
 };
 
 export const AutoRestResourceFlatteningTestServicePutDictionaryOptionalParams = {
-  xmlName: 'AutoRestResourceFlatteningTestServicePutDictionaryOptionalParams',
   required: false,
   serializedName: 'PutDictionaryOptions',
   type: {
@@ -495,7 +491,6 @@ export const AutoRestResourceFlatteningTestServicePutDictionaryOptionalParams = 
 };
 
 export const AutoRestResourceFlatteningTestServicePutResourceCollectionOptionalParams = {
-  xmlName: 'AutoRestResourceFlatteningTestServicePutResourceCollectionOptionalParams',
   required: false,
   serializedName: 'PutResourceCollectionOptions',
   type: {
@@ -515,7 +510,6 @@ export const AutoRestResourceFlatteningTestServicePutResourceCollectionOptionalP
 };
 
 export const AutoRestResourceFlatteningTestServicePutSimpleProductOptionalParams = {
-  xmlName: 'AutoRestResourceFlatteningTestServicePutSimpleProductOptionalParams',
   required: false,
   serializedName: 'PutSimpleProductOptions',
   type: {
@@ -535,7 +529,6 @@ export const AutoRestResourceFlatteningTestServicePutSimpleProductOptionalParams
 };
 
 export const AutoRestResourceFlatteningTestServicePostFlattenedSimpleProductOptionalParams = {
-  xmlName: 'AutoRestResourceFlatteningTestServicePostFlattenedSimpleProductOptionalParams',
   required: false,
   serializedName: 'PostFlattenedSimpleProductOptions',
   type: {

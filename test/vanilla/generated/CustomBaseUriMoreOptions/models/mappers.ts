@@ -35,7 +35,6 @@ export const ErrorModel = {
 };
 
 export const AutoRestParameterizedCustomHostTestClientOptions = {
-  xmlName: 'AutoRestParameterizedCustomHostTestClientOptions',
   required: false,
   type: {
     name: 'Composite',
@@ -54,7 +53,6 @@ export const AutoRestParameterizedCustomHostTestClientOptions = {
 };
 
 export const PathsGetEmptyOptionalParams = {
-  xmlName: 'PathsGetEmptyOptionalParams',
   required: false,
   serializedName: 'GetEmptyOptions',
   type: {

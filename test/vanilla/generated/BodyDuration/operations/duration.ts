@@ -94,7 +94,6 @@ export class Duration {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'TimeSpan',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -278,7 +277,6 @@ export class Duration {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'TimeSpan',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -371,7 +369,6 @@ export class Duration {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'TimeSpan',
               required: false,
               serializedName: 'parsedResponse',
               type: {

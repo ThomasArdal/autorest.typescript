@@ -76,7 +76,6 @@ export const OperationResult = {
 };
 
 export const PagingGetMultiplePagesOptions = {
-  xmlName: 'PagingGetMultiplePagesOptions',
   required: false,
   type: {
     name: 'Composite',
@@ -100,7 +99,6 @@ export const PagingGetMultiplePagesOptions = {
 };
 
 export const PagingGetOdataMultiplePagesOptions = {
-  xmlName: 'PagingGetOdataMultiplePagesOptions',
   required: false,
   type: {
     name: 'Composite',
@@ -124,7 +122,6 @@ export const PagingGetOdataMultiplePagesOptions = {
 };
 
 export const PagingGetMultiplePagesWithOffsetOptions = {
-  xmlName: 'PagingGetMultiplePagesWithOffsetOptions',
   required: false,
   type: {
     name: 'Composite',
@@ -154,7 +151,6 @@ export const PagingGetMultiplePagesWithOffsetOptions = {
 };
 
 export const CustomParameterGroup = {
-  xmlName: 'custom-parameter-group',
   required: false,
   type: {
     name: 'Composite',
@@ -177,7 +173,6 @@ export const CustomParameterGroup = {
 };
 
 export const PagingGetMultiplePagesWithOffsetNextOptions = {
-  xmlName: 'Paging-getMultiplePagesWithOffsetNext-Options',
   required: false,
   type: {
     name: 'Composite',
@@ -201,7 +196,6 @@ export const PagingGetMultiplePagesWithOffsetNextOptions = {
 };
 
 export const PagingGetMultiplePagesOptionalParams = {
-  xmlName: 'PagingGetMultiplePagesOptionalParams',
   required: false,
   serializedName: 'GetMultiplePagesOptions',
   type: {
@@ -228,7 +222,6 @@ export const PagingGetMultiplePagesOptionalParams = {
 };
 
 export const PagingGetOdataMultiplePagesOptionalParams = {
-  xmlName: 'PagingGetOdataMultiplePagesOptionalParams',
   required: false,
   serializedName: 'GetOdataMultiplePagesOptions',
   type: {
@@ -255,7 +248,6 @@ export const PagingGetOdataMultiplePagesOptionalParams = {
 };
 
 export const PagingGetMultiplePagesWithOffsetOptionalParams = {
-  xmlName: 'PagingGetMultiplePagesWithOffsetOptionalParams',
   required: false,
   serializedName: 'GetMultiplePagesWithOffsetOptions',
   type: {
@@ -274,7 +266,6 @@ export const PagingGetMultiplePagesWithOffsetOptionalParams = {
 };
 
 export const PagingGetMultiplePagesNextOptionalParams = {
-  xmlName: 'PagingGetMultiplePagesNextOptionalParams',
   required: false,
   serializedName: 'GetMultiplePagesNextOptions',
   type: {
@@ -301,7 +292,6 @@ export const PagingGetMultiplePagesNextOptionalParams = {
 };
 
 export const PagingGetOdataMultiplePagesNextOptionalParams = {
-  xmlName: 'PagingGetOdataMultiplePagesNextOptionalParams',
   required: false,
   serializedName: 'GetOdataMultiplePagesNextOptions',
   type: {
@@ -328,7 +318,6 @@ export const PagingGetOdataMultiplePagesNextOptionalParams = {
 };
 
 export const PagingGetMultiplePagesWithOffsetNextOptionalParams = {
-  xmlName: 'PagingGetMultiplePagesWithOffsetNextOptionalParams',
   required: false,
   serializedName: 'GetMultiplePagesWithOffsetNextOptions',
   type: {

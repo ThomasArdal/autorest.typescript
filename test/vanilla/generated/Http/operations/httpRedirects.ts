@@ -166,7 +166,6 @@ export class HttpRedirects {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'String',
               required: false,
               serializedName: 'parsedResponse',
               type: {

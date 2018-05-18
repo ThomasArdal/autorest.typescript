@@ -94,7 +94,6 @@ export class Datetime {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'DateTime',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -187,7 +186,6 @@ export class Datetime {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'DateTime',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -280,7 +278,6 @@ export class Datetime {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'DateTime',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -373,7 +370,6 @@ export class Datetime {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'DateTime',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -558,7 +554,6 @@ export class Datetime {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'DateTime',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -651,7 +646,6 @@ export class Datetime {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'DateTime',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -838,7 +832,6 @@ export class Datetime {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'DateTime',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -932,7 +925,6 @@ export class Datetime {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'DateTime',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -1119,7 +1111,6 @@ export class Datetime {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'DateTime',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -1213,7 +1204,6 @@ export class Datetime {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'DateTime',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -1398,7 +1388,6 @@ export class Datetime {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'DateTime',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -1583,7 +1572,6 @@ export class Datetime {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'DateTime',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -1768,7 +1756,6 @@ export class Datetime {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'DateTime',
               required: false,
               serializedName: 'parsedResponse',
               type: {

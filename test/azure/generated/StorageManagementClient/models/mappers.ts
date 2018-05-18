@@ -670,7 +670,6 @@ export const SubResource = {
 };
 
 export const StorageAccountsRegenerateKeyOptionalParams = {
-  xmlName: 'StorageAccountsRegenerateKeyOptionalParams',
   required: false,
   serializedName: 'RegenerateKeyOptions',
   type: {

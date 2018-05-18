@@ -94,7 +94,6 @@ export class Number {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'Double',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -187,7 +186,6 @@ export class Number {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'Double',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -280,7 +278,6 @@ export class Number {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'Double',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -373,7 +370,6 @@ export class Number {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'Decimal',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -557,7 +553,6 @@ export class Number {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'Double',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -741,7 +736,6 @@ export class Number {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'Double',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -925,7 +919,6 @@ export class Number {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'Double',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -1109,7 +1102,6 @@ export class Number {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'Double',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -1293,7 +1285,6 @@ export class Number {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'Decimal',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -1477,7 +1468,6 @@ export class Number {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'Decimal',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -1661,7 +1651,6 @@ export class Number {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'Decimal',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -1845,7 +1834,6 @@ export class Number {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'Double',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -2029,7 +2017,6 @@ export class Number {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'Double',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -2213,7 +2200,6 @@ export class Number {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'Decimal',
               required: false,
               serializedName: 'parsedResponse',
               type: {

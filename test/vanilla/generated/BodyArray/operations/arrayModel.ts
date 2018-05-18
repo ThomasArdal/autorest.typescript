@@ -95,7 +95,6 @@ export class ArrayModel {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'Int',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -195,7 +194,6 @@ export class ArrayModel {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'Int',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -295,7 +293,6 @@ export class ArrayModel {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'Int',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -498,7 +495,6 @@ export class ArrayModel {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'Boolean',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -701,7 +697,6 @@ export class ArrayModel {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'Boolean',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -801,7 +796,6 @@ export class ArrayModel {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'Boolean',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -901,7 +895,6 @@ export class ArrayModel {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'Int',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -1104,7 +1097,6 @@ export class ArrayModel {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'Int',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -1204,7 +1196,6 @@ export class ArrayModel {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'Int',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -1304,7 +1295,6 @@ export class ArrayModel {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'Long',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -1507,7 +1497,6 @@ export class ArrayModel {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'Long',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -1607,7 +1596,6 @@ export class ArrayModel {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'Long',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -1707,7 +1695,6 @@ export class ArrayModel {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'Double',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -1910,7 +1897,6 @@ export class ArrayModel {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'Double',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -2010,7 +1996,6 @@ export class ArrayModel {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'Double',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -2110,7 +2095,6 @@ export class ArrayModel {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'Double',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -2313,7 +2297,6 @@ export class ArrayModel {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'Double',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -2413,7 +2396,6 @@ export class ArrayModel {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'Double',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -2513,7 +2495,6 @@ export class ArrayModel {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'String',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -2716,7 +2697,6 @@ export class ArrayModel {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'String',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -2816,7 +2796,6 @@ export class ArrayModel {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'String',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -2918,7 +2897,6 @@ export class ArrayModel {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'Uuid',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -3123,7 +3101,6 @@ export class ArrayModel {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'Uuid',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -3223,7 +3200,6 @@ export class ArrayModel {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'Date',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -3427,7 +3403,6 @@ export class ArrayModel {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'Date',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -3527,7 +3502,6 @@ export class ArrayModel {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'Date',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -3628,7 +3602,6 @@ export class ArrayModel {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'DateTime',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -3833,7 +3806,6 @@ export class ArrayModel {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'DateTime',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -3933,7 +3905,6 @@ export class ArrayModel {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'DateTime',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -4034,7 +4005,6 @@ export class ArrayModel {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'DateTimeRfc1123',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -4239,7 +4209,6 @@ export class ArrayModel {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'TimeSpan',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -4443,7 +4412,6 @@ export class ArrayModel {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'ByteArray',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -4648,7 +4616,6 @@ export class ArrayModel {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'ByteArray',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -4749,7 +4716,6 @@ export class ArrayModel {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'Base64Url',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -4849,7 +4815,6 @@ export class ArrayModel {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'Product',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -4950,7 +4915,6 @@ export class ArrayModel {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'Product',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -5052,7 +5016,6 @@ export class ArrayModel {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'Product',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -5154,7 +5117,6 @@ export class ArrayModel {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'Product',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -5256,7 +5218,6 @@ export class ArrayModel {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'Product',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -5449,7 +5410,6 @@ export class ArrayModel {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'String',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -5556,7 +5516,6 @@ export class ArrayModel {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'String',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -5663,7 +5622,6 @@ export class ArrayModel {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'String',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -5770,7 +5728,6 @@ export class ArrayModel {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'String',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -5878,7 +5835,6 @@ export class ArrayModel {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'String',
               required: false,
               serializedName: 'parsedResponse',
               type: {

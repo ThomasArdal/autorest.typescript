@@ -194,7 +194,6 @@ export const ErrorModel = {
 };
 
 export const AutoRestValidationTestValidationOfBodyOptionalParams = {
-  xmlName: 'AutoRestValidationTestValidationOfBodyOptionalParams',
   required: false,
   serializedName: 'ValidationOfBodyOptions',
   type: {
@@ -214,7 +213,6 @@ export const AutoRestValidationTestValidationOfBodyOptionalParams = {
 };
 
 export const AutoRestValidationTestPostWithConstantInBodyOptionalParams = {
-  xmlName: 'AutoRestValidationTestPostWithConstantInBodyOptionalParams',
   required: false,
   serializedName: 'PostWithConstantInBodyOptions',
   type: {

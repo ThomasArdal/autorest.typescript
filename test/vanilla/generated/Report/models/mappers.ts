@@ -35,7 +35,6 @@ export const ErrorModel = {
 };
 
 export const AutoRestReportServiceGetReportOptionalParams = {
-  xmlName: 'AutoRestReportServiceGetReportOptionalParams',
   required: false,
   serializedName: 'GetReportOptions',
   type: {

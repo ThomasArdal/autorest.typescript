@@ -200,7 +200,6 @@ export const ErrorModel = {
 };
 
 export const ComplexModelClientCreateOptionalParams = {
-  xmlName: 'ComplexModelClientCreateOptionalParams',
   required: false,
   serializedName: 'CreateOptions',
   type: {
@@ -234,7 +233,6 @@ export const ComplexModelClientCreateOptionalParams = {
 };
 
 export const ComplexModelClientUpdateOptionalParams = {
-  xmlName: 'ComplexModelClientUpdateOptionalParams',
   required: false,
   serializedName: 'UpdateOptions',
   type: {

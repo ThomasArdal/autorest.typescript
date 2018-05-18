@@ -35,7 +35,6 @@ export const ErrorModel = {
 };
 
 export const HeaderParamStringOptionalParams = {
-  xmlName: 'HeaderParamStringOptionalParams',
   required: false,
   serializedName: 'ParamStringOptions',
   type: {
@@ -54,7 +53,6 @@ export const HeaderParamStringOptionalParams = {
 };
 
 export const HeaderParamDatetimeRfc1123OptionalParams = {
-  xmlName: 'HeaderParamDatetimeRfc1123OptionalParams',
   required: false,
   serializedName: 'ParamDatetimeRfc1123Options',
   type: {
@@ -73,7 +71,6 @@ export const HeaderParamDatetimeRfc1123OptionalParams = {
 };
 
 export const HeaderParamEnumOptionalParams = {
-  xmlName: 'HeaderParamEnumOptionalParams',
   required: false,
   serializedName: 'ParamEnumOptions',
   type: {

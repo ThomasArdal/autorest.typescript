@@ -39,7 +39,6 @@ export const ErrorModel = {
 };
 
 export const AutoRestReportServiceForAzureGetReportOptionalParams = {
-  xmlName: 'AutoRestReportServiceForAzureGetReportOptionalParams',
   required: false,
   serializedName: 'GetReportOptions',
   type: {

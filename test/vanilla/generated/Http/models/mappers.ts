@@ -114,7 +114,6 @@ export const D = {
 };
 
 export const HttpSuccessPut200OptionalParams = {
-  xmlName: 'HttpSuccessPut200OptionalParams',
   required: false,
   serializedName: 'Put200Options',
   type: {
@@ -133,7 +132,6 @@ export const HttpSuccessPut200OptionalParams = {
 };
 
 export const HttpSuccessPatch200OptionalParams = {
-  xmlName: 'HttpSuccessPatch200OptionalParams',
   required: false,
   serializedName: 'Patch200Options',
   type: {
@@ -152,7 +150,6 @@ export const HttpSuccessPatch200OptionalParams = {
 };
 
 export const HttpSuccessPost200OptionalParams = {
-  xmlName: 'HttpSuccessPost200OptionalParams',
   required: false,
   serializedName: 'Post200Options',
   type: {
@@ -171,7 +168,6 @@ export const HttpSuccessPost200OptionalParams = {
 };
 
 export const HttpSuccessDelete200OptionalParams = {
-  xmlName: 'HttpSuccessDelete200OptionalParams',
   required: false,
   serializedName: 'Delete200Options',
   type: {
@@ -190,7 +186,6 @@ export const HttpSuccessDelete200OptionalParams = {
 };
 
 export const HttpSuccessPut201OptionalParams = {
-  xmlName: 'HttpSuccessPut201OptionalParams',
   required: false,
   serializedName: 'Put201Options',
   type: {
@@ -209,7 +204,6 @@ export const HttpSuccessPut201OptionalParams = {
 };
 
 export const HttpSuccessPost201OptionalParams = {
-  xmlName: 'HttpSuccessPost201OptionalParams',
   required: false,
   serializedName: 'Post201Options',
   type: {
@@ -228,7 +222,6 @@ export const HttpSuccessPost201OptionalParams = {
 };
 
 export const HttpSuccessPut202OptionalParams = {
-  xmlName: 'HttpSuccessPut202OptionalParams',
   required: false,
   serializedName: 'Put202Options',
   type: {
@@ -247,7 +240,6 @@ export const HttpSuccessPut202OptionalParams = {
 };
 
 export const HttpSuccessPatch202OptionalParams = {
-  xmlName: 'HttpSuccessPatch202OptionalParams',
   required: false,
   serializedName: 'Patch202Options',
   type: {
@@ -266,7 +258,6 @@ export const HttpSuccessPatch202OptionalParams = {
 };
 
 export const HttpSuccessPost202OptionalParams = {
-  xmlName: 'HttpSuccessPost202OptionalParams',
   required: false,
   serializedName: 'Post202Options',
   type: {
@@ -285,7 +276,6 @@ export const HttpSuccessPost202OptionalParams = {
 };
 
 export const HttpSuccessDelete202OptionalParams = {
-  xmlName: 'HttpSuccessDelete202OptionalParams',
   required: false,
   serializedName: 'Delete202Options',
   type: {
@@ -304,7 +294,6 @@ export const HttpSuccessDelete202OptionalParams = {
 };
 
 export const HttpSuccessPut204OptionalParams = {
-  xmlName: 'HttpSuccessPut204OptionalParams',
   required: false,
   serializedName: 'Put204Options',
   type: {
@@ -323,7 +312,6 @@ export const HttpSuccessPut204OptionalParams = {
 };
 
 export const HttpSuccessPatch204OptionalParams = {
-  xmlName: 'HttpSuccessPatch204OptionalParams',
   required: false,
   serializedName: 'Patch204Options',
   type: {
@@ -342,7 +330,6 @@ export const HttpSuccessPatch204OptionalParams = {
 };
 
 export const HttpSuccessPost204OptionalParams = {
-  xmlName: 'HttpSuccessPost204OptionalParams',
   required: false,
   serializedName: 'Post204Options',
   type: {
@@ -361,7 +348,6 @@ export const HttpSuccessPost204OptionalParams = {
 };
 
 export const HttpSuccessDelete204OptionalParams = {
-  xmlName: 'HttpSuccessDelete204OptionalParams',
   required: false,
   serializedName: 'Delete204Options',
   type: {
@@ -380,7 +366,6 @@ export const HttpSuccessDelete204OptionalParams = {
 };
 
 export const HttpRedirectsPut301OptionalParams = {
-  xmlName: 'HttpRedirectsPut301OptionalParams',
   required: false,
   serializedName: 'Put301Options',
   type: {
@@ -399,7 +384,6 @@ export const HttpRedirectsPut301OptionalParams = {
 };
 
 export const HttpRedirectsPatch302OptionalParams = {
-  xmlName: 'HttpRedirectsPatch302OptionalParams',
   required: false,
   serializedName: 'Patch302Options',
   type: {
@@ -418,7 +402,6 @@ export const HttpRedirectsPatch302OptionalParams = {
 };
 
 export const HttpRedirectsPost303OptionalParams = {
-  xmlName: 'HttpRedirectsPost303OptionalParams',
   required: false,
   serializedName: 'Post303Options',
   type: {
@@ -437,7 +420,6 @@ export const HttpRedirectsPost303OptionalParams = {
 };
 
 export const HttpRedirectsPut307OptionalParams = {
-  xmlName: 'HttpRedirectsPut307OptionalParams',
   required: false,
   serializedName: 'Put307Options',
   type: {
@@ -456,7 +438,6 @@ export const HttpRedirectsPut307OptionalParams = {
 };
 
 export const HttpRedirectsPatch307OptionalParams = {
-  xmlName: 'HttpRedirectsPatch307OptionalParams',
   required: false,
   serializedName: 'Patch307Options',
   type: {
@@ -475,7 +456,6 @@ export const HttpRedirectsPatch307OptionalParams = {
 };
 
 export const HttpRedirectsPost307OptionalParams = {
-  xmlName: 'HttpRedirectsPost307OptionalParams',
   required: false,
   serializedName: 'Post307Options',
   type: {
@@ -494,7 +474,6 @@ export const HttpRedirectsPost307OptionalParams = {
 };
 
 export const HttpRedirectsDelete307OptionalParams = {
-  xmlName: 'HttpRedirectsDelete307OptionalParams',
   required: false,
   serializedName: 'Delete307Options',
   type: {
@@ -513,7 +492,6 @@ export const HttpRedirectsDelete307OptionalParams = {
 };
 
 export const HttpClientFailurePut400OptionalParams = {
-  xmlName: 'HttpClientFailurePut400OptionalParams',
   required: false,
   serializedName: 'Put400Options',
   type: {
@@ -532,7 +510,6 @@ export const HttpClientFailurePut400OptionalParams = {
 };
 
 export const HttpClientFailurePatch400OptionalParams = {
-  xmlName: 'HttpClientFailurePatch400OptionalParams',
   required: false,
   serializedName: 'Patch400Options',
   type: {
@@ -551,7 +528,6 @@ export const HttpClientFailurePatch400OptionalParams = {
 };
 
 export const HttpClientFailurePost400OptionalParams = {
-  xmlName: 'HttpClientFailurePost400OptionalParams',
   required: false,
   serializedName: 'Post400Options',
   type: {
@@ -570,7 +546,6 @@ export const HttpClientFailurePost400OptionalParams = {
 };
 
 export const HttpClientFailureDelete400OptionalParams = {
-  xmlName: 'HttpClientFailureDelete400OptionalParams',
   required: false,
   serializedName: 'Delete400Options',
   type: {
@@ -589,7 +564,6 @@ export const HttpClientFailureDelete400OptionalParams = {
 };
 
 export const HttpClientFailurePut404OptionalParams = {
-  xmlName: 'HttpClientFailurePut404OptionalParams',
   required: false,
   serializedName: 'Put404Options',
   type: {
@@ -608,7 +582,6 @@ export const HttpClientFailurePut404OptionalParams = {
 };
 
 export const HttpClientFailurePatch405OptionalParams = {
-  xmlName: 'HttpClientFailurePatch405OptionalParams',
   required: false,
   serializedName: 'Patch405Options',
   type: {
@@ -627,7 +600,6 @@ export const HttpClientFailurePatch405OptionalParams = {
 };
 
 export const HttpClientFailurePost406OptionalParams = {
-  xmlName: 'HttpClientFailurePost406OptionalParams',
   required: false,
   serializedName: 'Post406Options',
   type: {
@@ -646,7 +618,6 @@ export const HttpClientFailurePost406OptionalParams = {
 };
 
 export const HttpClientFailureDelete407OptionalParams = {
-  xmlName: 'HttpClientFailureDelete407OptionalParams',
   required: false,
   serializedName: 'Delete407Options',
   type: {
@@ -665,7 +636,6 @@ export const HttpClientFailureDelete407OptionalParams = {
 };
 
 export const HttpClientFailurePut409OptionalParams = {
-  xmlName: 'HttpClientFailurePut409OptionalParams',
   required: false,
   serializedName: 'Put409Options',
   type: {
@@ -684,7 +654,6 @@ export const HttpClientFailurePut409OptionalParams = {
 };
 
 export const HttpClientFailurePut413OptionalParams = {
-  xmlName: 'HttpClientFailurePut413OptionalParams',
   required: false,
   serializedName: 'Put413Options',
   type: {
@@ -703,7 +672,6 @@ export const HttpClientFailurePut413OptionalParams = {
 };
 
 export const HttpClientFailurePatch414OptionalParams = {
-  xmlName: 'HttpClientFailurePatch414OptionalParams',
   required: false,
   serializedName: 'Patch414Options',
   type: {
@@ -722,7 +690,6 @@ export const HttpClientFailurePatch414OptionalParams = {
 };
 
 export const HttpClientFailurePost415OptionalParams = {
-  xmlName: 'HttpClientFailurePost415OptionalParams',
   required: false,
   serializedName: 'Post415Options',
   type: {
@@ -741,7 +708,6 @@ export const HttpClientFailurePost415OptionalParams = {
 };
 
 export const HttpClientFailureDelete417OptionalParams = {
-  xmlName: 'HttpClientFailureDelete417OptionalParams',
   required: false,
   serializedName: 'Delete417Options',
   type: {
@@ -760,7 +726,6 @@ export const HttpClientFailureDelete417OptionalParams = {
 };
 
 export const HttpServerFailurePost505OptionalParams = {
-  xmlName: 'HttpServerFailurePost505OptionalParams',
   required: false,
   serializedName: 'Post505Options',
   type: {
@@ -779,7 +744,6 @@ export const HttpServerFailurePost505OptionalParams = {
 };
 
 export const HttpServerFailureDelete505OptionalParams = {
-  xmlName: 'HttpServerFailureDelete505OptionalParams',
   required: false,
   serializedName: 'Delete505Options',
   type: {
@@ -798,7 +762,6 @@ export const HttpServerFailureDelete505OptionalParams = {
 };
 
 export const HttpRetryPut500OptionalParams = {
-  xmlName: 'HttpRetryPut500OptionalParams',
   required: false,
   serializedName: 'Put500Options',
   type: {
@@ -817,7 +780,6 @@ export const HttpRetryPut500OptionalParams = {
 };
 
 export const HttpRetryPatch500OptionalParams = {
-  xmlName: 'HttpRetryPatch500OptionalParams',
   required: false,
   serializedName: 'Patch500Options',
   type: {
@@ -836,7 +798,6 @@ export const HttpRetryPatch500OptionalParams = {
 };
 
 export const HttpRetryPost503OptionalParams = {
-  xmlName: 'HttpRetryPost503OptionalParams',
   required: false,
   serializedName: 'Post503Options',
   type: {
@@ -855,7 +816,6 @@ export const HttpRetryPost503OptionalParams = {
 };
 
 export const HttpRetryDelete503OptionalParams = {
-  xmlName: 'HttpRetryDelete503OptionalParams',
   required: false,
   serializedName: 'Delete503Options',
   type: {
@@ -874,7 +834,6 @@ export const HttpRetryDelete503OptionalParams = {
 };
 
 export const HttpRetryPut504OptionalParams = {
-  xmlName: 'HttpRetryPut504OptionalParams',
   required: false,
   serializedName: 'Put504Options',
   type: {
@@ -893,7 +852,6 @@ export const HttpRetryPut504OptionalParams = {
 };
 
 export const HttpRetryPatch504OptionalParams = {
-  xmlName: 'HttpRetryPatch504OptionalParams',
   required: false,
   serializedName: 'Patch504Options',
   type: {

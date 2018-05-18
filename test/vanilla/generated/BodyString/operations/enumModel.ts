@@ -96,7 +96,6 @@ export class EnumModel {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'Colors',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -290,7 +289,6 @@ export class EnumModel {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'Colors',
               required: false,
               serializedName: 'parsedResponse',
               type: {

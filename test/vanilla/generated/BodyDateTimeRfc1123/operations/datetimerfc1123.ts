@@ -94,7 +94,6 @@ export class Datetimerfc1123 {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'DateTimeRfc1123',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -187,7 +186,6 @@ export class Datetimerfc1123 {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'DateTimeRfc1123',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -280,7 +278,6 @@ export class Datetimerfc1123 {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'DateTimeRfc1123',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -373,7 +370,6 @@ export class Datetimerfc1123 {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'DateTimeRfc1123',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -558,7 +554,6 @@ export class Datetimerfc1123 {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'DateTimeRfc1123',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -651,7 +646,6 @@ export class Datetimerfc1123 {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'DateTimeRfc1123',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -836,7 +830,6 @@ export class Datetimerfc1123 {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'DateTimeRfc1123',
               required: false,
               serializedName: 'parsedResponse',
               type: {

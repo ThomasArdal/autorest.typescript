@@ -35,7 +35,6 @@ export const ErrorModel = {
 };
 
 export const AutoRestUrlTestServiceOptions = {
-  xmlName: 'AutoRestUrlTestServiceOptions',
   required: false,
   type: {
     name: 'Composite',
@@ -53,7 +52,6 @@ export const AutoRestUrlTestServiceOptions = {
 };
 
 export const QueriesGetBooleanNullOptionalParams = {
-  xmlName: 'QueriesGetBooleanNullOptionalParams',
   required: false,
   serializedName: 'GetBooleanNullOptions',
   type: {
@@ -72,7 +70,6 @@ export const QueriesGetBooleanNullOptionalParams = {
 };
 
 export const QueriesGetIntNullOptionalParams = {
-  xmlName: 'QueriesGetIntNullOptionalParams',
   required: false,
   serializedName: 'GetIntNullOptions',
   type: {
@@ -91,7 +88,6 @@ export const QueriesGetIntNullOptionalParams = {
 };
 
 export const QueriesGetLongNullOptionalParams = {
-  xmlName: 'QueriesGetLongNullOptionalParams',
   required: false,
   serializedName: 'GetLongNullOptions',
   type: {
@@ -110,7 +106,6 @@ export const QueriesGetLongNullOptionalParams = {
 };
 
 export const QueriesFloatNullOptionalParams = {
-  xmlName: 'QueriesFloatNullOptionalParams',
   required: false,
   serializedName: 'FloatNullOptions',
   type: {
@@ -129,7 +124,6 @@ export const QueriesFloatNullOptionalParams = {
 };
 
 export const QueriesDoubleNullOptionalParams = {
-  xmlName: 'QueriesDoubleNullOptionalParams',
   required: false,
   serializedName: 'DoubleNullOptions',
   type: {
@@ -148,7 +142,6 @@ export const QueriesDoubleNullOptionalParams = {
 };
 
 export const QueriesStringNullOptionalParams = {
-  xmlName: 'QueriesStringNullOptionalParams',
   required: false,
   serializedName: 'StringNullOptions',
   type: {
@@ -167,7 +160,6 @@ export const QueriesStringNullOptionalParams = {
 };
 
 export const QueriesEnumValidOptionalParams = {
-  xmlName: 'QueriesEnumValidOptionalParams',
   required: false,
   serializedName: 'EnumValidOptions',
   type: {
@@ -187,7 +179,6 @@ export const QueriesEnumValidOptionalParams = {
 };
 
 export const QueriesEnumNullOptionalParams = {
-  xmlName: 'QueriesEnumNullOptionalParams',
   required: false,
   serializedName: 'EnumNullOptions',
   type: {
@@ -207,7 +198,6 @@ export const QueriesEnumNullOptionalParams = {
 };
 
 export const QueriesByteMultiByteOptionalParams = {
-  xmlName: 'QueriesByteMultiByteOptionalParams',
   required: false,
   serializedName: 'ByteMultiByteOptions',
   type: {
@@ -226,7 +216,6 @@ export const QueriesByteMultiByteOptionalParams = {
 };
 
 export const QueriesByteNullOptionalParams = {
-  xmlName: 'QueriesByteNullOptionalParams',
   required: false,
   serializedName: 'ByteNullOptions',
   type: {
@@ -245,7 +234,6 @@ export const QueriesByteNullOptionalParams = {
 };
 
 export const QueriesDateNullOptionalParams = {
-  xmlName: 'QueriesDateNullOptionalParams',
   required: false,
   serializedName: 'DateNullOptions',
   type: {
@@ -264,7 +252,6 @@ export const QueriesDateNullOptionalParams = {
 };
 
 export const QueriesDateTimeNullOptionalParams = {
-  xmlName: 'QueriesDateTimeNullOptionalParams',
   required: false,
   serializedName: 'DateTimeNullOptions',
   type: {
@@ -283,7 +270,6 @@ export const QueriesDateTimeNullOptionalParams = {
 };
 
 export const QueriesArrayStringCsvValidOptionalParams = {
-  xmlName: 'QueriesArrayStringCsvValidOptionalParams',
   required: false,
   serializedName: 'ArrayStringCsvValidOptions',
   type: {
@@ -309,7 +295,6 @@ export const QueriesArrayStringCsvValidOptionalParams = {
 };
 
 export const QueriesArrayStringCsvNullOptionalParams = {
-  xmlName: 'QueriesArrayStringCsvNullOptionalParams',
   required: false,
   serializedName: 'ArrayStringCsvNullOptions',
   type: {
@@ -335,7 +320,6 @@ export const QueriesArrayStringCsvNullOptionalParams = {
 };
 
 export const QueriesArrayStringCsvEmptyOptionalParams = {
-  xmlName: 'QueriesArrayStringCsvEmptyOptionalParams',
   required: false,
   serializedName: 'ArrayStringCsvEmptyOptions',
   type: {
@@ -361,7 +345,6 @@ export const QueriesArrayStringCsvEmptyOptionalParams = {
 };
 
 export const QueriesArrayStringSsvValidOptionalParams = {
-  xmlName: 'QueriesArrayStringSsvValidOptionalParams',
   required: false,
   serializedName: 'ArrayStringSsvValidOptions',
   type: {
@@ -387,7 +370,6 @@ export const QueriesArrayStringSsvValidOptionalParams = {
 };
 
 export const QueriesArrayStringTsvValidOptionalParams = {
-  xmlName: 'QueriesArrayStringTsvValidOptionalParams',
   required: false,
   serializedName: 'ArrayStringTsvValidOptions',
   type: {
@@ -413,7 +395,6 @@ export const QueriesArrayStringTsvValidOptionalParams = {
 };
 
 export const QueriesArrayStringPipesValidOptionalParams = {
-  xmlName: 'QueriesArrayStringPipesValidOptionalParams',
   required: false,
   serializedName: 'ArrayStringPipesValidOptions',
   type: {
@@ -439,7 +420,6 @@ export const QueriesArrayStringPipesValidOptionalParams = {
 };
 
 export const PathItemsGetAllWithValuesOptionalParams = {
-  xmlName: 'PathItemsGetAllWithValuesOptionalParams',
   required: false,
   serializedName: 'GetAllWithValuesOptions',
   type: {
@@ -465,7 +445,6 @@ export const PathItemsGetAllWithValuesOptionalParams = {
 };
 
 export const PathItemsGetGlobalQueryNullOptionalParams = {
-  xmlName: 'PathItemsGetGlobalQueryNullOptionalParams',
   required: false,
   serializedName: 'GetGlobalQueryNullOptions',
   type: {
@@ -491,7 +470,6 @@ export const PathItemsGetGlobalQueryNullOptionalParams = {
 };
 
 export const PathItemsGetGlobalAndLocalQueryNullOptionalParams = {
-  xmlName: 'PathItemsGetGlobalAndLocalQueryNullOptionalParams',
   required: false,
   serializedName: 'GetGlobalAndLocalQueryNullOptions',
   type: {
@@ -517,7 +495,6 @@ export const PathItemsGetGlobalAndLocalQueryNullOptionalParams = {
 };
 
 export const PathItemsGetLocalPathItemQueryNullOptionalParams = {
-  xmlName: 'PathItemsGetLocalPathItemQueryNullOptionalParams',
   required: false,
   serializedName: 'GetLocalPathItemQueryNullOptions',
   type: {

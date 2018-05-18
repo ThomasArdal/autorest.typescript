@@ -73,7 +73,6 @@ export const OdataFilter = {
 };
 
 export const HeaderCustomNamedRequestIdParamGroupingParameters = {
-  xmlName: 'HeaderCustomNamedRequestIdParamGroupingParameters',
   required: false,
   type: {
     name: 'Composite',
@@ -90,7 +89,6 @@ export const HeaderCustomNamedRequestIdParamGroupingParameters = {
 };
 
 export const ApiVersionLocalGetMethodLocalNullOptionalParams = {
-  xmlName: 'ApiVersionLocalGetMethodLocalNullOptionalParams',
   required: false,
   serializedName: 'GetMethodLocalNullOptions',
   type: {
@@ -109,7 +107,6 @@ export const ApiVersionLocalGetMethodLocalNullOptionalParams = {
 };
 
 export const SkipUrlEncodingGetMethodQueryNullOptionalParams = {
-  xmlName: 'SkipUrlEncodingGetMethodQueryNullOptionalParams',
   required: false,
   serializedName: 'GetMethodQueryNullOptions',
   type: {
@@ -128,7 +125,6 @@ export const SkipUrlEncodingGetMethodQueryNullOptionalParams = {
 };
 
 export const OdataGetWithFilterOptionalParams = {
-  xmlName: 'OdataGetWithFilterOptionalParams',
   required: false,
   serializedName: 'GetWithFilterOptions',
   type: {

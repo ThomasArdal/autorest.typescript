@@ -215,7 +215,6 @@ class AutoRestResourceFlatteningTestService extends msRest.ServiceClient {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'FlattenedProduct',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -411,7 +410,6 @@ class AutoRestResourceFlatteningTestService extends msRest.ServiceClient {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'ProductWrapper',
               required: false,
               serializedName: 'parsedResponse',
               type: {

@@ -94,7 +94,6 @@ export class IntModel {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'Int',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -187,7 +186,6 @@ export class IntModel {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'Int',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -280,7 +278,6 @@ export class IntModel {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'Int',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -373,7 +370,6 @@ export class IntModel {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'Int',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -466,7 +462,6 @@ export class IntModel {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'Long',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -559,7 +554,6 @@ export class IntModel {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'Long',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -1016,7 +1010,6 @@ export class IntModel {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'UnixTime',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -1201,7 +1194,6 @@ export class IntModel {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'UnixTime',
               required: false,
               serializedName: 'parsedResponse',
               type: {
@@ -1294,7 +1286,6 @@ export class IntModel {
         try {
           if (parsedResponse !== null && parsedResponse !== undefined) {
             let resultMapper = {
-              xmlName: 'UnixTime',
               required: false,
               serializedName: 'parsedResponse',
               type: {
