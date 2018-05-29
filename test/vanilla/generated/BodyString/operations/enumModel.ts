@@ -170,6 +170,7 @@ export class EnumModel {
           path: "/string/enum/notExpandable",
           requestBodyMapper: requestModelMapper,
           requestBodyName: "stringBody",
+          requestBodyType: msRest.OperationParameterType.Enum,
           contentType: "application/json; charset=utf-8"
         });
       let statusCode = operationRes.status;
@@ -349,6 +350,7 @@ export class EnumModel {
           path: "/string/enum/Referenced",
           requestBodyMapper: requestModelMapper,
           requestBodyName: "enumStringBody",
+          requestBodyType: msRest.OperationParameterType.Enum,
           contentType: "application/json; charset=utf-8"
         });
       let statusCode = operationRes.status;
@@ -515,6 +517,7 @@ export class EnumModel {
           path: "/string/enum/ReferencedConstant",
           requestBodyMapper: requestModelMapper,
           requestBodyName: "enumStringBody",
+          requestBodyType: msRest.OperationParameterType.Composite,
           contentType: "application/json; charset=utf-8"
         });
       let statusCode = operationRes.status;

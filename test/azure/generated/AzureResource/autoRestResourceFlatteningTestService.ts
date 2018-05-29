@@ -154,6 +154,7 @@ class AutoRestResourceFlatteningTestService extends msRestAzure.AzureServiceClie
           ],
           requestBodyMapper: requestModelMapper,
           requestBodyName: "resourceArray",
+          requestBodyType: msRest.OperationParameterType.Sequence,
           contentType: "application/json; charset=utf-8"
         });
       let statusCode = operationRes.status;
@@ -366,6 +367,7 @@ class AutoRestResourceFlatteningTestService extends msRestAzure.AzureServiceClie
           ],
           requestBodyMapper: requestModelMapper,
           requestBodyName: "resourceDictionary",
+          requestBodyType: msRest.OperationParameterType.Dictionary,
           contentType: "application/json; charset=utf-8"
         });
       let statusCode = operationRes.status;
@@ -565,6 +567,7 @@ class AutoRestResourceFlatteningTestService extends msRestAzure.AzureServiceClie
           ],
           requestBodyMapper: requestModelMapper,
           requestBodyName: "resourceComplexObject",
+          requestBodyType: msRest.OperationParameterType.Composite,
           contentType: "application/json; charset=utf-8"
         });
       let statusCode = operationRes.status;

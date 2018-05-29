@@ -1487,7 +1487,8 @@ export class Queries {
           path: "/queries/enum/green%20color",
           queryParameters: [
             {
-              parameterName: "enumQuery"
+              parameterName: "enumQuery",
+              type: msRest.OperationParameterType.Enum
             }
           ]
         });
@@ -1569,7 +1570,8 @@ export class Queries {
           path: "/queries/enum/null",
           queryParameters: [
             {
-              parameterName: "enumQuery"
+              parameterName: "enumQuery",
+              type: msRest.OperationParameterType.Enum
             }
           ]
         });
@@ -2193,6 +2195,7 @@ export class Queries {
           queryParameters: [
             {
               parameterName: "arrayQuery",
+              type: msRest.OperationParameterType.Sequence,
               collectionFormat: msRest.QueryCollectionFormat.Csv
             }
           ]
@@ -2278,6 +2281,7 @@ export class Queries {
           queryParameters: [
             {
               parameterName: "arrayQuery",
+              type: msRest.OperationParameterType.Sequence,
               collectionFormat: msRest.QueryCollectionFormat.Csv
             }
           ]
@@ -2363,6 +2367,7 @@ export class Queries {
           queryParameters: [
             {
               parameterName: "arrayQuery",
+              type: msRest.OperationParameterType.Sequence,
               collectionFormat: msRest.QueryCollectionFormat.Csv
             }
           ]
@@ -2449,6 +2454,7 @@ export class Queries {
           queryParameters: [
             {
               parameterName: "arrayQuery",
+              type: msRest.OperationParameterType.Sequence,
               collectionFormat: msRest.QueryCollectionFormat.Ssv
             }
           ]
@@ -2535,6 +2541,7 @@ export class Queries {
           queryParameters: [
             {
               parameterName: "arrayQuery",
+              type: msRest.OperationParameterType.Sequence,
               collectionFormat: msRest.QueryCollectionFormat.Tsv
             }
           ]
@@ -2621,6 +2628,7 @@ export class Queries {
           queryParameters: [
             {
               parameterName: "arrayQuery",
+              type: msRest.OperationParameterType.Sequence,
               collectionFormat: msRest.QueryCollectionFormat.Pipes
             }
           ]

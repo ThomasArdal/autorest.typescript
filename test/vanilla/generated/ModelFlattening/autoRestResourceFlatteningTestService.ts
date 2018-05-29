@@ -111,6 +111,7 @@ class AutoRestResourceFlatteningTestService extends msRest.ServiceClient {
           path: "/model-flatten/array",
           requestBodyMapper: requestModelMapper,
           requestBodyName: "resourceArray",
+          requestBodyType: msRest.OperationParameterType.Sequence,
           contentType: "application/json; charset=utf-8"
         });
       let statusCode = operationRes.status;
@@ -291,6 +292,7 @@ class AutoRestResourceFlatteningTestService extends msRest.ServiceClient {
           path: "/model-flatten/wrappedarray",
           requestBodyMapper: requestModelMapper,
           requestBodyName: "resourceArray",
+          requestBodyType: msRest.OperationParameterType.Sequence,
           contentType: "application/json; charset=utf-8"
         });
       let statusCode = operationRes.status;
@@ -471,6 +473,7 @@ class AutoRestResourceFlatteningTestService extends msRest.ServiceClient {
           path: "/model-flatten/dictionary",
           requestBodyMapper: requestModelMapper,
           requestBodyName: "resourceDictionary",
+          requestBodyType: msRest.OperationParameterType.Dictionary,
           contentType: "application/json; charset=utf-8"
         });
       let statusCode = operationRes.status;
@@ -637,6 +640,7 @@ class AutoRestResourceFlatteningTestService extends msRest.ServiceClient {
           path: "/model-flatten/resourcecollection",
           requestBodyMapper: requestModelMapper,
           requestBodyName: "resourceComplexObject",
+          requestBodyType: msRest.OperationParameterType.Composite,
           contentType: "application/json; charset=utf-8"
         });
       let statusCode = operationRes.status;
@@ -788,6 +792,7 @@ class AutoRestResourceFlatteningTestService extends msRest.ServiceClient {
           path: "/model-flatten/customFlattening",
           requestBodyMapper: requestModelMapper,
           requestBodyName: "simpleBodyProduct",
+          requestBodyType: msRest.OperationParameterType.Composite,
           contentType: "application/json; charset=utf-8"
         });
       let statusCode = operationRes.status;
@@ -918,6 +923,7 @@ class AutoRestResourceFlatteningTestService extends msRest.ServiceClient {
           path: "/model-flatten/customFlattening",
           requestBodyMapper: requestModelMapper,
           requestBodyName: "simpleBodyProduct",
+          requestBodyType: msRest.OperationParameterType.Composite,
           contentType: "application/json; charset=utf-8"
         });
       let statusCode = operationRes.status;
@@ -1088,6 +1094,7 @@ class AutoRestResourceFlatteningTestService extends msRest.ServiceClient {
           ],
           requestBodyMapper: requestModelMapper,
           requestBodyName: "simpleBodyProduct",
+          requestBodyType: msRest.OperationParameterType.Composite,
           contentType: "application/json; charset=utf-8"
         });
       let statusCode = operationRes.status;

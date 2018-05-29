@@ -184,6 +184,7 @@ export class ArrayModel {
           ],
           requestBodyMapper: requestModelMapper,
           requestBodyName: "complexBody",
+          requestBodyType: msRest.OperationParameterType.Composite,
           contentType: "application/json; charset=utf-8"
         });
       let statusCode = operationRes.status;
@@ -377,6 +378,7 @@ export class ArrayModel {
           ],
           requestBodyMapper: requestModelMapper,
           requestBodyName: "complexBody",
+          requestBodyType: msRest.OperationParameterType.Composite,
           contentType: "application/json; charset=utf-8"
         });
       let statusCode = operationRes.status;

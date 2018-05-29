@@ -26,11 +26,6 @@ namespace AutoRest.TypeScript.Model
             };
         }
 
-        public override void Remove(Parameter item)
-        {
-            base.Remove(item);
-        }
-
         public enum MethodFlavor
         {
             Callback,
@@ -51,12 +46,6 @@ namespace AutoRest.TypeScript.Model
                     return $"Models.{Regex.Replace(ReturnType.Headers.Name, "Headers$", "Response")}";
                 }
             }
-        }
-
-        public override Parameter Add(Parameter item)
-        {
-            var parameter = base.Add(item) as ParameterTS;
-            return parameter;
         }
 
         [JsonIgnore]
@@ -432,18 +421,7 @@ namespace AutoRest.TypeScript.Model
                 var builder = new IndentedStringBuilder("  ");
                 foreach (var parameter in ParameterTemplateModels.Where(p => !p.IsConstant))
                 {
-                    if ((HttpMethod == HttpMethod.Patch && parameter.ModelType is CompositeType))
-                    {
-                        if (parameter.IsRequired)
-                        {
-                            builder.AppendLine("if ({0} === null || {0} === undefined) {{", parameter.Name)
-                                     .Indent()
-                                     .AppendLine("throw new Error('{0} cannot be null or undefined.');", parameter.Name)
-                                   .Outdent()
-                                   .AppendLine("}");
-                        }
-                    }
-                    else
+                    if (HttpMethod != HttpMethod.Patch || !(parameter.ModelType is CompositeType))
                     {
                         builder.AppendLine(parameter.ModelType.ValidateType(this, parameter.Name, parameter.IsRequired));
                         if (parameter.Constraints != null && parameter.Constraints.Count > 0 && parameter.Location != ParameterLocation.Body)

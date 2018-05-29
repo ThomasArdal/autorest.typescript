@@ -74,6 +74,7 @@ export class Queries {
           queryParameters: [
             {
               parameterName: "arrayQuery",
+              type: msRest.OperationParameterType.Sequence,
               collectionFormat: msRest.QueryCollectionFormat.Multi
             }
           ]
@@ -159,6 +160,7 @@ export class Queries {
           queryParameters: [
             {
               parameterName: "arrayQuery",
+              type: msRest.OperationParameterType.Sequence,
               collectionFormat: msRest.QueryCollectionFormat.Multi
             }
           ]
@@ -245,6 +247,7 @@ export class Queries {
           queryParameters: [
             {
               parameterName: "arrayQuery",
+              type: msRest.OperationParameterType.Sequence,
               collectionFormat: msRest.QueryCollectionFormat.Multi
             }
           ]

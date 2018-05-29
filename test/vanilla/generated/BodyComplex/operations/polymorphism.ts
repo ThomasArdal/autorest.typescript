@@ -180,6 +180,7 @@ export class Polymorphism {
           path: "/complex/polymorphism/valid",
           requestBodyMapper: requestModelMapper,
           requestBodyName: "complexBody",
+          requestBodyType: msRest.OperationParameterType.Composite,
           contentType: "application/json; charset=utf-8"
         });
       let statusCode = operationRes.status;
@@ -339,6 +340,7 @@ export class Polymorphism {
           path: "/complex/polymorphism/complicated",
           requestBodyMapper: requestModelMapper,
           requestBodyName: "complexBody",
+          requestBodyType: msRest.OperationParameterType.Composite,
           contentType: "application/json; charset=utf-8"
         });
       let statusCode = operationRes.status;
@@ -418,6 +420,7 @@ export class Polymorphism {
           path: "/complex/polymorphism/missingdiscriminator",
           requestBodyMapper: requestModelMapper,
           requestBodyName: "complexBody",
+          requestBodyType: msRest.OperationParameterType.Composite,
           contentType: "application/json; charset=utf-8"
         });
       let statusCode = operationRes.status;
@@ -539,6 +542,7 @@ export class Polymorphism {
           path: "/complex/polymorphism/missingrequired/invalid",
           requestBodyMapper: requestModelMapper,
           requestBodyName: "complexBody",
+          requestBodyType: msRest.OperationParameterType.Composite,
           contentType: "application/json; charset=utf-8"
         });
       let statusCode = operationRes.status;

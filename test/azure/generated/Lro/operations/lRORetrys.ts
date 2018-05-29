@@ -364,6 +364,7 @@ export class LRORetrys {
           ],
           requestBodyMapper: requestModelMapper,
           requestBodyName: "product",
+          requestBodyType: msRest.OperationParameterType.Composite,
           contentType: "application/json; charset=utf-8"
         });
       let statusCode = operationRes.status;
@@ -482,6 +483,7 @@ export class LRORetrys {
           ],
           requestBodyMapper: requestModelMapper,
           requestBodyName: "product",
+          requestBodyType: msRest.OperationParameterType.Composite,
           contentType: "application/json; charset=utf-8"
         });
       let statusCode = operationRes.status;
@@ -870,6 +872,7 @@ export class LRORetrys {
           ],
           requestBodyMapper: requestModelMapper,
           requestBodyName: "product",
+          requestBodyType: msRest.OperationParameterType.Composite,
           contentType: "application/json; charset=utf-8"
         });
       let statusCode = operationRes.status;
@@ -962,6 +965,7 @@ export class LRORetrys {
           ],
           requestBodyMapper: requestModelMapper,
           requestBodyName: "product",
+          requestBodyType: msRest.OperationParameterType.Composite,
           contentType: "application/json; charset=utf-8"
         });
       let statusCode = operationRes.status;

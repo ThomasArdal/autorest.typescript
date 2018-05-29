@@ -159,6 +159,7 @@ export class String {
           path: "/string/null",
           requestBodyMapper: requestModelMapper,
           requestBodyName: "stringBody",
+          requestBodyType: msRest.OperationParameterType.Enum,
           contentType: "application/json; charset=utf-8"
         });
       let statusCode = operationRes.status;
@@ -328,6 +329,7 @@ export class String {
           path: "/string/empty",
           requestBodyMapper: requestModelMapper,
           requestBodyName: "stringBody",
+          requestBodyType: msRest.OperationParameterType.Enum,
           contentType: "application/json; charset=utf-8"
         });
       let statusCode = operationRes.status;
@@ -500,6 +502,7 @@ export class String {
           path: "/string/mbcs",
           requestBodyMapper: requestModelMapper,
           requestBodyName: "stringBody",
+          requestBodyType: msRest.OperationParameterType.Enum,
           contentType: "application/json; charset=utf-8"
         });
       let statusCode = operationRes.status;
@@ -674,6 +677,7 @@ export class String {
           path: "/string/whitespace",
           requestBodyMapper: requestModelMapper,
           requestBodyName: "stringBody",
+          requestBodyType: msRest.OperationParameterType.Enum,
           contentType: "application/json; charset=utf-8"
         });
       let statusCode = operationRes.status;

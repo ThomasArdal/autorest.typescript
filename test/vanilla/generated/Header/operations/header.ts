@@ -2362,7 +2362,8 @@ export class Header {
               type: msRest.OperationParameterType.String
             },
             {
-              parameterName: "value"
+              parameterName: "value",
+              type: msRest.OperationParameterType.Enum
             }
           ]
         });

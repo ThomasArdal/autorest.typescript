@@ -258,6 +258,7 @@ class ComplexModelClient extends msRest.ServiceClient {
           ],
           requestBodyMapper: requestModelMapper,
           requestBodyName: "bodyParameter",
+          requestBodyType: msRest.OperationParameterType.Composite,
           contentType: "application/json; charset=utf-8"
         });
       let statusCode = operationRes.status;
@@ -387,6 +388,7 @@ class ComplexModelClient extends msRest.ServiceClient {
           ],
           requestBodyMapper: requestModelMapper,
           requestBodyName: "bodyParameter",
+          requestBodyType: msRest.OperationParameterType.Composite,
           contentType: "application/json; charset=utf-8"
         });
       let statusCode = operationRes.status;

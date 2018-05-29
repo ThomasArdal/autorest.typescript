@@ -148,6 +148,7 @@ export class Primitive {
           path: "/complex/primitive/integer",
           requestBodyMapper: requestModelMapper,
           requestBodyName: "complexBody",
+          requestBodyType: msRest.OperationParameterType.Composite,
           contentType: "application/json; charset=utf-8"
         });
       let statusCode = operationRes.status;
@@ -305,6 +306,7 @@ export class Primitive {
           path: "/complex/primitive/long",
           requestBodyMapper: requestModelMapper,
           requestBodyName: "complexBody",
+          requestBodyType: msRest.OperationParameterType.Composite,
           contentType: "application/json; charset=utf-8"
         });
       let statusCode = operationRes.status;
@@ -462,6 +464,7 @@ export class Primitive {
           path: "/complex/primitive/float",
           requestBodyMapper: requestModelMapper,
           requestBodyName: "complexBody",
+          requestBodyType: msRest.OperationParameterType.Composite,
           contentType: "application/json; charset=utf-8"
         });
       let statusCode = operationRes.status;
@@ -620,6 +623,7 @@ export class Primitive {
           path: "/complex/primitive/double",
           requestBodyMapper: requestModelMapper,
           requestBodyName: "complexBody",
+          requestBodyType: msRest.OperationParameterType.Composite,
           contentType: "application/json; charset=utf-8"
         });
       let statusCode = operationRes.status;
@@ -777,6 +781,7 @@ export class Primitive {
           path: "/complex/primitive/bool",
           requestBodyMapper: requestModelMapper,
           requestBodyName: "complexBody",
+          requestBodyType: msRest.OperationParameterType.Composite,
           contentType: "application/json; charset=utf-8"
         });
       let statusCode = operationRes.status;
@@ -934,6 +939,7 @@ export class Primitive {
           path: "/complex/primitive/string",
           requestBodyMapper: requestModelMapper,
           requestBodyName: "complexBody",
+          requestBodyType: msRest.OperationParameterType.Composite,
           contentType: "application/json; charset=utf-8"
         });
       let statusCode = operationRes.status;
@@ -1091,6 +1097,7 @@ export class Primitive {
           path: "/complex/primitive/date",
           requestBodyMapper: requestModelMapper,
           requestBodyName: "complexBody",
+          requestBodyType: msRest.OperationParameterType.Composite,
           contentType: "application/json; charset=utf-8"
         });
       let statusCode = operationRes.status;
@@ -1249,6 +1256,7 @@ export class Primitive {
           path: "/complex/primitive/datetime",
           requestBodyMapper: requestModelMapper,
           requestBodyName: "complexBody",
+          requestBodyType: msRest.OperationParameterType.Composite,
           contentType: "application/json; charset=utf-8"
         });
       let statusCode = operationRes.status;
@@ -1407,6 +1415,7 @@ export class Primitive {
           path: "/complex/primitive/datetimerfc1123",
           requestBodyMapper: requestModelMapper,
           requestBodyName: "complexBody",
+          requestBodyType: msRest.OperationParameterType.Composite,
           contentType: "application/json; charset=utf-8"
         });
       let statusCode = operationRes.status;
@@ -1568,6 +1577,7 @@ export class Primitive {
           path: "/complex/primitive/duration",
           requestBodyMapper: requestModelMapper,
           requestBodyName: "complexBody",
+          requestBodyType: msRest.OperationParameterType.Composite,
           contentType: "application/json; charset=utf-8"
         });
       let statusCode = operationRes.status;
@@ -1729,6 +1739,7 @@ export class Primitive {
           path: "/complex/primitive/byte",
           requestBodyMapper: requestModelMapper,
           requestBodyName: "complexBody",
+          requestBodyType: msRest.OperationParameterType.Composite,
           contentType: "application/json; charset=utf-8"
         });
       let statusCode = operationRes.status;

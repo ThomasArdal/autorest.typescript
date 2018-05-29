@@ -1089,6 +1089,7 @@ export class LROSADs {
           ],
           requestBodyMapper: requestModelMapper,
           requestBodyName: "product",
+          requestBodyType: msRest.OperationParameterType.Composite,
           contentType: "application/json; charset=utf-8"
         });
       let statusCode = operationRes.status;
@@ -1206,6 +1207,7 @@ export class LROSADs {
           ],
           requestBodyMapper: requestModelMapper,
           requestBodyName: "product",
+          requestBodyType: msRest.OperationParameterType.Composite,
           contentType: "application/json; charset=utf-8"
         });
       let statusCode = operationRes.status;
@@ -1323,6 +1325,7 @@ export class LROSADs {
           ],
           requestBodyMapper: requestModelMapper,
           requestBodyName: "product",
+          requestBodyType: msRest.OperationParameterType.Composite,
           contentType: "application/json; charset=utf-8"
         });
       let statusCode = operationRes.status;
@@ -1441,6 +1444,7 @@ export class LROSADs {
           ],
           requestBodyMapper: requestModelMapper,
           requestBodyName: "product",
+          requestBodyType: msRest.OperationParameterType.Composite,
           contentType: "application/json; charset=utf-8"
         });
       let statusCode = operationRes.status;
@@ -1794,6 +1798,7 @@ export class LROSADs {
           ],
           requestBodyMapper: requestModelMapper,
           requestBodyName: "product",
+          requestBodyType: msRest.OperationParameterType.Composite,
           contentType: "application/json; charset=utf-8"
         });
       let statusCode = operationRes.status;
@@ -1884,6 +1889,7 @@ export class LROSADs {
           ],
           requestBodyMapper: requestModelMapper,
           requestBodyName: "product",
+          requestBodyType: msRest.OperationParameterType.Composite,
           contentType: "application/json; charset=utf-8"
         });
       let statusCode = operationRes.status;
@@ -1976,6 +1982,7 @@ export class LROSADs {
           ],
           requestBodyMapper: requestModelMapper,
           requestBodyName: "product",
+          requestBodyType: msRest.OperationParameterType.Composite,
           contentType: "application/json; charset=utf-8"
         });
       let statusCode = operationRes.status;
@@ -2067,6 +2074,7 @@ export class LROSADs {
           ],
           requestBodyMapper: requestModelMapper,
           requestBodyName: "product",
+          requestBodyType: msRest.OperationParameterType.Composite,
           contentType: "application/json; charset=utf-8"
         });
       let statusCode = operationRes.status;
@@ -2185,6 +2193,7 @@ export class LROSADs {
           ],
           requestBodyMapper: requestModelMapper,
           requestBodyName: "product",
+          requestBodyType: msRest.OperationParameterType.Composite,
           contentType: "application/json; charset=utf-8"
         });
       let statusCode = operationRes.status;
@@ -2289,6 +2298,7 @@ export class LROSADs {
           ],
           requestBodyMapper: requestModelMapper,
           requestBodyName: "product",
+          requestBodyType: msRest.OperationParameterType.Composite,
           contentType: "application/json; charset=utf-8"
         });
       let statusCode = operationRes.status;
@@ -2557,6 +2567,7 @@ export class LROSADs {
           ],
           requestBodyMapper: requestModelMapper,
           requestBodyName: "product",
+          requestBodyType: msRest.OperationParameterType.Composite,
           contentType: "application/json; charset=utf-8"
         });
       let statusCode = operationRes.status;
@@ -2649,6 +2660,7 @@ export class LROSADs {
           ],
           requestBodyMapper: requestModelMapper,
           requestBodyName: "product",
+          requestBodyType: msRest.OperationParameterType.Composite,
           contentType: "application/json; charset=utf-8"
         });
       let statusCode = operationRes.status;
@@ -2740,6 +2752,7 @@ export class LROSADs {
           ],
           requestBodyMapper: requestModelMapper,
           requestBodyName: "product",
+          requestBodyType: msRest.OperationParameterType.Composite,
           contentType: "application/json; charset=utf-8"
         });
       let statusCode = operationRes.status;
@@ -2843,6 +2856,7 @@ export class LROSADs {
           ],
           requestBodyMapper: requestModelMapper,
           requestBodyName: "product",
+          requestBodyType: msRest.OperationParameterType.Composite,
           contentType: "application/json; charset=utf-8"
         });
       let statusCode = operationRes.status;
@@ -2947,6 +2961,7 @@ export class LROSADs {
           ],
           requestBodyMapper: requestModelMapper,
           requestBodyName: "product",
+          requestBodyType: msRest.OperationParameterType.Composite,
           contentType: "application/json; charset=utf-8"
         });
       let statusCode = operationRes.status;
@@ -3303,6 +3318,7 @@ export class LROSADs {
           ],
           requestBodyMapper: requestModelMapper,
           requestBodyName: "product",
+          requestBodyType: msRest.OperationParameterType.Composite,
           contentType: "application/json; charset=utf-8"
         });
       let statusCode = operationRes.status;
@@ -3395,6 +3411,7 @@ export class LROSADs {
           ],
           requestBodyMapper: requestModelMapper,
           requestBodyName: "product",
+          requestBodyType: msRest.OperationParameterType.Composite,
           contentType: "application/json; charset=utf-8"
         });
       let statusCode = operationRes.status;
@@ -3487,6 +3504,7 @@ export class LROSADs {
           ],
           requestBodyMapper: requestModelMapper,
           requestBodyName: "product",
+          requestBodyType: msRest.OperationParameterType.Composite,
           contentType: "application/json; charset=utf-8"
         });
       let statusCode = operationRes.status;

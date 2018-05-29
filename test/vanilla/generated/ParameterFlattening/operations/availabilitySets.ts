@@ -109,6 +109,7 @@ export class AvailabilitySets {
           ],
           requestBodyMapper: requestModelMapper,
           requestBodyName: "tags1",
+          requestBodyType: msRest.OperationParameterType.Composite,
           contentType: "application/json; charset=utf-8"
         });
       let statusCode = operationRes.status;

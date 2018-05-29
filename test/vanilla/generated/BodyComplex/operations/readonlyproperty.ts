@@ -157,6 +157,7 @@ export class Readonlyproperty {
           path: "/complex/readonlyproperty/valid",
           requestBodyMapper: requestModelMapper,
           requestBodyName: "complexBody",
+          requestBodyType: msRest.OperationParameterType.Composite,
           contentType: "application/json; charset=utf-8"
         });
       let statusCode = operationRes.status;

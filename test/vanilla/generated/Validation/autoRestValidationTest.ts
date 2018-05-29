@@ -355,6 +355,7 @@ class AutoRestValidationTest extends msRest.ServiceClient {
           ],
           requestBodyMapper: requestModelMapper,
           requestBodyName: "body",
+          requestBodyType: msRest.OperationParameterType.Composite,
           contentType: "application/json; charset=utf-8"
         });
       let statusCode = operationRes.status;
@@ -515,6 +516,7 @@ class AutoRestValidationTest extends msRest.ServiceClient {
           ],
           requestBodyMapper: requestModelMapper,
           requestBodyName: "body",
+          requestBodyType: msRest.OperationParameterType.Composite,
           contentType: "application/json; charset=utf-8"
         });
       let statusCode = operationRes.status;

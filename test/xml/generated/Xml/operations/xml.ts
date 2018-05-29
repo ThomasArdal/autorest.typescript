@@ -149,6 +149,7 @@ export class Xml {
           path: "/xml/simple",
           requestBodyMapper: requestModelMapper,
           requestBodyName: "slideshow",
+          requestBodyType: msRest.OperationParameterType.Composite,
           contentType: "application/xml; charset=utf-8",
           isXML: true
         });
@@ -304,6 +305,7 @@ export class Xml {
           path: "/xml/wrapped-lists",
           requestBodyMapper: requestModelMapper,
           requestBodyName: "wrappedLists",
+          requestBodyType: msRest.OperationParameterType.Composite,
           contentType: "application/xml; charset=utf-8",
           isXML: true
         });
@@ -523,6 +525,7 @@ export class Xml {
           path: "/xml/empty-list",
           requestBodyMapper: requestModelMapper,
           requestBodyName: "slideshow",
+          requestBodyType: msRest.OperationParameterType.Composite,
           contentType: "application/xml; charset=utf-8",
           isXML: true
         });
@@ -674,6 +677,7 @@ export class Xml {
           path: "/xml/empty-wrapped-lists",
           requestBodyMapper: requestModelMapper,
           requestBodyName: "appleBarrel",
+          requestBodyType: msRest.OperationParameterType.Composite,
           contentType: "application/xml; charset=utf-8",
           isXML: true
         });
@@ -847,6 +851,7 @@ export class Xml {
           path: "/xml/root-list",
           requestBodyMapper: requestModelMapper,
           requestBodyName: "bananas",
+          requestBodyType: msRest.OperationParameterType.Sequence,
           contentType: "application/xml; charset=utf-8",
           isXML: true
         });
@@ -1020,6 +1025,7 @@ export class Xml {
           path: "/xml/root-list-single-item",
           requestBodyMapper: requestModelMapper,
           requestBodyName: "bananas",
+          requestBodyType: msRest.OperationParameterType.Sequence,
           contentType: "application/xml; charset=utf-8",
           isXML: true
         });
@@ -1193,6 +1199,7 @@ export class Xml {
           path: "/xml/empty-root-list",
           requestBodyMapper: requestModelMapper,
           requestBodyName: "bananas",
+          requestBodyType: msRest.OperationParameterType.Sequence,
           contentType: "application/xml; charset=utf-8",
           isXML: true
         });
@@ -1344,6 +1351,7 @@ export class Xml {
           path: "/xml/empty-child-element",
           requestBodyMapper: requestModelMapper,
           requestBodyName: "banana",
+          requestBodyType: msRest.OperationParameterType.Composite,
           contentType: "application/xml; charset=utf-8",
           isXML: true
         });
@@ -1608,6 +1616,7 @@ export class Xml {
           ],
           requestBodyMapper: requestModelMapper,
           requestBodyName: "properties",
+          requestBodyType: msRest.OperationParameterType.Composite,
           contentType: "application/xml; charset=utf-8",
           isXML: true
         });
@@ -1810,6 +1819,7 @@ export class Xml {
           ],
           requestBodyMapper: requestModelMapper,
           requestBodyName: "properties",
+          requestBodyType: msRest.OperationParameterType.Sequence,
           contentType: "application/xml; charset=utf-8",
           isXML: true
         });

@@ -327,6 +327,7 @@ class AzureCompositeModel extends msRestAzure.AzureServiceClient {
           ],
           requestBodyMapper: requestModelMapper,
           requestBodyName: "bodyParameter",
+          requestBodyType: msRest.OperationParameterType.Composite,
           contentType: "application/json; charset=utf-8"
         });
       let statusCode = operationRes.status;
@@ -468,6 +469,7 @@ class AzureCompositeModel extends msRestAzure.AzureServiceClient {
           ],
           requestBodyMapper: requestModelMapper,
           requestBodyName: "bodyParameter",
+          requestBodyType: msRest.OperationParameterType.Composite,
           contentType: "application/json; charset=utf-8"
         });
       let statusCode = operationRes.status;

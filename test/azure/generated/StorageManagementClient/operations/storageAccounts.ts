@@ -106,6 +106,7 @@ export class StorageAccounts {
           ],
           requestBodyMapper: requestModelMapper,
           requestBodyName: "accountName",
+          requestBodyType: msRest.OperationParameterType.Composite,
           contentType: "application/json; charset=utf-8"
         });
       let statusCode = operationRes.status;
@@ -519,9 +520,6 @@ export class StorageAccounts {
       if (accountName === null || accountName === undefined || typeof accountName.valueOf() !== 'string') {
         throw new Error('accountName cannot be null or undefined and it must be of type string.');
       }
-      if (parameters === null || parameters === undefined) {
-        throw new Error('parameters cannot be null or undefined.');
-      }
       if (this.client.apiVersion === null || this.client.apiVersion === undefined || typeof this.client.apiVersion.valueOf() !== 'string') {
         throw new Error('this.client.apiVersion cannot be null or undefined and it must be of type string.');
       }
@@ -589,6 +587,7 @@ export class StorageAccounts {
           ],
           requestBodyMapper: requestModelMapper,
           requestBodyName: "parameters",
+          requestBodyType: msRest.OperationParameterType.Composite,
           contentType: "application/json; charset=utf-8"
         });
       let statusCode = operationRes.status;
@@ -1129,6 +1128,7 @@ export class StorageAccounts {
           ],
           requestBodyMapper: requestModelMapper,
           requestBodyName: "regenerateKeyParameter",
+          requestBodyType: msRest.OperationParameterType.Composite,
           contentType: "application/json; charset=utf-8"
         });
       let statusCode = operationRes.status;
@@ -1283,6 +1283,7 @@ export class StorageAccounts {
           ],
           requestBodyMapper: requestModelMapper,
           requestBodyName: "parameters",
+          requestBodyType: msRest.OperationParameterType.Composite,
           contentType: "application/json; charset=utf-8"
         });
       let statusCode = operationRes.status;

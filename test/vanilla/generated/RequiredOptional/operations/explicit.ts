@@ -262,6 +262,7 @@ export class Explicit {
           path: "/reqopt/requied/integer/property",
           requestBodyMapper: requestModelMapper,
           requestBodyName: "bodyParameter",
+          requestBodyType: msRest.OperationParameterType.Composite,
           contentType: "application/json; charset=utf-8"
         });
       let statusCode = operationRes.status;
@@ -359,6 +360,7 @@ export class Explicit {
           path: "/reqopt/optional/integer/property",
           requestBodyMapper: requestModelMapper,
           requestBodyName: "bodyParameter",
+          requestBodyType: msRest.OperationParameterType.Composite,
           contentType: "application/json; charset=utf-8"
         });
       let statusCode = operationRes.status;
@@ -806,6 +808,7 @@ export class Explicit {
           path: "/reqopt/requied/string/property",
           requestBodyMapper: requestModelMapper,
           requestBodyName: "bodyParameter",
+          requestBodyType: msRest.OperationParameterType.Composite,
           contentType: "application/json; charset=utf-8"
         });
       let statusCode = operationRes.status;
@@ -903,6 +906,7 @@ export class Explicit {
           path: "/reqopt/optional/string/property",
           requestBodyMapper: requestModelMapper,
           requestBodyName: "bodyParameter",
+          requestBodyType: msRest.OperationParameterType.Composite,
           contentType: "application/json; charset=utf-8"
         });
       let statusCode = operationRes.status;
@@ -1159,6 +1163,7 @@ export class Explicit {
           path: "/reqopt/requied/class/parameter",
           requestBodyMapper: requestModelMapper,
           requestBodyName: "bodyParameter",
+          requestBodyType: msRest.OperationParameterType.Composite,
           contentType: "application/json; charset=utf-8"
         });
       let statusCode = operationRes.status;
@@ -1242,6 +1247,7 @@ export class Explicit {
           path: "/reqopt/optional/class/parameter",
           requestBodyMapper: requestModelMapper,
           requestBodyName: "bodyParameter",
+          requestBodyType: msRest.OperationParameterType.Composite,
           contentType: "application/json; charset=utf-8"
         });
       let statusCode = operationRes.status;
@@ -1328,6 +1334,7 @@ export class Explicit {
           path: "/reqopt/requied/class/property",
           requestBodyMapper: requestModelMapper,
           requestBodyName: "bodyParameter",
+          requestBodyType: msRest.OperationParameterType.Composite,
           contentType: "application/json; charset=utf-8"
         });
       let statusCode = operationRes.status;
@@ -1417,6 +1424,7 @@ export class Explicit {
           path: "/reqopt/optional/class/property",
           requestBodyMapper: requestModelMapper,
           requestBodyName: "bodyParameter",
+          requestBodyType: msRest.OperationParameterType.Composite,
           contentType: "application/json; charset=utf-8"
         });
       let statusCode = operationRes.status;
@@ -1515,6 +1523,7 @@ export class Explicit {
           path: "/reqopt/requied/array/parameter",
           requestBodyMapper: requestModelMapper,
           requestBodyName: "bodyParameter",
+          requestBodyType: msRest.OperationParameterType.Sequence,
           contentType: "application/json; charset=utf-8"
         });
       let statusCode = operationRes.status;
@@ -1623,6 +1632,7 @@ export class Explicit {
           path: "/reqopt/optional/array/parameter",
           requestBodyMapper: requestModelMapper,
           requestBodyName: "bodyParameter",
+          requestBodyType: msRest.OperationParameterType.Sequence,
           contentType: "application/json; charset=utf-8"
         });
       let statusCode = operationRes.status;
@@ -1714,6 +1724,7 @@ export class Explicit {
           path: "/reqopt/requied/array/property",
           requestBodyMapper: requestModelMapper,
           requestBodyName: "bodyParameter",
+          requestBodyType: msRest.OperationParameterType.Composite,
           contentType: "application/json; charset=utf-8"
         });
       let statusCode = operationRes.status;
@@ -1815,6 +1826,7 @@ export class Explicit {
           path: "/reqopt/optional/array/property",
           requestBodyMapper: requestModelMapper,
           requestBodyName: "bodyParameter",
+          requestBodyType: msRest.OperationParameterType.Composite,
           contentType: "application/json; charset=utf-8"
         });
       let statusCode = operationRes.status;
@@ -1899,7 +1911,8 @@ export class Explicit {
           path: "/reqopt/requied/array/header",
           headerParameters: [
             {
-              parameterName: "headerParameter"
+              parameterName: "headerParameter",
+              type: msRest.OperationParameterType.Sequence
             }
           ]
         });
@@ -1996,7 +2009,8 @@ export class Explicit {
           path: "/reqopt/optional/array/header",
           headerParameters: [
             {
-              parameterName: "headerParameter"
+              parameterName: "headerParameter",
+              type: msRest.OperationParameterType.Sequence
             }
           ]
         });

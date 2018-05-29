@@ -361,6 +361,7 @@ export class ArrayModel {
           path: "/array/empty",
           requestBodyMapper: requestModelMapper,
           requestBodyName: "arrayBody",
+          requestBodyType: msRest.OperationParameterType.Sequence,
           contentType: "application/json; charset=utf-8"
         });
       let statusCode = operationRes.status;
@@ -549,6 +550,7 @@ export class ArrayModel {
           path: "/array/prim/boolean/tfft",
           requestBodyMapper: requestModelMapper,
           requestBodyName: "arrayBody",
+          requestBodyType: msRest.OperationParameterType.Sequence,
           contentType: "application/json; charset=utf-8"
         });
       let statusCode = operationRes.status;
@@ -919,6 +921,7 @@ export class ArrayModel {
           path: "/array/prim/integer/1.-1.3.300",
           requestBodyMapper: requestModelMapper,
           requestBodyName: "arrayBody",
+          requestBodyType: msRest.OperationParameterType.Sequence,
           contentType: "application/json; charset=utf-8"
         });
       let statusCode = operationRes.status;
@@ -1289,6 +1292,7 @@ export class ArrayModel {
           path: "/array/prim/long/1.-1.3.300",
           requestBodyMapper: requestModelMapper,
           requestBodyName: "arrayBody",
+          requestBodyType: msRest.OperationParameterType.Sequence,
           contentType: "application/json; charset=utf-8"
         });
       let statusCode = operationRes.status;
@@ -1659,6 +1663,7 @@ export class ArrayModel {
           path: "/array/prim/float/0--0.01-1.2e20",
           requestBodyMapper: requestModelMapper,
           requestBodyName: "arrayBody",
+          requestBodyType: msRest.OperationParameterType.Sequence,
           contentType: "application/json; charset=utf-8"
         });
       let statusCode = operationRes.status;
@@ -2029,6 +2034,7 @@ export class ArrayModel {
           path: "/array/prim/double/0--0.01-1.2e20",
           requestBodyMapper: requestModelMapper,
           requestBodyName: "arrayBody",
+          requestBodyType: msRest.OperationParameterType.Sequence,
           contentType: "application/json; charset=utf-8"
         });
       let statusCode = operationRes.status;
@@ -2399,6 +2405,7 @@ export class ArrayModel {
           path: "/array/prim/string/foo1.foo2.foo3",
           requestBodyMapper: requestModelMapper,
           requestBodyName: "arrayBody",
+          requestBodyType: msRest.OperationParameterType.Sequence,
           contentType: "application/json; charset=utf-8"
         });
       let statusCode = operationRes.status;
@@ -2773,6 +2780,7 @@ export class ArrayModel {
           path: "/array/prim/uuid/valid",
           requestBodyMapper: requestModelMapper,
           requestBodyName: "arrayBody",
+          requestBodyType: msRest.OperationParameterType.Sequence,
           contentType: "application/json; charset=utf-8"
         });
       let statusCode = operationRes.status;
@@ -3053,6 +3061,7 @@ export class ArrayModel {
           path: "/array/prim/date/valid",
           requestBodyMapper: requestModelMapper,
           requestBodyName: "arrayBody",
+          requestBodyType: msRest.OperationParameterType.Sequence,
           contentType: "application/json; charset=utf-8"
         });
       let statusCode = operationRes.status;
@@ -3426,6 +3435,7 @@ export class ArrayModel {
           path: "/array/prim/date-time/valid",
           requestBodyMapper: requestModelMapper,
           requestBodyName: "arrayBody",
+          requestBodyType: msRest.OperationParameterType.Sequence,
           contentType: "application/json; charset=utf-8"
         });
       let statusCode = operationRes.status;
@@ -3799,6 +3809,7 @@ export class ArrayModel {
           path: "/array/prim/date-time-rfc1123/valid",
           requestBodyMapper: requestModelMapper,
           requestBodyName: "arrayBody",
+          requestBodyType: msRest.OperationParameterType.Sequence,
           contentType: "application/json; charset=utf-8"
         });
       let statusCode = operationRes.status;
@@ -3987,6 +3998,7 @@ export class ArrayModel {
           path: "/array/prim/duration/valid",
           requestBodyMapper: requestModelMapper,
           requestBodyName: "arrayBody",
+          requestBodyType: msRest.OperationParameterType.Sequence,
           contentType: "application/json; charset=utf-8"
         });
       let statusCode = operationRes.status;
@@ -4177,6 +4189,7 @@ export class ArrayModel {
           path: "/array/prim/byte/valid",
           requestBodyMapper: requestModelMapper,
           requestBodyName: "arrayBody",
+          requestBodyType: msRest.OperationParameterType.Sequence,
           contentType: "application/json; charset=utf-8"
         });
       let statusCode = operationRes.status;
@@ -4910,6 +4923,7 @@ export class ArrayModel {
           path: "/array/complex/valid",
           requestBodyMapper: requestModelMapper,
           requestBodyName: "arrayBody",
+          requestBodyType: msRest.OperationParameterType.Sequence,
           contentType: "application/json; charset=utf-8"
         });
       let statusCode = operationRes.status;
@@ -5510,6 +5524,7 @@ export class ArrayModel {
           path: "/array/array/valid",
           requestBodyMapper: requestModelMapper,
           requestBodyName: "arrayBody",
+          requestBodyType: msRest.OperationParameterType.Sequence,
           contentType: "application/json; charset=utf-8"
         });
       let statusCode = operationRes.status;
@@ -6116,6 +6131,7 @@ export class ArrayModel {
           path: "/array/dictionary/valid",
           requestBodyMapper: requestModelMapper,
           requestBodyName: "arrayBody",
+          requestBodyType: msRest.OperationParameterType.Sequence,
           contentType: "application/json; charset=utf-8"
         });
       let statusCode = operationRes.status;
