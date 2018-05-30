@@ -74,7 +74,7 @@ export class Explicit {
         {
           httpMethod: "POST",
           baseUrl: this.client.baseUri,
-          path: "/reqopt/requied/integer/parameter",
+          path: "reqopt/requied/integer/parameter",
           requestBodyMapper: requestModelMapper,
           requestBodyName: "bodyParameter",
           requestBodyType: msRest.OperationParameterType.Int,
@@ -172,7 +172,7 @@ export class Explicit {
         {
           httpMethod: "POST",
           baseUrl: this.client.baseUri,
-          path: "/reqopt/optional/integer/parameter",
+          path: "reqopt/optional/integer/parameter",
           requestBodyMapper: requestModelMapper,
           requestBodyName: "bodyParameter",
           requestBodyType: msRest.OperationParameterType.Int,
@@ -259,7 +259,7 @@ export class Explicit {
         {
           httpMethod: "POST",
           baseUrl: this.client.baseUri,
-          path: "/reqopt/requied/integer/property",
+          path: "reqopt/requied/integer/property",
           requestBodyMapper: requestModelMapper,
           requestBodyName: "bodyParameter",
           requestBodyType: msRest.OperationParameterType.Composite,
@@ -357,7 +357,7 @@ export class Explicit {
         {
           httpMethod: "POST",
           baseUrl: this.client.baseUri,
-          path: "/reqopt/optional/integer/property",
+          path: "reqopt/optional/integer/property",
           requestBodyMapper: requestModelMapper,
           requestBodyName: "bodyParameter",
           requestBodyType: msRest.OperationParameterType.Composite,
@@ -437,7 +437,7 @@ export class Explicit {
         {
           httpMethod: "POST",
           baseUrl: this.client.baseUri,
-          path: "/reqopt/requied/integer/header",
+          path: "reqopt/requied/integer/header",
           headerParameters: [
             {
               parameterName: "headerParameter",
@@ -531,7 +531,7 @@ export class Explicit {
         {
           httpMethod: "POST",
           baseUrl: this.client.baseUri,
-          path: "/reqopt/optional/integer/header",
+          path: "reqopt/optional/integer/header",
           headerParameters: [
             {
               parameterName: "headerParameter",
@@ -620,7 +620,7 @@ export class Explicit {
         {
           httpMethod: "POST",
           baseUrl: this.client.baseUri,
-          path: "/reqopt/requied/string/parameter",
+          path: "reqopt/requied/string/parameter",
           requestBodyMapper: requestModelMapper,
           requestBodyName: "bodyParameter",
           requestBodyType: msRest.OperationParameterType.String,
@@ -718,7 +718,7 @@ export class Explicit {
         {
           httpMethod: "POST",
           baseUrl: this.client.baseUri,
-          path: "/reqopt/optional/string/parameter",
+          path: "reqopt/optional/string/parameter",
           requestBodyMapper: requestModelMapper,
           requestBodyName: "bodyParameter",
           requestBodyType: msRest.OperationParameterType.String,
@@ -805,7 +805,7 @@ export class Explicit {
         {
           httpMethod: "POST",
           baseUrl: this.client.baseUri,
-          path: "/reqopt/requied/string/property",
+          path: "reqopt/requied/string/property",
           requestBodyMapper: requestModelMapper,
           requestBodyName: "bodyParameter",
           requestBodyType: msRest.OperationParameterType.Composite,
@@ -903,7 +903,7 @@ export class Explicit {
         {
           httpMethod: "POST",
           baseUrl: this.client.baseUri,
-          path: "/reqopt/optional/string/property",
+          path: "reqopt/optional/string/property",
           requestBodyMapper: requestModelMapper,
           requestBodyName: "bodyParameter",
           requestBodyType: msRest.OperationParameterType.Composite,
@@ -983,7 +983,7 @@ export class Explicit {
         {
           httpMethod: "POST",
           baseUrl: this.client.baseUri,
-          path: "/reqopt/requied/string/header",
+          path: "reqopt/requied/string/header",
           headerParameters: [
             {
               parameterName: "headerParameter",
@@ -1077,7 +1077,7 @@ export class Explicit {
         {
           httpMethod: "POST",
           baseUrl: this.client.baseUri,
-          path: "/reqopt/optional/string/header",
+          path: "reqopt/optional/string/header",
           headerParameters: [
             {
               parameterName: "bodyParameter",
@@ -1160,7 +1160,7 @@ export class Explicit {
         {
           httpMethod: "POST",
           baseUrl: this.client.baseUri,
-          path: "/reqopt/requied/class/parameter",
+          path: "reqopt/requied/class/parameter",
           requestBodyMapper: requestModelMapper,
           requestBodyName: "bodyParameter",
           requestBodyType: msRest.OperationParameterType.Composite,
@@ -1244,7 +1244,7 @@ export class Explicit {
         {
           httpMethod: "POST",
           baseUrl: this.client.baseUri,
-          path: "/reqopt/optional/class/parameter",
+          path: "reqopt/optional/class/parameter",
           requestBodyMapper: requestModelMapper,
           requestBodyName: "bodyParameter",
           requestBodyType: msRest.OperationParameterType.Composite,
@@ -1331,7 +1331,7 @@ export class Explicit {
         {
           httpMethod: "POST",
           baseUrl: this.client.baseUri,
-          path: "/reqopt/requied/class/property",
+          path: "reqopt/requied/class/property",
           requestBodyMapper: requestModelMapper,
           requestBodyName: "bodyParameter",
           requestBodyType: msRest.OperationParameterType.Composite,
@@ -1421,7 +1421,7 @@ export class Explicit {
         {
           httpMethod: "POST",
           baseUrl: this.client.baseUri,
-          path: "/reqopt/optional/class/property",
+          path: "reqopt/optional/class/property",
           requestBodyMapper: requestModelMapper,
           requestBodyName: "bodyParameter",
           requestBodyType: msRest.OperationParameterType.Composite,
@@ -1520,7 +1520,7 @@ export class Explicit {
         {
           httpMethod: "POST",
           baseUrl: this.client.baseUri,
-          path: "/reqopt/requied/array/parameter",
+          path: "reqopt/requied/array/parameter",
           requestBodyMapper: requestModelMapper,
           requestBodyName: "bodyParameter",
           requestBodyType: msRest.OperationParameterType.Sequence,
@@ -1629,7 +1629,7 @@ export class Explicit {
         {
           httpMethod: "POST",
           baseUrl: this.client.baseUri,
-          path: "/reqopt/optional/array/parameter",
+          path: "reqopt/optional/array/parameter",
           requestBodyMapper: requestModelMapper,
           requestBodyName: "bodyParameter",
           requestBodyType: msRest.OperationParameterType.Sequence,
@@ -1721,7 +1721,7 @@ export class Explicit {
         {
           httpMethod: "POST",
           baseUrl: this.client.baseUri,
-          path: "/reqopt/requied/array/property",
+          path: "reqopt/requied/array/property",
           requestBodyMapper: requestModelMapper,
           requestBodyName: "bodyParameter",
           requestBodyType: msRest.OperationParameterType.Composite,
@@ -1823,7 +1823,7 @@ export class Explicit {
         {
           httpMethod: "POST",
           baseUrl: this.client.baseUri,
-          path: "/reqopt/optional/array/property",
+          path: "reqopt/optional/array/property",
           requestBodyMapper: requestModelMapper,
           requestBodyName: "bodyParameter",
           requestBodyType: msRest.OperationParameterType.Composite,
@@ -1908,7 +1908,7 @@ export class Explicit {
         {
           httpMethod: "POST",
           baseUrl: this.client.baseUri,
-          path: "/reqopt/requied/array/header",
+          path: "reqopt/requied/array/header",
           headerParameters: [
             {
               parameterName: "headerParameter",
@@ -2006,7 +2006,7 @@ export class Explicit {
         {
           httpMethod: "POST",
           baseUrl: this.client.baseUri,
-          path: "/reqopt/optional/array/header",
+          path: "reqopt/optional/array/header",
           headerParameters: [
             {
               parameterName: "headerParameter",

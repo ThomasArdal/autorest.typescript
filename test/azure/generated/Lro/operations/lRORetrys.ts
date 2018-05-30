@@ -354,7 +354,7 @@ export class LRORetrys {
         {
           httpMethod: "PUT",
           baseUrl: this.client.baseUri,
-          path: "/lro/retryerror/put/201/creating/succeeded/200",
+          path: "lro/retryerror/put/201/creating/succeeded/200",
           headerParameters: [
             {
               parameterName: "this.client.acceptLanguage",
@@ -473,7 +473,7 @@ export class LRORetrys {
         {
           httpMethod: "PUT",
           baseUrl: this.client.baseUri,
-          path: "/lro/retryerror/putasync/retry/succeeded",
+          path: "lro/retryerror/putasync/retry/succeeded",
           headerParameters: [
             {
               parameterName: "this.client.acceptLanguage",
@@ -575,7 +575,7 @@ export class LRORetrys {
         {
           httpMethod: "DELETE",
           baseUrl: this.client.baseUri,
-          path: "/lro/retryerror/delete/provisioning/202/accepted/200/succeeded",
+          path: "lro/retryerror/delete/provisioning/202/accepted/200/succeeded",
           headerParameters: [
             {
               parameterName: "this.client.acceptLanguage",
@@ -688,7 +688,7 @@ export class LRORetrys {
         {
           httpMethod: "DELETE",
           baseUrl: this.client.baseUri,
-          path: "/lro/retryerror/delete/202/retry/200",
+          path: "lro/retryerror/delete/202/retry/200",
           headerParameters: [
             {
               parameterName: "this.client.acceptLanguage",
@@ -773,7 +773,7 @@ export class LRORetrys {
         {
           httpMethod: "DELETE",
           baseUrl: this.client.baseUri,
-          path: "/lro/retryerror/deleteasync/retry/succeeded",
+          path: "lro/retryerror/deleteasync/retry/succeeded",
           headerParameters: [
             {
               parameterName: "this.client.acceptLanguage",
@@ -862,7 +862,7 @@ export class LRORetrys {
         {
           httpMethod: "POST",
           baseUrl: this.client.baseUri,
-          path: "/lro/retryerror/post/202/retry/200",
+          path: "lro/retryerror/post/202/retry/200",
           headerParameters: [
             {
               parameterName: "this.client.acceptLanguage",
@@ -955,7 +955,7 @@ export class LRORetrys {
         {
           httpMethod: "POST",
           baseUrl: this.client.baseUri,
-          path: "/lro/retryerror/postasync/retry/succeeded",
+          path: "lro/retryerror/postasync/retry/succeeded",
           headerParameters: [
             {
               parameterName: "this.client.acceptLanguage",

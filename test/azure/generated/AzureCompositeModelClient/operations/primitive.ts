@@ -64,7 +64,7 @@ export class Primitive {
         {
           httpMethod: "GET",
           baseUrl: this.client.baseUri,
-          path: "/complex/primitive/integer",
+          path: "complex/primitive/integer",
           headerParameters: [
             {
               parameterName: "this.client.acceptLanguage",
@@ -166,7 +166,7 @@ export class Primitive {
         {
           httpMethod: "PUT",
           baseUrl: this.client.baseUri,
-          path: "/complex/primitive/integer",
+          path: "complex/primitive/integer",
           headerParameters: [
             {
               parameterName: "this.client.acceptLanguage",
@@ -250,7 +250,7 @@ export class Primitive {
         {
           httpMethod: "GET",
           baseUrl: this.client.baseUri,
-          path: "/complex/primitive/long",
+          path: "complex/primitive/long",
           headerParameters: [
             {
               parameterName: "this.client.acceptLanguage",
@@ -352,7 +352,7 @@ export class Primitive {
         {
           httpMethod: "PUT",
           baseUrl: this.client.baseUri,
-          path: "/complex/primitive/long",
+          path: "complex/primitive/long",
           headerParameters: [
             {
               parameterName: "this.client.acceptLanguage",
@@ -436,7 +436,7 @@ export class Primitive {
         {
           httpMethod: "GET",
           baseUrl: this.client.baseUri,
-          path: "/complex/primitive/float",
+          path: "complex/primitive/float",
           headerParameters: [
             {
               parameterName: "this.client.acceptLanguage",
@@ -538,7 +538,7 @@ export class Primitive {
         {
           httpMethod: "PUT",
           baseUrl: this.client.baseUri,
-          path: "/complex/primitive/float",
+          path: "complex/primitive/float",
           headerParameters: [
             {
               parameterName: "this.client.acceptLanguage",
@@ -622,7 +622,7 @@ export class Primitive {
         {
           httpMethod: "GET",
           baseUrl: this.client.baseUri,
-          path: "/complex/primitive/double",
+          path: "complex/primitive/double",
           headerParameters: [
             {
               parameterName: "this.client.acceptLanguage",
@@ -725,7 +725,7 @@ export class Primitive {
         {
           httpMethod: "PUT",
           baseUrl: this.client.baseUri,
-          path: "/complex/primitive/double",
+          path: "complex/primitive/double",
           headerParameters: [
             {
               parameterName: "this.client.acceptLanguage",
@@ -809,7 +809,7 @@ export class Primitive {
         {
           httpMethod: "GET",
           baseUrl: this.client.baseUri,
-          path: "/complex/primitive/bool",
+          path: "complex/primitive/bool",
           headerParameters: [
             {
               parameterName: "this.client.acceptLanguage",
@@ -911,7 +911,7 @@ export class Primitive {
         {
           httpMethod: "PUT",
           baseUrl: this.client.baseUri,
-          path: "/complex/primitive/bool",
+          path: "complex/primitive/bool",
           headerParameters: [
             {
               parameterName: "this.client.acceptLanguage",
@@ -995,7 +995,7 @@ export class Primitive {
         {
           httpMethod: "GET",
           baseUrl: this.client.baseUri,
-          path: "/complex/primitive/string",
+          path: "complex/primitive/string",
           headerParameters: [
             {
               parameterName: "this.client.acceptLanguage",
@@ -1097,7 +1097,7 @@ export class Primitive {
         {
           httpMethod: "PUT",
           baseUrl: this.client.baseUri,
-          path: "/complex/primitive/string",
+          path: "complex/primitive/string",
           headerParameters: [
             {
               parameterName: "this.client.acceptLanguage",
@@ -1181,7 +1181,7 @@ export class Primitive {
         {
           httpMethod: "GET",
           baseUrl: this.client.baseUri,
-          path: "/complex/primitive/date",
+          path: "complex/primitive/date",
           headerParameters: [
             {
               parameterName: "this.client.acceptLanguage",
@@ -1283,7 +1283,7 @@ export class Primitive {
         {
           httpMethod: "PUT",
           baseUrl: this.client.baseUri,
-          path: "/complex/primitive/date",
+          path: "complex/primitive/date",
           headerParameters: [
             {
               parameterName: "this.client.acceptLanguage",
@@ -1367,7 +1367,7 @@ export class Primitive {
         {
           httpMethod: "GET",
           baseUrl: this.client.baseUri,
-          path: "/complex/primitive/datetime",
+          path: "complex/primitive/datetime",
           headerParameters: [
             {
               parameterName: "this.client.acceptLanguage",
@@ -1470,7 +1470,7 @@ export class Primitive {
         {
           httpMethod: "PUT",
           baseUrl: this.client.baseUri,
-          path: "/complex/primitive/datetime",
+          path: "complex/primitive/datetime",
           headerParameters: [
             {
               parameterName: "this.client.acceptLanguage",
@@ -1554,7 +1554,7 @@ export class Primitive {
         {
           httpMethod: "GET",
           baseUrl: this.client.baseUri,
-          path: "/complex/primitive/datetimerfc1123",
+          path: "complex/primitive/datetimerfc1123",
           headerParameters: [
             {
               parameterName: "this.client.acceptLanguage",
@@ -1657,7 +1657,7 @@ export class Primitive {
         {
           httpMethod: "PUT",
           baseUrl: this.client.baseUri,
-          path: "/complex/primitive/datetimerfc1123",
+          path: "complex/primitive/datetimerfc1123",
           headerParameters: [
             {
               parameterName: "this.client.acceptLanguage",
@@ -1741,7 +1741,7 @@ export class Primitive {
         {
           httpMethod: "GET",
           baseUrl: this.client.baseUri,
-          path: "/complex/primitive/duration",
+          path: "complex/primitive/duration",
           headerParameters: [
             {
               parameterName: "this.client.acceptLanguage",
@@ -1847,7 +1847,7 @@ export class Primitive {
         {
           httpMethod: "PUT",
           baseUrl: this.client.baseUri,
-          path: "/complex/primitive/duration",
+          path: "complex/primitive/duration",
           headerParameters: [
             {
               parameterName: "this.client.acceptLanguage",
@@ -1931,7 +1931,7 @@ export class Primitive {
         {
           httpMethod: "GET",
           baseUrl: this.client.baseUri,
-          path: "/complex/primitive/byte",
+          path: "complex/primitive/byte",
           headerParameters: [
             {
               parameterName: "this.client.acceptLanguage",
@@ -2037,7 +2037,7 @@ export class Primitive {
         {
           httpMethod: "PUT",
           baseUrl: this.client.baseUri,
-          path: "/complex/primitive/byte",
+          path: "complex/primitive/byte",
           headerParameters: [
             {
               parameterName: "this.client.acceptLanguage",

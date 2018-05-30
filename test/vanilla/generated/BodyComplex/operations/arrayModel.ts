@@ -54,7 +54,7 @@ export class ArrayModel {
         {
           httpMethod: "GET",
           baseUrl: this.client.baseUri,
-          path: "/complex/array/valid"
+          path: "complex/array/valid"
         });
       let statusCode = operationRes.status;
       if (statusCode !== 200) {
@@ -153,7 +153,7 @@ export class ArrayModel {
         {
           httpMethod: "PUT",
           baseUrl: this.client.baseUri,
-          path: "/complex/array/valid",
+          path: "complex/array/valid",
           requestBodyMapper: requestModelMapper,
           requestBodyName: "complexBody",
           requestBodyType: msRest.OperationParameterType.Composite,
@@ -220,7 +220,7 @@ export class ArrayModel {
         {
           httpMethod: "GET",
           baseUrl: this.client.baseUri,
-          path: "/complex/array/empty"
+          path: "complex/array/empty"
         });
       let statusCode = operationRes.status;
       if (statusCode !== 200) {
@@ -319,7 +319,7 @@ export class ArrayModel {
         {
           httpMethod: "PUT",
           baseUrl: this.client.baseUri,
-          path: "/complex/array/empty",
+          path: "complex/array/empty",
           requestBodyMapper: requestModelMapper,
           requestBodyName: "complexBody",
           requestBodyType: msRest.OperationParameterType.Composite,
@@ -387,7 +387,7 @@ export class ArrayModel {
         {
           httpMethod: "GET",
           baseUrl: this.client.baseUri,
-          path: "/complex/array/notprovided"
+          path: "complex/array/notprovided"
         });
       let statusCode = operationRes.status;
       if (statusCode !== 200) {

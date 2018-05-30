@@ -54,7 +54,7 @@ export class Polymorphism {
         {
           httpMethod: "GET",
           baseUrl: this.client.baseUri,
-          path: "/complex/polymorphism/valid"
+          path: "complex/polymorphism/valid"
         });
       let statusCode = operationRes.status;
       if (statusCode !== 200) {
@@ -177,7 +177,7 @@ export class Polymorphism {
         {
           httpMethod: "PUT",
           baseUrl: this.client.baseUri,
-          path: "/complex/polymorphism/valid",
+          path: "complex/polymorphism/valid",
           requestBodyMapper: requestModelMapper,
           requestBodyName: "complexBody",
           requestBodyType: msRest.OperationParameterType.Composite,
@@ -245,7 +245,7 @@ export class Polymorphism {
         {
           httpMethod: "GET",
           baseUrl: this.client.baseUri,
-          path: "/complex/polymorphism/complicated"
+          path: "complex/polymorphism/complicated"
         });
       let statusCode = operationRes.status;
       if (statusCode !== 200) {
@@ -337,7 +337,7 @@ export class Polymorphism {
         {
           httpMethod: "PUT",
           baseUrl: this.client.baseUri,
-          path: "/complex/polymorphism/complicated",
+          path: "complex/polymorphism/complicated",
           requestBodyMapper: requestModelMapper,
           requestBodyName: "complexBody",
           requestBodyType: msRest.OperationParameterType.Composite,
@@ -417,7 +417,7 @@ export class Polymorphism {
         {
           httpMethod: "PUT",
           baseUrl: this.client.baseUri,
-          path: "/complex/polymorphism/missingdiscriminator",
+          path: "complex/polymorphism/missingdiscriminator",
           requestBodyMapper: requestModelMapper,
           requestBodyName: "complexBody",
           requestBodyType: msRest.OperationParameterType.Composite,
@@ -539,7 +539,7 @@ export class Polymorphism {
         {
           httpMethod: "PUT",
           baseUrl: this.client.baseUri,
-          path: "/complex/polymorphism/missingrequired/invalid",
+          path: "complex/polymorphism/missingrequired/invalid",
           requestBodyMapper: requestModelMapper,
           requestBodyName: "complexBody",
           requestBodyType: msRest.OperationParameterType.Composite,

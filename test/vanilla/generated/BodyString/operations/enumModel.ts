@@ -55,7 +55,7 @@ export class EnumModel {
         {
           httpMethod: "GET",
           baseUrl: this.client.baseUri,
-          path: "/string/enum/notExpandable"
+          path: "string/enum/notExpandable"
         });
       let statusCode = operationRes.status;
       if (statusCode !== 200) {
@@ -167,7 +167,7 @@ export class EnumModel {
         {
           httpMethod: "PUT",
           baseUrl: this.client.baseUri,
-          path: "/string/enum/notExpandable",
+          path: "string/enum/notExpandable",
           requestBodyMapper: requestModelMapper,
           requestBodyName: "stringBody",
           requestBodyType: msRest.OperationParameterType.Enum,
@@ -235,7 +235,7 @@ export class EnumModel {
         {
           httpMethod: "GET",
           baseUrl: this.client.baseUri,
-          path: "/string/enum/Referenced"
+          path: "string/enum/Referenced"
         });
       let statusCode = operationRes.status;
       if (statusCode !== 200) {
@@ -347,7 +347,7 @@ export class EnumModel {
         {
           httpMethod: "PUT",
           baseUrl: this.client.baseUri,
-          path: "/string/enum/Referenced",
+          path: "string/enum/Referenced",
           requestBodyMapper: requestModelMapper,
           requestBodyName: "enumStringBody",
           requestBodyType: msRest.OperationParameterType.Enum,
@@ -414,7 +414,7 @@ export class EnumModel {
         {
           httpMethod: "GET",
           baseUrl: this.client.baseUri,
-          path: "/string/enum/ReferencedConstant"
+          path: "string/enum/ReferencedConstant"
         });
       let statusCode = operationRes.status;
       if (statusCode !== 200) {
@@ -514,7 +514,7 @@ export class EnumModel {
         {
           httpMethod: "PUT",
           baseUrl: this.client.baseUri,
-          path: "/string/enum/ReferencedConstant",
+          path: "string/enum/ReferencedConstant",
           requestBodyMapper: requestModelMapper,
           requestBodyName: "enumStringBody",
           requestBodyType: msRest.OperationParameterType.Composite,

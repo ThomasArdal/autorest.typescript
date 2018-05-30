@@ -144,7 +144,7 @@ class AutoRestResourceFlatteningTestService extends msRestAzure.AzureServiceClie
         {
           httpMethod: "PUT",
           baseUrl: this.baseUri,
-          path: "/azure/resource-flatten/array",
+          path: "azure/resource-flatten/array",
           headerParameters: [
             {
               parameterName: "this.acceptLanguage",
@@ -229,7 +229,7 @@ class AutoRestResourceFlatteningTestService extends msRestAzure.AzureServiceClie
         {
           httpMethod: "GET",
           baseUrl: this.baseUri,
-          path: "/azure/resource-flatten/array",
+          path: "azure/resource-flatten/array",
           headerParameters: [
             {
               parameterName: "this.acceptLanguage",
@@ -357,7 +357,7 @@ class AutoRestResourceFlatteningTestService extends msRestAzure.AzureServiceClie
         {
           httpMethod: "PUT",
           baseUrl: this.baseUri,
-          path: "/azure/resource-flatten/dictionary",
+          path: "azure/resource-flatten/dictionary",
           headerParameters: [
             {
               parameterName: "this.acceptLanguage",
@@ -442,7 +442,7 @@ class AutoRestResourceFlatteningTestService extends msRestAzure.AzureServiceClie
         {
           httpMethod: "GET",
           baseUrl: this.baseUri,
-          path: "/azure/resource-flatten/dictionary",
+          path: "azure/resource-flatten/dictionary",
           headerParameters: [
             {
               parameterName: "this.acceptLanguage",
@@ -557,7 +557,7 @@ class AutoRestResourceFlatteningTestService extends msRestAzure.AzureServiceClie
         {
           httpMethod: "PUT",
           baseUrl: this.baseUri,
-          path: "/azure/resource-flatten/resourcecollection",
+          path: "azure/resource-flatten/resourcecollection",
           headerParameters: [
             {
               parameterName: "this.acceptLanguage",
@@ -642,7 +642,7 @@ class AutoRestResourceFlatteningTestService extends msRestAzure.AzureServiceClie
         {
           httpMethod: "GET",
           baseUrl: this.baseUri,
-          path: "/azure/resource-flatten/resourcecollection",
+          path: "azure/resource-flatten/resourcecollection",
           headerParameters: [
             {
               parameterName: "this.acceptLanguage",

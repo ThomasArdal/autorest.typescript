@@ -245,7 +245,7 @@ export class LROsCustomHeader {
         {
           httpMethod: "PUT",
           baseUrl: this.client.baseUri,
-          path: "/lro/customheader/putasync/retry/succeeded",
+          path: "lro/customheader/putasync/retry/succeeded",
           headerParameters: [
             {
               parameterName: "this.client.acceptLanguage",
@@ -352,7 +352,7 @@ export class LROsCustomHeader {
         {
           httpMethod: "PUT",
           baseUrl: this.client.baseUri,
-          path: "/lro/customheader/put/201/creating/succeeded/200",
+          path: "lro/customheader/put/201/creating/succeeded/200",
           headerParameters: [
             {
               parameterName: "this.client.acceptLanguage",
@@ -472,7 +472,7 @@ export class LROsCustomHeader {
         {
           httpMethod: "POST",
           baseUrl: this.client.baseUri,
-          path: "/lro/customheader/post/202/retry/200",
+          path: "lro/customheader/post/202/retry/200",
           headerParameters: [
             {
               parameterName: "this.client.acceptLanguage",
@@ -567,7 +567,7 @@ export class LROsCustomHeader {
         {
           httpMethod: "POST",
           baseUrl: this.client.baseUri,
-          path: "/lro/customheader/postasync/retry/succeeded",
+          path: "lro/customheader/postasync/retry/succeeded",
           headerParameters: [
             {
               parameterName: "this.client.acceptLanguage",
